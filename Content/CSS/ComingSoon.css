@@ -1,16 +1,4 @@
-﻿
-
-
-/*.intro-lead-in {
-    position:absolute;
-    top: 5px;
-}*/
-
-/* Blockquote main style */
-
-
-
-.blockquote {
+﻿.blockquote {
     position: relative;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;

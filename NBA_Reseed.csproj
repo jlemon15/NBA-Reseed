@@ -132,30 +132,28 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-grid.css" />
-    <Content Include="Content\bootstrap-grid.min.css" />
-    <Content Include="Content\bootstrap-reboot.css" />
-    <Content Include="Content\bootstrap-reboot.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\Bracket16.css" />
+    <Content Include="Content\CSS\bootstrap-grid.css" />
+    <Content Include="Content\CSS\bootstrap-grid.min.css" />
+    <Content Include="Content\CSS\bootstrap-reboot.css" />
+    <Content Include="Content\CSS\bootstrap-reboot.min.css" />
+    <Content Include="Content\CSS\bootstrap.css" />
+    <Content Include="Content\CSS\bootstrap.min.css" />
+    <Content Include="Content\CSS\Bracket_16.css" />
     <Content Include="Content\Celebrations\1986_Celebration.jpg" />
     <Content Include="Content\Celebrations\2020_lakers_celeb.png" />
     <Content Include="Content\Celebrations\2020_raptors_celeb.png" />
     <Content Include="Content\Celebrations\Lakers.png" />
-    <Content Include="Content\ComingSoon.css" />
+    <Content Include="Content\CSS\ComingSoon.css" />
     <Content Include="Content\ComingSoonImages\FinalsTrophyMobile_768.png" />
     <Content Include="Content\ComingSoonImages\FinalsTrophyMobile_Max15.png" />
     <Content Include="Content\ComingSoonImages\TrophyBracket_Cover_1130.png" />
     <Content Include="Content\ComingSoonImages\TrophyBracket_Cover_600.png" />
     <Content Include="Content\ComingSoonImages\TrophyBracket_Cover_Wide.png" />
-    <Content Include="Content\ComingSoon_v2.css" />
-    <Content Include="Content\css\reseedTemplate.css" />
-    <Content Include="Content\css\agency.min.css" />
-    <Content Include="Content\hint.base.css" />
-    <Content Include="Content\hint.base.min.css" />
-    <Content Include="Content\hint.css" />
-    <Content Include="Content\hint.min.css" />
+    <Content Include="Content\CSS\ComingSoon_v2.css" />
+    <Content Include="Content\CSS\ReseedGeneral.css" />
+    <Content Include="Content\CSS\agency.min.css" />
+    <Content Include="Content\CSS\hint.base.css" />
+    <Content Include="Content\CSS\hint.base.min.css" />
     <Content Include="Content\img\about\1.jpg" />
     <Content Include="Content\img\about\2.jpg" />
     <Content Include="Content\img\about\3.jpg" />
@@ -266,13 +264,13 @@
     <Content Include="Content\scss\layout\_timeline.scss" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-reboot.min.css.map" />
-    <Content Include="Content\bootstrap-reboot.css.map" />
-    <Content Include="Content\bootstrap-grid.min.css.map" />
-    <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="Content\CSS\Site.css" />
+    <Content Include="Content\CSS\bootstrap.min.css.map" />
+    <Content Include="Content\CSS\bootstrap.css.map" />
+    <Content Include="Content\CSS\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\CSS\bootstrap-reboot.css.map" />
+    <Content Include="Content\CSS\bootstrap-grid.min.css.map" />
+    <Content Include="Content\CSS\bootstrap-grid.css.map" />
     <None Include="Properties\PublishProfiles\NBAreseed - Web Deploy.pubxml" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -376,7 +374,6 @@
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
-      <UserProperties content_4bootstrap_1min_1css_1map__JsonSchema="" />
     </VisualStudio>
   </ProjectExtensions>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -23,8 +23,10 @@ namespace NBA_Reseed
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/CSS/bracket_16.css",
+                      "~/Content/CSS/ReseedGeneral.css",
+                      "~/Content/CSS/bootstrap.css"
+                      ));
         }
     }
 }
