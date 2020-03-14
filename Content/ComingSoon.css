@@ -1,0 +1,142 @@
+﻿
+
+
+/*.intro-lead-in {
+    position:absolute;
+    top: 5px;
+}*/
+
+/* Blockquote main style */
+
+
+
+.blockquote {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #ffffff;
+    padding: 30px 0;
+    width: 100%;
+    max-width: 500px;
+    z-index: 1;
+    margin: -50px auto 60px auto;
+    align-self: center;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+
+    /* Blockquote header */
+    .blockquote h1 {
+        position: relative;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 1;
+        margin: 0;
+    }
+
+    /* Blockquote right double quotes */
+    .blockquote:after {
+        position: absolute;
+        content: "”";
+        color: rgba(255, 255, 255, 1);
+        font-size: 10rem;
+        line-height: 0;
+        bottom: -43px;
+        right: 30px;
+    }
+
+/* increase header size after 600px */
+@media all and (min-width: 600px) {
+    .blockquote {
+        margin: -50px 10px 60px auto 10px;
+        width: 100%;
+    }
+
+
+    .blockquote h1 {
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .blockquote {
+        margin: -50px 50px 60px auto 10px;
+        width: 90%;
+    }
+
+
+        .blockquote h1 {
+            font-size: 20px;
+        }
+}
+
+/* Blockquote subheader */
+.blockquote h4 {
+    position: relative;
+    color: #292a2b;
+    font-family: font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+    padding-top: 20px;
+    z-index: 1;
+    color: dimgray;
+    font-family: 'Teko';
+}
+
+.navbar-brand{
+    padding: 0px;
+    margin:0px;
+}
+
+.comingSoonText {
+    color: #dab63c;
+    font-style:italic;
+}
+
+
+
+.seedFrame {
+    border-right: 1px solid white;
+   
+}
+
+hr.brass {
+    border-top: 1px solid #dab63c;
+    border-top: 1px solid groove;
+}
+
+@media all and (max-width: 767px) {
+    .seedFrame {
+        border-bottom: 1px solid silver;
+        /*border-bottom: 1px solid white;*/
+        border-left:none;
+        border-right:none;
+        margin:3%;
+    }
+
+    .navbar {
+        height: 3%;
+    }
+
+    .col-md-4{
+        margin: 3%;
+    }
+
+    .blockquote {
+        position: relative;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        color: #ffffff;
+        padding: 30px 0;
+        width: 100%;
+        max-width: 500px;
+        z-index: 1;
+        margin: -50px 3% 60px 3%;
+        align-self: center;
+        border-top: solid 1px;
+        border-bottom: solid 1px;
+    }
+
+}
