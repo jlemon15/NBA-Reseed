@@ -1,4 +1,13 @@
-﻿.blockquote {
+﻿
+
+
+
+
+/* Blockquote main style */
+
+
+
+.silverQuote {
     position: relative;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
@@ -14,17 +23,17 @@
 }
 
     /* Blockquote header */
-    .blockquote h1 {
+    .silverQuote h1 {
         position: relative;
         color: #FFFFFF;
         font-size: 20px;
         font-weight: 800;
-        line-height: 1;
+        line-height: 1.3;
         margin: 0;
     }
 
     /* Blockquote right double quotes */
-    .blockquote:after {
+    .silverQuote:after {
         position: absolute;
         content: "”";
         color: rgba(255, 255, 255, 1);
@@ -36,15 +45,15 @@
 
 /* increase header size after 600px */
 @media all and (min-width: 600px) {
-    .blockquote {
+    .silverQuote {
         margin: -50px 10px 60px auto 10px;
         width: 100%;
     }
 
 
-    .blockquote h1 {
-        font-size: 20px;
-    }
+        .silverQuote h1 {
+            font-size: 20px;
+        }
 }
 
 @media all and (max-width: 400px) {
@@ -60,7 +69,7 @@
 }
 
 /* Blockquote subheader */
-.blockquote h4 {
+.silverQuote h4 {
     position: relative;
     color: #292a2b;
     font-family: font-size: 1.4rem;
@@ -73,21 +82,20 @@
     font-family: 'Teko';
 }
 
-.navbar-brand{
+.navbar-brand {
     padding: 0px;
-    margin:0px;
+    margin: 0px;
 }
 
 .comingSoonText {
     color: #dab63c;
-    font-style:italic;
+    font-style: italic;
 }
 
 
 
 .seedFrame {
     border-right: 1px solid white;
-   
 }
 
 hr.brass {
@@ -99,20 +107,20 @@ hr.brass {
     .seedFrame {
         border-bottom: 1px solid silver;
         /*border-bottom: 1px solid white;*/
-        border-left:none;
-        border-right:none;
-        margin:3%;
+        border-left: none;
+        border-right: none;
+        margin: 3%;
     }
 
     .navbar {
         height: 3%;
     }
 
-    .col-md-4{
+    .col-md-4 {
         margin: 3%;
     }
 
-    .blockquote {
+    .silverQuote {
         position: relative;
         font-family: 'Montserrat', sans-serif;
         font-weight: 800;
@@ -126,5 +134,4 @@ hr.brass {
         border-top: solid 1px;
         border-bottom: solid 1px;
     }
-
 }

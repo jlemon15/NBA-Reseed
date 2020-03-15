@@ -13,6 +13,9 @@ p {
     line-height: 1.75;
 }
 
+hr {
+    border-bottom: 2px solid silver !important;
+}
 
 
 /*a:hover {
@@ -23,7 +26,7 @@ a {
     color: white !important;
     /*text-decoration: underline !important;*/
     text-decoration-color: #dab63c !important;
-    border-bottom: 5px solid #dab63c;
+    border-bottom: 3px solid #dab63c;
 }
 
 .text-primary {
@@ -31,12 +34,24 @@ a {
 }
 
 
-.blockquote p {
-    font-family: 'Montserrat', Times, serif;
-    font-size: 20px !important;
-    font-weight: 700;
-    text-shadow: 5px 5px 5px #dab63c;
+.callToAction h1 {
+    font-weight: 100;
 }
+
+.personalQuote {
+    position: relative;
+    border-left: 2px solid #dab63c;
+    /*width: 73vh;
+    height: 10%;
+    margin: 0 auto;*/
+}
+
+/*.personalQuote p {
+    margin-left: 1%;
+    margin-right: 1%;
+}*/
+
+
 
 h1,
 h2,
@@ -83,26 +98,14 @@ h3 {
     }
 
 
-/*****************  blockquote section  *******************/
 
-
-
-.jumboTitle {
-    position: relative;
-    top: 0%;
-    left: 0%;
-    -webkit-transform: translate(-50%, 0);
-    width: 900px;
-    height: 50px;
-}
-
-    .jumboTitle h1 {
+@media (max-width: 600px) {
+    .callToAction h1 {
+        font-size: 8vw;
+        text-align: center;
         font-family: 'Teko';
-     
     }
-
-/*****************  blockquote end section  *******************/
-
+}
 
 
 @media (min-width: 768px) {
@@ -274,10 +277,21 @@ header.masthead {
         background-size: cover;
         border-bottom: 2px solid silver;
     }
+
+    .callToAction h1 {
+        text-align: center;
+        font-family: 'Teko';
+        font-size: 7vw;
+    }
 }
 
 
 @media (min-width: 768px) {
+    .callToAction h1 {
+        text-align: center;
+        font-family: 'Teko';
+    }
+
     header.masthead .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
@@ -315,6 +329,11 @@ header.masthead {
 
 
 @media (min-width: 1130px) {
+    .callToAction h1 {
+        text-align: center;
+        font-family: 'Teko';
+        font-size: 6vw;
+    }
 
     header.masthead {
         background-image: url('../ComingSoonImages/TrophyBracket_Cover_1130.png');
@@ -329,8 +348,14 @@ header.masthead {
 
 @media (min-width: 1500px) {
 
+    .callToAction h1 {
+        text-align: center;
+        font-family: 'Teko';
+        font-size: 4vw;
+    }
+
     header.masthead {
-        background-image: url('../ComingSoonImages/TrophyBracket_Cover_Wide.png');
+        background-image: url('../ComingSoonImages/TrophyBracket_Cover_1130.png');
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-position: center center;
@@ -822,3 +847,7 @@ ul.social-buttons {
         ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
             background-color: #fed136;
         }
+
+
+       /*Blurb Quote*/
+
