@@ -18,6 +18,48 @@ hr {
 }
 
 
+
+.BTN-Reseed {
+    display: inline-block;
+    font-size: 25px;
+    line-height: 50px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    vertical-align: bottom;
+    background-color: #dab63c;
+    position: relative;
+}
+
+    .BTN-Reseed p {
+        font-family: 'Montserrat';
+        font-size: 10px;
+        font-weight: 600;
+        position: relative;
+        text-align: center;
+        top: -2px;
+    }
+
+    .BTN-Reseed:hover {
+        background-color: silver;
+    }
+
+.fas {
+    margin-top: 2%;
+}
+
+
+
+
+.BTN-IconCenter {
+    /* position: relative; */
+    position: relative;
+    text-align: center;
+}
+
 /*a:hover {
   color: gold;
 }*/
@@ -849,5 +891,5 @@ ul.social-buttons {
         }
 
 
-       /*Blurb Quote*/
+/*Blurb Quote*/
 

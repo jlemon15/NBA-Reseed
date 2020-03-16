@@ -154,6 +154,8 @@
     <Content Include="Content\CSS\agency.min.css" />
     <Content Include="Content\CSS\hint.base.css" />
     <Content Include="Content\CSS\hint.base.min.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\img\about\1.jpg" />
     <Content Include="Content\img\about\2.jpg" />
     <Content Include="Content\img\about\3.jpg" />
@@ -263,6 +265,7 @@
     <Content Include="Content\scss\layout\_team.scss" />
     <Content Include="Content\scss\layout\_timeline.scss" />
     <Content Include="favicon.ico" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\CSS\Site.css" />
     <Content Include="Content\CSS\bootstrap.min.css.map" />
@@ -271,6 +274,11 @@
     <Content Include="Content\CSS\bootstrap-reboot.css.map" />
     <Content Include="Content\CSS\bootstrap-grid.min.css.map" />
     <Content Include="Content\CSS\bootstrap-grid.css.map" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
     <None Include="Properties\PublishProfiles\NBAreseed - Web Deploy.pubxml" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
