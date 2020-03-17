@@ -154,6 +154,7 @@
     <Content Include="Content\CSS\agency.min.css" />
     <Content Include="Content\CSS\hint.base.css" />
     <Content Include="Content\CSS\hint.base.min.css" />
+    <Content Include="Content\CSS\Test.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\img\about\1.jpg" />
