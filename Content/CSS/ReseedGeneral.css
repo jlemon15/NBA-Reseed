@@ -4,6 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
+/*Trophy Gold::after #dab63c*/
+
+
+
 body {
     overflow-x: hidden;
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -13,11 +17,84 @@ p {
     line-height: 1.75;
 }
 
-hr {
+
+.reseedGroup {
+    position: absolute;
+}
+
+.mastheadLine hr {
     border-bottom: 2px solid silver !important;
 }
 
+.divideLineExp_Main {
+    width: 80%;
+    height: 5vw;
+    margin: 0 auto;
+    position: relative;
+    /* border: 2px solid white; */
+}
 
+.divSeed {
+    position: absolute;
+}
+
+.reseedFormat {
+    /* position: absolute; */
+    display: inline;
+}
+
+    .reseedFormat h1 {
+        font-family: 'Teko';
+        font-size: 27px;
+        margin: 0 auto;
+        font-weight: 100;
+        text-decoration: underline;
+        text-decoration-color: #dab63c;
+    }
+
+.btn-groupJBL {
+    /* position:absolute; */
+    display: inline;
+}
+
+
+.divideLineEXP_LeftLine {
+    border-bottom: 4px solid white;
+    position: absolute;
+    top: 50%;
+    width: 43%;
+    left: 0%;
+}
+
+.divideLine_IMG {
+    /* background-color: #FF4136; */
+    width: 14%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    .divideLine_IMG img {
+        /* display: block; */
+        /* margin: auto; */
+        position: absolute;
+        transform: translate(-50%, -50%);
+        /* transform: rotate(45deg); */
+        left: 50%;
+        top: 50%;
+        /* object-fit: cover; */
+        max-height: 100%;
+    }
+
+.divideLineEXP_RightLine {
+    border-bottom: 4px solid white;
+    position: absolute;
+    top: 50%;
+    width: 43%;
+    right: 0%;
+}
 
 .BTN-Reseed {
     display: inline-block;
