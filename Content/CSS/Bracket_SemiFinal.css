@@ -1,5 +1,5 @@
 ﻿
-.celebrationContainer {
+.SF_celebrationContainer {
     width: 100%;
     height: 50%;
     position: absolute;
@@ -11,22 +11,56 @@
 
 
 
-.buttonFormat {
+.SF_buttonFormat {
     font-family: 'Teko';
 }
 
-.TestMatchup {
-    position: relative;
-}
 /**************     Media Breakpoints       **************/
 @media only screen and (max-width: 575px) {
-    .statPlacement {
+
+    .SF_EastPlayin {
+        position: absolute;
+        top: 0%;
+        padding-bottom: 55px;
+        left: 6px;
+        /* font-style: italic; */
+    }
+
+        .SF_EastPlayin h1 {
+            font-family: 'Teko';
+            font-size: 5vw;
+            text-decoration: underline;
+            text-decoration-color: #daa520;
+            font-weight: normal;
+            /*! text-shadow: black; */
+        }
+
+    .SF_WestPlayin {
+        position: absolute;
+        top: 0%;
+        padding-bottom: 55px;
+        left: 6px;
+        /* font-style: italic; */
+    }
+
+        .SF_WestPlayin h1 {
+            font-family: 'Teko';
+            font-size: 5vw;
+            text-decoration: underline;
+            text-decoration-color: #daa520;
+            font-weight: normal;
+            /*! text-shadow: black; */
+        }
+
+
+
+    .SF_statPlacement {
         position: absolute;
         top: 0%;
         left: 0%;
     }
 
-    .celebrationImage img {
+    .SF_celebrationImage img {
         width: 100%;
         filter: grayscale(50%);
         opacity: 0.7;
@@ -35,7 +69,7 @@
         visibility: hidden;
     }
 
-    .playoffTitle {
+    .SF_playoffTitle {
         position: absolute;
         top: -6.6%;
         padding-bottom: 55px;
@@ -43,7 +77,7 @@
         font-style: italic;
     }
 
-        .playoffTitle h1 {
+        .SF_playoffTitle h1 {
             font-family: 'Teko';
             font-size: 7vw;
             text-decoration: underline;
@@ -52,7 +86,7 @@
             /*! text-shadow: black; */
         }
 
-    .bracketContainer {
+    .SF_bracketContainer {
         /*background-color: #FF4136;*/
         width: 98%;
         height: 98%;
@@ -64,19 +98,20 @@
 
 
 
-    .timelineBracket {
+    .SF_timelineBracket {
         position: relative;
         background-color: black;
         width: 100%;
-        height: 115vmin;
+        height: 165vmin;
         margin-top: 8%;
         margin-bottom: 14vh;
-        /*border-top: 1px solid white;*/
+        /* border-top: 1px solid white; */
+        border: 1px solid;
     }
 
     /****************       Matchup Data       ****************/
 
-    .Team1_Seed {
+    .SF_Team1_Seed {
         position: absolute;
         top: -5%;
         left: 2%;
@@ -85,13 +120,13 @@
         z-index: 1;
     }
 
-        .Team1_Seed p {
+        .SF_Team1_Seed p {
             font-family: 'Montserrat';
             font-size: 3.0vw;
             font-weight: 800;
         }
 
-    .Team2_Seed {
+    .SF_Team2_Seed {
         position: absolute;
         top: -5%;
         left: 88%;
@@ -100,20 +135,20 @@
         z-index: 1;
     }
 
-        .Team2_Seed p {
+        .SF_Team2_Seed p {
             font-family: 'Montserrat';
             font-size: 3.0vw;
             font-weight: 800;
         }
 
-    .TeamName_1 {
+    .SF_TeamName_1 {
         position: absolute;
         top: 76%;
         left: 4%;
         z-index: 1;
     }
 
-        .TeamName_1 p {
+        .SF_TeamName_1 p {
             text-align: left;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -121,14 +156,14 @@
             z-index: 1;
         }
 
-    .TeamName_2 {
+    .SF_TeamName_2 {
         position: absolute;
         top: 76%;
         left: 73%;
         z-index: 1;
     }
 
-        .TeamName_2 p {
+        .SF_TeamName_2 p {
             text-align: right;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -136,7 +171,7 @@
             z-index: 1;
         }
 
-    .Team1_WinPCT {
+    .SF_Team1_WinPCT {
         position: absolute;
         top: 54%;
         left: 3%;
@@ -144,7 +179,7 @@
         z-index: 1;
     }
 
-        .Team1_WinPCT p {
+        .SF_Team1_WinPCT p {
             text-align: left;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -153,7 +188,7 @@
 
 
 
-    .Team2_WinPCT {
+    .SF_Team2_WinPCT {
         position: absolute;
         top: 54%;
         left: 77%;
@@ -161,49 +196,49 @@
         z-index: 1;
     }
 
-        .Team2_WinPCT p {
+        .SF_Team2_WinPCT p {
             text-align: left;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 1.9vw;
         }
 
-    .Team1_SeriesCount {
+    .SF_Team1_SeriesCount {
         position: absolute;
         top: 76%;
         left: 38%;
         z-index: 1;
     }
 
-        .Team1_SeriesCount p {
+        .SF_Team1_SeriesCount p {
             text-align: center;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 2.2vw;
         }
 
-    .RecordDash {
+    .SF_RecordDash {
         position: absolute;
         top: 76%;
         left: 47%;
         z-index: 1;
     }
 
-        .RecordDash p {
+        .SF_RecordDash p {
             text-align: right;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 2.2vw;
         }
 
-    .Team2_SeriesCount {
+    .SF_Team2_SeriesCount {
         position: absolute;
         top: 76%;
         left: 53%;
         z-index: 1;
     }
 
-        .Team2_SeriesCount p {
+        .SF_Team2_SeriesCount p {
             text-align: center;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -213,7 +248,7 @@
 
     /*Finals details*/
 
-    .Team1_Seed_Finals {
+    .SF_Team1_Seed_Finals {
         position: absolute;
         top: -13%;
         left: 2%;
@@ -222,13 +257,13 @@
         z-index: 1;
     }
 
-        .Team1_Seed_Finals p {
+        .SF_Team1_Seed_Finals p {
             font-family: 'Montserrat';
             font-size: 5vw;
             font-weight: 800;
         }
 
-    .Team2_Seed_Finals {
+    .SF_Team2_Seed_Finals {
         font-family: 'Montserrat';
         /*! font-size: 3.4vw; */
         font-weight: 800;
@@ -240,27 +275,27 @@
         z-index: 1;
     }
 
-        .Team2_Seed_Finals p {
+        .SF_Team2_Seed_Finals p {
             font-family: 'Montserrat';
             font-size: 5vw;
             font-weight: 800;
         }
 
-    .TeamName_1_Finals {
+    .SF_TeamName_1_Finals {
         position: absolute;
         top: 76%;
         left: 4%;
         z-index: 1;
     }
 
-        .TeamName_1_Finals p {
+        .SF_TeamName_1_Finals p {
             text-align: left;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 2.2vw;
         }
 
-    .TeamName_2_Finals {
+    .SF_TeamName_2_Finals {
         position: absolute;
         top: 76%;
         left: 73%;
@@ -271,7 +306,7 @@
         z-index: 1;
     }
 
-        .TeamName_2_Finals p {
+        .SF_TeamName_2_Finals p {
             text-align: left;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -279,7 +314,7 @@
         }
 
 
-    .Team1_WinPCT_Finals {
+    .SF_Team1_WinPCT_Finals {
         position: absolute;
         top: 52%;
         left: -51%;
@@ -287,14 +322,14 @@
         z-index: 1;
     }
 
-        .Team1_WinPCT_Finals p {
+        .SF_Team1_WinPCT_Finals p {
             text-align: right;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 2vw;
         }
 
-    .Team2_WinPCT_Finals {
+    .SF_Team2_WinPCT_Finals {
         position: absolute;
         top: 52%;
         left: 32%;
@@ -302,49 +337,49 @@
         z-index: 1;
     }
 
-        .Team2_WinPCT_Finals p {
+        .SF_Team2_WinPCT_Finals p {
             text-align: right;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 2vw;
         }
 
-    .Team1_SeriesCount_Finals {
+    .SF_Team1_SeriesCount_Finals {
         position: absolute;
         top: 76%;
         left: 38%;
         z-index: 1;
     }
 
-        .Team1_SeriesCount_Finals p {
+        .SF_Team1_SeriesCount_Finals p {
             text-align: center;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 2.2vw;
         }
 
-    .Team2_SeriesCount_Finals {
+    .SF_Team2_SeriesCount_Finals {
         position: absolute;
         top: 76%;
         left: 53%;
         z-index: 1;
     }
 
-        .Team2_SeriesCount_Finals p {
+        .SF_Team2_SeriesCount_Finals p {
             text-align: center;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 2.2vw;
         }
 
-    .RecordDash_Finals {
+    .SF_RecordDash_Finals {
         position: absolute;
         top: 76%;
         left: 47%;
         z-index: 1;
     }
 
-        .RecordDash_Finals p {
+        .SF_RecordDash_Finals p {
             text-align: right;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -353,7 +388,7 @@
 
 
 
-    .Team2_SeriesCount_Finals p {
+    .SF_Team2_SeriesCount_Finals p {
         text-align: center;
         font-weight: 700;
         font-family: 'Montserrat';
@@ -365,7 +400,7 @@
 
     /*Trophy command Victory Containers*/
 
-    .victoryImageContainer {
+    .SF_victoryImageContainer {
         position: absolute;
         border: 1px solid black;
         top: 20%;
@@ -376,14 +411,14 @@
         z-index: -5;
     }
 
-        .victoryImageContainer img {
+        .SF_victoryImageContainer img {
             width: 100%;
             object-fit: contain;
             opacity: 0.4;
         }
 
 
-    .trophyContainer {
+    .SF_trophyContainer {
         /*border: 2px solid black;*/
         position: absolute;
         bottom: -60%;
@@ -396,20 +431,20 @@
     /****************   Matchup RectangleDesign      ****************/
 
 
-    .matchupRectangleFinals {
+    .SF_matchupRectangleFinals {
         position: absolute;
         width: 45%;
         padding-top: 16%;
     }
 
 
-    .matchupRectangle {
+    .SF_matchupRectangle {
         position: absolute;
         width: 24%;
         padding-top: 15%;
     }
 
-    .MR_Team1 {
+    .SF_MR_Team1 {
         /*background: linear-gradient(90deg, silver 50%, #D3D3D3 5%);*/
         position: absolute;
         top: 0;
@@ -419,7 +454,7 @@
         border: .5px solid silver;
     }
 
-    .MR_Team2 {
+    .SF_MR_Team2 {
         /*background: linear-gradient(90deg, silver 50%, #D3D3D3 5%);*/
         position: absolute;
         top: 0;
@@ -429,7 +464,7 @@
         border: .5px solid silver
     }
 
-    .MR_TeamDetail {
+    .SF_MR_TeamDetail {
         /*background: linear-gradient(90deg, silver 50%, #D3D3D3 5%);*/
         position: absolute;
         top: 0;
@@ -439,7 +474,7 @@
         border: .5px solid silver
     }
 
-    .MR_LogoContainer_Team1 {
+    .SF_MR_LogoContainer_Team1 {
         position: absolute;
         top: 3%;
         right: 51.5%;
@@ -447,7 +482,7 @@
         width: 37%;
     }
 
-    .MR_LogoContainer_Team2 {
+    .SF_MR_LogoContainer_Team2 {
         position: absolute;
         top: 3%;
         right: 7%;
@@ -456,7 +491,7 @@
     }
 
 
-    .MR_LogoContainer_Finals_Team1 {
+    .SF_MR_LogoContainer_Finals_Team1 {
         position: absolute;
         top: 3%;
         right: 56.5%;
@@ -464,7 +499,7 @@
         width: 31%;
     }
 
-    .MR_LogoContainer_Finals_Team2 {
+    .SF_MR_LogoContainer_Finals_Team2 {
         position: absolute;
         top: 3%;
         right: 5.5%;
@@ -472,14 +507,14 @@
         width: 31%;
     }
 
-    .MR_Logo {
+    .SF_MR_Logo {
         position: absolute;
         object-fit: contain;
         max-height: 100%;
         max-width: 100%;
     }
 
-    .MR_Logo_Finals {
+    .SF_MR_Logo_Finals {
         position: absolute;
         object-fit: contain;
         max-height: 100%;
@@ -489,7 +524,7 @@
 
 
 
-    .LFR_Line1 {
+    .SF_LFR_Line1 {
         position: absolute;
         top: -31%;
         left: -40%;
@@ -502,77 +537,77 @@
         z-index: -3;
     }
 
-    .LFR_Line2 {
+    .SF_LFR_Line2 {
         position: absolute;
         top: -31%;
         left: -40%;
-        border-top: 0px solid white;
-        border-right: 2px solid white;
-        border-bottom: 2px solid white;
-        border-left: 2px solid white;
+        border-top: 0px solid silver;
+        border-right: 2px solid silver;
+        border-bottom: 2px solid silver;
+        border-left: 2px solid silver;
         width: 180%;
         height: 77%;
         z-index: -3;
     }
 
-    .L_SemiLine {
+    .SF_L_SemiLine {
         position: absolute;
         top: -42%;
         left: -58%;
-        border-top: 0px solid white;
-        border-right: 2px solid white;
-        border-bottom: 2px solid white;
-        border-left: 2px solid white;
+        border-top: 0px solid silver;
+        border-right: 2px solid silver;
+        border-bottom: 2px solid silver;
+        border-left: 2px solid silver;
         width: 215%;
         height: 90%;
         z-index: -2;
     }
 
-    .Finals_Line {
+    .SF_Finals_Line {
         position: absolute;
         top: -72%;
         left: -60%;
-        border-top: 0px solid white;
-        border-right: 2px solid white;
-        border-bottom: 0px solid white;
-        border-left: 0px solid white;
+        border-top: 0px solid silver;
+        border-right: 2px solid silver;
+        border-bottom: 0px solid silver;
+        border-left: 0px solid silver;
         width: 110.5%;
         height: 280%;
         z-index: -2;
     }
 
-    .RFR_Line1 {
+    .SF_RFR_Line1 {
         position: absolute;
         top: 48%;
         left: -40%;
-        border-top: 2px solid white;
-        border-right: 2px solid white;
-        border-bottom: 0px solid white;
-        border-left: 2px solid white;
+        border-top: 2px solid silver;
+        border-right: 2px solid silver;
+        border-bottom: 0px solid silver;
+        border-left: 2px solid silver;
         width: 180%;
         height: 105%;
     }
 
-    .RFR_Line2 {
+    .SF_RFR_Line2 {
         position: absolute;
         top: 48%;
         left: -40%;
-        border-top: 2px solid white;
-        border-right: 2px solid white;
-        border-bottom: 0px solid white;
-        border-left: 2px solid white;
+        border-top: 2px solid silver;
+        border-right: 2px solid silver;
+        border-bottom: 0px solid silver;
+        border-left: 2px solid silver;
         width: 180%;
         height: 105%;
     }
 
-    .R_SemiLine {
+    .SF_R_SemiLine {
         position: absolute;
         top: 41%;
         left: -58%;
-        border-top: 2px solid white;
-        border-right: 2px solid white;
-        border-bottom: 0px solid white;
-        border-left: 2px solid white;
+        border-top: 2px solid silver;
+        border-right: 2px solid silver;
+        border-bottom: 0px solid silver;
+        border-left: 2px solid silver;
         width: 215%;
         height: 90%;
         z-index: -2;
@@ -586,103 +621,121 @@
 
 
     /****************   Matchup Positioning      ****************/
-    .LFR_Matchup1_Position {
+
+    .SF_WPI_Matchup1_Position {
         position: absolute;
-        top: 0%;
+        top: 38%;
         left: 0px;
     }
 
-    .LFR_Matchup2_Position {
+    .SF_WPI_Matchup2_Position {
         position: absolute;
-        top: 0%;
+        top: 38%;
         left: 25%;
     }
 
-    .LFR_Matchup3_Position {
+    .SF_WPI_Final_Position {
         position: absolute;
-        top: 0px;
-        left: 51%;
-    }
-
-    .LFR_Matchup4_Position {
-        position: absolute;
-        top: 0%;
-        left: 76%;
-    }
-
-    .L_QF1_Position {
-        position: relative;
-        top: 70px;
+        top: 47%;
         left: 12.5%;
     }
 
-    .L_QF2_Position {
+
+
+    .SF_LFR_Matchup1_Position {
+        position: absolute;
+        top: 28%;
+        left: 0px;
+    }
+
+    .SF_LFR_Matchup2_Position {
+        position: absolute;
+        top: 28%;
+        left: 25%;
+    }
+
+    .SF_LFR_Matchup3_Position {
+        position: absolute;
+        top: 28%;
+        left: 51%;
+    }
+
+    .SF_LFR_Matchup4_Position {
+        position: absolute;
+        top: 28%;
+        left: 76%;
+    }
+
+    .SF_L_QF1_Position {
         position: absolute;
         top: 38%;
+        left: 12.5%;
+    }
+
+    .SF_L_QF2_Position {
+        position: absolute;
+        top: 47%;
         left: 63.5%;
     }
 
-    .L_Semi_Position {
+    .SF_L_Semi_Position {
         position: absolute;
-        top: 28%;
+        top: 48%;
         left: 38%;
     }
 
-    .Finals_Position {
+    .SF_Finals_Position {
         position: absolute;
-        top: 46%;
+        top: 61.5%;
         left: 27.5%;
     }
 
-    .RFR_Matchup1_Position {
+    .SF_RFR_Matchup1_Position {
         position: absolute;
-        top: 89%;
+        top: 92%;
         left: 0px;
     }
 
-    .RFR_Matchup2_Position {
+    .SF_RFR_Matchup2_Position {
         position: absolute;
-        top: 89%;
+        top: 92%;
         left: 25%;
     }
 
-    .RFR_Matchup3_Position {
+    .SF_RFR_Matchup3_Position {
         position: absolute;
-        top: 89%;
+        top: 92%;
         left: 51%;
     }
 
-    .RFR_Matchup4_Position {
+    .SF_RFR_Matchup4_Position {
         position: absolute;
-        top: 89%;
+        top: 92%;
         left: 76%;
     }
 
-
-
-    .R_QF1_Position {
+    .SF_R_QF1_Position {
         position: absolute;
-        top: 75%;
+        top: 82%;
         left: 12.5%;
     }
 
-    .R_QF2_Position {
+    .SF_R_QF2_Position {
         position: absolute;
-        top: 75%;
+        top: 82%;
         left: 63.5%;
     }
 
-
-    .R_Semi_Position {
+    .SF_R_Semi_Position {
         position: absolute;
-        top: 61%;
+        top: 72%;
         left: 38%;
     }
 }
 
 @media only screen and (min-width: 575px) {
 
-    .celebrationImage img {
+    .SF_celebrationImage img {
         width: 100%;
         filter: grayscale(50%);
         opacity: 0.7;
@@ -691,7 +744,7 @@
         visibility: hidden;
     }
 
-    .playoffTitle {
+    .SF_playoffTitle {
         position: absolute;
         top: -6.5%;
         padding-bottom: 55px;
@@ -699,7 +752,7 @@
         font-style: italic;
     }
 
-        .playoffTitle h1 {
+        .SF_playoffTitle h1 {
             font-family: 'Teko';
             font-size: 38px;
             text-decoration: underline;
@@ -709,7 +762,7 @@
         }
 
 
-    .bracketContainer {
+    .SF_bracketContainer {
         /*background-color: #FF4136;*/
         width: 98%;
         height: 98%;
@@ -721,7 +774,7 @@
 
 
 
-    .timelineBracket {
+    .SF_timelineBracket {
         position: relative;
         background-color: black;
         width: 100%;
@@ -733,7 +786,7 @@
 
     /****************       Matchup Data       ****************/
 
-    .Team1_Seed {
+    .SF_Team1_Seed {
         position: absolute;
         top: -5%;
         left: 2%;
@@ -742,13 +795,13 @@
         z-index: 1;
     }
 
-        .Team1_Seed p {
+        .SF_Team1_Seed p {
             font-family: 'Montserrat';
             font-size: 125%;
             font-weight: 800;
         }
 
-    .Team2_Seed {
+    .SF_Team2_Seed {
         position: absolute;
         top: -5%;
         left: 88%;
@@ -757,20 +810,20 @@
         z-index: 1;
     }
 
-        .Team2_Seed p {
+        .SF_Team2_Seed p {
             font-family: 'Montserrat';
             font-size: 125%;
             font-weight: 800;
         }
 
-    .TeamName_1 {
+    .SF_TeamName_1 {
         position: absolute;
         top: 72%;
         left: 4%;
         z-index: 1;
     }
 
-        .TeamName_1 p {
+        .SF_TeamName_1 p {
             text-align: left;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -778,14 +831,14 @@
             z-index: 1;
         }
 
-    .TeamName_2 {
+    .SF_TeamName_2 {
         position: absolute;
         top: 72%;
         left: 71%;
         z-index: 1;
     }
 
-        .TeamName_2 p {
+        .SF_TeamName_2 p {
             text-align: right;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -793,7 +846,7 @@
             z-index: 1;
         }
 
-    .Team1_WinPCT {
+    .SF_Team1_WinPCT {
         position: absolute;
         top: 55%;
         left: 3%;
@@ -801,7 +854,7 @@
         z-index: 1;
     }
 
-        .Team1_WinPCT p {
+        .SF_Team1_WinPCT p {
             text-align: left;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -810,7 +863,7 @@
 
 
 
-    .Team2_WinPCT {
+    .SF_Team2_WinPCT {
         position: absolute;
         top: 55%;
         left: 77%;
@@ -818,49 +871,49 @@
         z-index: 1;
     }
 
-        .Team2_WinPCT p {
+        .SF_Team2_WinPCT p {
             text-align: left;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 75%;
         }
 
-    .Team1_SeriesCount {
+    .SF_Team1_SeriesCount {
         position: absolute;
         top: 72%;
         left: 38%;
         z-index: 1;
     }
 
-        .Team1_SeriesCount p {
+        .SF_Team1_SeriesCount p {
             text-align: center;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 95%;
         }
 
-    .RecordDash {
+    .SF_RecordDash {
         position: absolute;
         top: 71%;
         left: 47%;
         z-index: 1;
     }
 
-        .RecordDash p {
+        .SF_RecordDash p {
             text-align: right;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 2.2vw;
         }
 
-    .Team2_SeriesCount {
+    .SF_Team2_SeriesCount {
         position: absolute;
         top: 72%;
         left: 53%;
         z-index: 1;
     }
 
-        .Team2_SeriesCount p {
+        .SF_Team2_SeriesCount p {
             text-align: center;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -870,7 +923,7 @@
 
     /*Finals details*/
 
-    .Team1_Seed_Finals {
+    .SF_Team1_Seed_Finals {
         position: absolute;
         top: -10%;
         left: 2%;
@@ -879,13 +932,13 @@
         z-index: 1;
     }
 
-        .Team1_Seed_Finals p {
+        .SF_Team1_Seed_Finals p {
             font-family: 'Montserrat';
             font-size: 225%;
             font-weight: 800;
         }
 
-    .Team2_Seed_Finals {
+    .SF_Team2_Seed_Finals {
         font-family: 'Montserrat';
         /*! font-size: 3.4vw; */
         font-weight: 800;
@@ -897,27 +950,27 @@
         z-index: 1;
     }
 
-        .Team2_Seed_Finals p {
+        .SF_Team2_Seed_Finals p {
             font-family: 'Montserrat';
             font-size: 225%;
             font-weight: 800;
         }
 
-    .TeamName_1_Finals {
+    .SF_TeamName_1_Finals {
         position: absolute;
         top: 70%;
         left: 4%;
         z-index: 1;
     }
 
-        .TeamName_1_Finals p {
+        .SF_TeamName_1_Finals p {
             text-align: left;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 120%;
         }
 
-    .TeamName_2_Finals {
+    .SF_TeamName_2_Finals {
         position: absolute;
         top: 70%;
         left: 73%;
@@ -928,7 +981,7 @@
         z-index: 1;
     }
 
-        .TeamName_2_Finals p {
+        .SF_TeamName_2_Finals p {
             text-align: left;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -936,7 +989,7 @@
         }
 
 
-    .Team1_WinPCT_Finals {
+    .SF_Team1_WinPCT_Finals {
         position: absolute;
         top: 53%;
         left: -49%;
@@ -944,14 +997,14 @@
         z-index: 1;
     }
 
-        .Team1_WinPCT_Finals p {
+        .SF_Team1_WinPCT_Finals p {
             text-align: right;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 95%;
         }
 
-    .Team2_WinPCT_Finals {
+    .SF_Team2_WinPCT_Finals {
         position: absolute;
         top: 53%;
         left: 33%;
@@ -959,49 +1012,49 @@
         z-index: 1;
     }
 
-        .Team2_WinPCT_Finals p {
+        .SF_Team2_WinPCT_Finals p {
             text-align: right;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 95%;
         }
 
-    .Team1_SeriesCount_Finals {
+    .SF_Team1_SeriesCount_Finals {
         position: absolute;
         top: 72%;
         left: 38%;
         z-index: 1;
     }
 
-        .Team1_SeriesCount_Finals p {
+        .SF_Team1_SeriesCount_Finals p {
             text-align: center;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 2.2vw;
         }
 
-    .Team2_SeriesCount_Finals {
+    .SF_Team2_SeriesCount_Finals {
         position: absolute;
         top: 72%;
         left: 53%;
         z-index: 1;
     }
 
-        .Team2_SeriesCount_Finals p {
+        .SF_Team2_SeriesCount_Finals p {
             text-align: center;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 2.2vw;
         }
 
-    .RecordDash_Finals {
+    .SF_RecordDash_Finals {
         position: absolute;
         top: 71%;
         left: 47%;
         z-index: 1;
     }
 
-        .RecordDash_Finals p {
+        .SF_RecordDash_Finals p {
             text-align: right;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -1010,7 +1063,7 @@
 
 
 
-    .Team2_SeriesCount_Finals p {
+    .SF_Team2_SeriesCount_Finals p {
         text-align: center;
         font-weight: 700;
         font-family: 'Montserrat';
@@ -1022,7 +1075,7 @@
 
     /*Trophy command Victory Containers*/
 
-    .victoryImageContainer {
+    .SF_victoryImageContainer {
         position: absolute;
         border: 1px solid black;
         top: 20%;
@@ -1033,13 +1086,13 @@
         z-index: -5;
     }
 
-        .victoryImageContainer img {
+        .SF_victoryImageContainer img {
             width: 100%;
             object-fit: contain;
             opacity: 0.4;
         }
 
-    .trophyContainer {
+    .SF_trophyContainer {
         /*border: 2px solid black;*/
         position: absolute;
         bottom: -60%;
@@ -1052,20 +1105,20 @@
     /****************   Matchup RectangleDesign      ****************/
 
 
-    .matchupRectangleFinals {
+    .SF_matchupRectangleFinals {
         position: absolute;
         width: 45%;
         padding-top: 16%;
     }
 
 
-    .matchupRectangle {
+    .SF_matchupRectangle {
         position: absolute;
         width: 24%;
         padding-top: 15%;
     }
 
-    .MR_Team1 {
+    .SF_MR_Team1 {
         /*background: linear-gradient(90deg, silver 50%, #D3D3D3 5%);*/
         position: absolute;
         top: 0;
@@ -1075,7 +1128,7 @@
         border: .5px solid silver;
     }
 
-    .MR_Team2 {
+    .SF_MR_Team2 {
         /*background: linear-gradient(90deg, silver 50%, #D3D3D3 5%);*/
         position: absolute;
         top: 0;
@@ -1085,7 +1138,7 @@
         border: .5px solid silver
     }
 
-    .MR_TeamDetail {
+    .SF_MR_TeamDetail {
         /*background: linear-gradient(90deg, silver 50%, #D3D3D3 5%);*/
         position: absolute;
         top: 0;
@@ -1095,7 +1148,7 @@
         border: .5px solid silver
     }
 
-    .MR_LogoContainer_Team1 {
+    .SF_MR_LogoContainer_Team1 {
         position: absolute;
         top: 3%;
         right: 51.5%;
@@ -1103,7 +1156,7 @@
         width: 37%;
     }
 
-    .MR_LogoContainer_Team2 {
+    .SF_MR_LogoContainer_Team2 {
         position: absolute;
         top: 3%;
         right: 7%;
@@ -1112,7 +1165,7 @@
     }
 
 
-    .MR_LogoContainer_Finals_Team1 {
+    .SF_MR_LogoContainer_Finals_Team1 {
         position: absolute;
         top: 3%;
         right: 54.5%;
@@ -1120,7 +1173,7 @@
         width: 31%;
     }
 
-    .MR_LogoContainer_Finals_Team2 {
+    .SF_MR_LogoContainer_Finals_Team2 {
         position: absolute;
         top: 3%;
         right: 5.5%;
@@ -1128,14 +1181,14 @@
         width: 31%;
     }
 
-    .MR_Logo {
+    .SF_MR_Logo {
         position: absolute;
         object-fit: contain;
         max-height: 100%;
         max-width: 100%;
     }
 
-    .MR_Logo_Finals {
+    .SF_MR_Logo_Finals {
         position: absolute;
         object-fit: contain;
         max-height: 100%;
@@ -1145,7 +1198,7 @@
 
 
 
-    .LFR_Line1 {
+    .SF_LFR_Line1 {
         position: absolute;
         top: -31%;
         left: -40%;
@@ -1158,7 +1211,7 @@
         z-index: -3;
     }
 
-    .LFR_Line2 {
+    .SF_LFR_Line2 {
         position: absolute;
         top: -31%;
         left: -40%;
@@ -1171,7 +1224,7 @@
         z-index: -3;
     }
 
-    .L_SemiLine {
+    .SF_L_SemiLine {
         position: absolute;
         top: -42%;
         left: -58%;
@@ -1184,7 +1237,7 @@
         z-index: -2;
     }
 
-    .Finals_Line {
+    .SF_Finals_Line {
         position: absolute;
         top: -72%;
         left: -60%;
@@ -1197,7 +1250,7 @@
         z-index: -2;
     }
 
-    .RFR_Line1 {
+    .SF_RFR_Line1 {
         position: absolute;
         top: 48%;
         left: -40%;
@@ -1209,7 +1262,7 @@
         height: 105%;
     }
 
-    .RFR_Line2 {
+    .SF_RFR_Line2 {
         position: absolute;
         top: 48%;
         left: -40%;
@@ -1221,7 +1274,7 @@
         height: 105%;
     }
 
-    .R_SemiLine {
+    .SF_R_SemiLine {
         position: absolute;
         top: 41%;
         left: -58%;
@@ -1242,73 +1295,73 @@
 
 
     /****************   Matchup Positioning      ****************/
-    .LFR_Matchup1_Position {
+    .SF_LFR_Matchup1_Position {
         position: absolute;
         top: 0%;
         left: 0px;
     }
 
-    .LFR_Matchup2_Position {
+    .SF_LFR_Matchup2_Position {
         position: absolute;
         top: 0%;
         left: 25%;
     }
 
-    .LFR_Matchup3_Position {
+    .SF_LFR_Matchup3_Position {
         position: absolute;
         top: 0px;
         left: 51%;
     }
 
-    .LFR_Matchup4_Position {
+    .SF_LFR_Matchup4_Position {
         position: absolute;
         top: 0%;
         left: 76%;
     }
 
-    .L_QF1_Position {
+    .SF_L_QF1_Position {
         position: absolute;
         top: 14%;
         left: 12.5%;
     }
 
-    .L_QF2_Position {
+    .SF_L_QF2_Position {
         position: absolute;
         top: 14%;
         left: 63.5%;
     }
 
-    .L_Semi_Position {
+    .SF_L_Semi_Position {
         position: absolute;
         top: 28%;
         left: 38%;
     }
 
-    .Finals_Position {
+    .SF_Finals_Position {
         position: absolute;
         top: 46%;
         left: 27.5%;
     }
 
-    .RFR_Matchup1_Position {
+    .SF_RFR_Matchup1_Position {
         position: absolute;
         top: 89%;
         left: 0px;
     }
 
-    .RFR_Matchup2_Position {
+    .SF_RFR_Matchup2_Position {
         position: absolute;
         top: 89%;
         left: 25%;
     }
 
-    .RFR_Matchup3_Position {
+    .SF_RFR_Matchup3_Position {
         position: absolute;
         top: 89%;
         left: 51%;
     }
 
-    .RFR_Matchup4_Position {
+    .SF_RFR_Matchup4_Position {
         position: absolute;
         top: 89%;
         left: 76%;
@@ -1316,20 +1369,20 @@
 
 
 
-    .R_QF1_Position {
+    .SF_R_QF1_Position {
         position: absolute;
         top: 75%;
         left: 12.5%;
     }
 
-    .R_QF2_Position {
+    .SF_R_QF2_Position {
         position: absolute;
         top: 75%;
         left: 63.5%;
     }
 
 
-    .R_Semi_Position {
+    .SF_R_Semi_Position {
         position: absolute;
         top: 61%;
         left: 38%;
@@ -1337,7 +1390,7 @@
 }
 
 @media only screen and (min-width: 764px) {
-    .celebrationImage img {
+    .SF_celebrationImage img {
         width: 100%;
         filter: grayscale(50%);
         opacity: 0.7;
@@ -1346,14 +1399,14 @@
         visibility: hidden;
     }
 
-    .playoffTitle {
+    .SF_playoffTitle {
         position: absolute;
         top: -6.5%;
         padding-bottom: 55px;
         left: 6px;
     }
 
-        .playoffTitle h1 {
+        .SF_playoffTitle h1 {
             font-family: 'Teko';
             font-size: 52px;
             text-decoration: underline;
@@ -1363,7 +1416,7 @@
         }
 
 
-    .bracketContainer {
+    .SF_bracketContainer {
         /*background-color: #FF4136;*/
         width: 98%;
         height: 98%;
@@ -1375,7 +1428,7 @@
 
 
 
-    .timelineBracket {
+    .SF_timelineBracket {
         position: relative;
         background-color: black;
         width: 100%;
@@ -1387,7 +1440,7 @@
 
     /****************       Matchup Data       ****************/
 
-    .Team1_Seed {
+    .SF_Team1_Seed {
         position: absolute;
         top: -5%;
         left: 2%;
@@ -1396,13 +1449,13 @@
         z-index: 1;
     }
 
-        .Team1_Seed p {
+        .SF_Team1_Seed p {
             font-family: 'Montserrat';
             font-size: 125%;
             font-weight: 800;
         }
 
-    .Team2_Seed {
+    .SF_Team2_Seed {
         position: absolute;
         top: -5%;
         left: 91%;
@@ -1411,20 +1464,20 @@
         z-index: 1;
     }
 
-        .Team2_Seed p {
+        .SF_Team2_Seed p {
             font-family: 'Montserrat';
             font-size: 125%;
             font-weight: 800;
         }
 
-    .TeamName_1 {
+    .SF_TeamName_1 {
         position: absolute;
         top: 76%;
         left: 4%;
         z-index: 1;
     }
 
-        .TeamName_1 p {
+        .SF_TeamName_1 p {
             text-align: left;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -1432,14 +1485,14 @@
             z-index: 1;
         }
 
-    .TeamName_2 {
+    .SF_TeamName_2 {
         position: absolute;
         top: 76%;
         left: 75%;
         z-index: 1;
     }
 
-        .TeamName_2 p {
+        .SF_TeamName_2 p {
             text-align: right;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -1447,7 +1500,7 @@
             z-index: 1;
         }
 
-    .Team1_WinPCT {
+    .SF_Team1_WinPCT {
         position: absolute;
         top: 55%;
         left: 3%;
@@ -1455,7 +1508,7 @@
         z-index: 1;
     }
 
-        .Team1_WinPCT p {
+        .SF_Team1_WinPCT p {
             text-align: left;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -1464,7 +1517,7 @@
 
 
 
-    .Team2_WinPCT {
+    .SF_Team2_WinPCT {
         position: absolute;
         top: 55%;
         left: 80%;
@@ -1472,49 +1525,49 @@
         z-index: 1;
     }
 
-        .Team2_WinPCT p {
+        .SF_Team2_WinPCT p {
             text-align: left;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 85%;
         }
 
-    .Team1_SeriesCount {
+    .SF_Team1_SeriesCount {
         position: absolute;
         top: 76%;
         left: 38%;
         z-index: 1;
     }
 
-        .Team1_SeriesCount p {
+        .SF_Team1_SeriesCount p {
             text-align: center;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 95%;
         }
 
-    .RecordDash {
+    .SF_RecordDash {
         position: absolute;
         top: 69%;
         left: 47%;
         z-index: 1;
     }
 
-        .RecordDash p {
+        .SF_RecordDash p {
             text-align: right;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 2.2vw;
         }
 
-    .Team2_SeriesCount {
+    .SF_Team2_SeriesCount {
         position: absolute;
         top: 76%;
         left: 55%;
         z-index: 1;
     }
 
-        .Team2_SeriesCount p {
+        .SF_Team2_SeriesCount p {
             text-align: center;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -1524,7 +1577,7 @@
 
     /*Finals details*/
 
-    .Team1_Seed_Finals {
+    .SF_Team1_Seed_Finals {
         position: absolute;
         top: -10%;
         left: 2%;
@@ -1533,13 +1586,13 @@
         z-index: 1;
     }
 
-        .Team1_Seed_Finals p {
+        .SF_Team1_Seed_Finals p {
             font-family: 'Montserrat';
             font-size: 225%;
             font-weight: 800;
         }
 
-    .Team2_Seed_Finals {
+    .SF_Team2_Seed_Finals {
         font-family: 'Montserrat';
         /*! font-size: 3.4vw; */
         font-weight: 800;
@@ -1551,27 +1604,27 @@
         z-index: 1;
     }
 
-        .Team2_Seed_Finals p {
+        .SF_Team2_Seed_Finals p {
             font-family: 'Montserrat';
             font-size: 225%;
             font-weight: 800;
         }
 
-    .TeamName_1_Finals {
+    .SF_TeamName_1_Finals {
         position: absolute;
         top: 73%;
         left: 13%;
         z-index: 1;
     }
 
-        .TeamName_1_Finals p {
+        .SF_TeamName_1_Finals p {
             text-align: left;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 120%;
         }
 
-    .TeamName_2_Finals {
+    .SF_TeamName_2_Finals {
         position: absolute;
         top: 73%;
         left: 72%;
@@ -1582,7 +1635,7 @@
         z-index: 1;
     }
 
-        .TeamName_2_Finals p {
+        .SF_TeamName_2_Finals p {
             text-align: left;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -1590,7 +1643,7 @@
         }
 
 
-    .Team1_WinPCT_Finals {
+    .SF_Team1_WinPCT_Finals {
         position: absolute;
         top: 53%;
         left: -53%;
@@ -1598,14 +1651,14 @@
         z-index: 1;
     }
 
-        .Team1_WinPCT_Finals p {
+        .SF_Team1_WinPCT_Finals p {
             text-align: right;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 95%;
         }
 
-    .Team2_WinPCT_Finals {
+    .SF_Team2_WinPCT_Finals {
         position: absolute;
         top: 53%;
         left: 33%;
@@ -1613,49 +1666,49 @@
         z-index: 1;
     }
 
-        .Team2_WinPCT_Finals p {
+        .SF_Team2_WinPCT_Finals p {
             text-align: right;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 95%;
         }
 
-    .Team1_SeriesCount_Finals {
+    .SF_Team1_SeriesCount_Finals {
         position: absolute;
         top: 70%;
         left: 41%;
         z-index: 1;
     }
 
-        .Team1_SeriesCount_Finals p {
+        .SF_Team1_SeriesCount_Finals p {
             text-align: center;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 2.2vw;
         }
 
-    .Team2_SeriesCount_Finals {
+    .SF_Team2_SeriesCount_Finals {
         position: absolute;
         top: 70%;
         left: 54%;
         z-index: 1;
     }
 
-        .Team2_SeriesCount_Finals p {
+        .SF_Team2_SeriesCount_Finals p {
             text-align: center;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 2.2vw;
         }
 
-    .RecordDash_Finals {
+    .SF_RecordDash_Finals {
         position: absolute;
         top: 70%;
         left: 48.5%;
         z-index: 1;
     }
 
-        .RecordDash_Finals p {
+        .SF_RecordDash_Finals p {
             text-align: right;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -1664,7 +1717,7 @@
 
 
 
-    .Team2_SeriesCount_Finals p {
+    .SF_Team2_SeriesCount_Finals p {
         text-align: center;
         font-weight: 700;
         font-family: 'Montserrat';
@@ -1676,7 +1729,7 @@
 
     /*Trophy command Victory Containers*/
 
-    .victoryImageContainer {
+    .SF_victoryImageContainer {
         position: absolute;
         border: 1px solid black;
         top: 20%;
@@ -1687,14 +1740,14 @@
         z-index: -5;
     }
 
-        .victoryImageContainer img {
+        .SF_victoryImageContainer img {
             width: 100%;
             object-fit: contain;
             opacity: 0.4;
         }
 
 
-    .trophyContainer {
+    .SF_trophyContainer {
         /*border: 2px solid black;*/
         position: absolute;
         bottom: -60%;
@@ -1707,20 +1760,20 @@
     /****************   Matchup RectangleDesign      ****************/
 
 
-    .matchupRectangleFinals {
+    .SF_matchupRectangleFinals {
         position: absolute;
         width: 45%;
         padding-top: 16%;
     }
 
 
-    .matchupRectangle {
+    .SF_matchupRectangle {
         position: absolute;
         width: 24%;
         padding-top: 15%;
     }
 
-    .MR_Team1 {
+    .SF_MR_Team1 {
         /*background: linear-gradient(90deg, silver 50%, #D3D3D3 5%);*/
         position: absolute;
         top: 0;
@@ -1730,7 +1783,7 @@
         border: .5px solid silver;
     }
 
-    .MR_Team2 {
+    .SF_MR_Team2 {
         /*background: linear-gradient(90deg, silver 50%, #D3D3D3 5%);*/
         position: absolute;
         top: 0;
@@ -1740,7 +1793,7 @@
         border: .5px solid silver
     }
 
-    .MR_TeamDetail {
+    .SF_MR_TeamDetail {
         /*background: linear-gradient(90deg, silver 50%, #D3D3D3 5%);*/
         position: absolute;
         top: 0;
@@ -1750,7 +1803,7 @@
         border: .5px solid silver
     }
 
-    .MR_LogoContainer_Team1 {
+    .SF_MR_LogoContainer_Team1 {
         position: absolute;
         top: 3%;
         right: 51.5%;
@@ -1758,7 +1811,7 @@
         width: 37%;
     }
 
-    .MR_LogoContainer_Team2 {
+    .SF_MR_LogoContainer_Team2 {
         position: absolute;
         top: 3%;
         right: 7%;
@@ -1767,7 +1820,7 @@
     }
 
 
-    .MR_LogoContainer_Finals_Team1 {
+    .SF_MR_LogoContainer_Finals_Team1 {
         position: absolute;
         top: 3%;
         right: 54.5%;
@@ -1775,7 +1828,7 @@
         width: 31%;
     }
 
-    .MR_LogoContainer_Finals_Team2 {
+    .SF_MR_LogoContainer_Finals_Team2 {
         position: absolute;
         top: 3%;
         right: 5.5%;
@@ -1783,14 +1836,14 @@
         width: 31%;
     }
 
-    .MR_Logo {
+    .SF_MR_Logo {
         position: absolute;
         object-fit: contain;
         max-height: 100%;
         max-width: 100%;
     }
 
-    .MR_Logo_Finals {
+    .SF_MR_Logo_Finals {
         position: absolute;
         object-fit: contain;
         max-height: 100%;
@@ -1800,7 +1853,7 @@
 
 
 
-    .LFR_Line1 {
+    .SF_LFR_Line1 {
         position: absolute;
         top: -31%;
         left: -40%;
@@ -1813,7 +1866,7 @@
         z-index: -3;
     }
 
-    .LFR_Line2 {
+    .SF_LFR_Line2 {
         position: absolute;
         top: -31%;
         left: -40%;
@@ -1826,7 +1879,7 @@
         z-index: -3;
     }
 
-    .L_SemiLine {
+    .SF_L_SemiLine {
         position: absolute;
         top: -42%;
         left: -58%;
@@ -1839,7 +1892,7 @@
         z-index: -2;
     }
 
-    .Finals_Line {
+    .SF_Finals_Line {
         position: absolute;
         top: -72%;
         left: -60%;
@@ -1852,7 +1905,7 @@
         z-index: -2;
     }
 
-    .RFR_Line1 {
+    .SF_RFR_Line1 {
         position: absolute;
         top: 48%;
         left: -40%;
@@ -1864,7 +1917,7 @@
         height: 105%;
     }
 
-    .RFR_Line2 {
+    .SF_RFR_Line2 {
         position: absolute;
         top: 48%;
         left: -40%;
@@ -1876,7 +1929,7 @@
         height: 105%;
     }
 
-    .R_SemiLine {
+    .SF_R_SemiLine {
         position: absolute;
         top: 41%;
         left: -58%;
@@ -1897,73 +1950,73 @@
 
 
     /****************   Matchup Positioning      ****************/
-    .LFR_Matchup1_Position {
+    .SF_LFR_Matchup1_Position {
         position: absolute;
         top: 0%;
         left: 0px;
     }
 
-    .LFR_Matchup2_Position {
+    .SF_LFR_Matchup2_Position {
         position: absolute;
         top: 0%;
         left: 25%;
     }
 
-    .LFR_Matchup3_Position {
+    .SF_LFR_Matchup3_Position {
         position: absolute;
         top: 0px;
         left: 51%;
     }
 
-    .LFR_Matchup4_Position {
+    .SF_LFR_Matchup4_Position {
         position: absolute;
         top: 0%;
         left: 76%;
     }
 
-    .L_QF1_Position {
+    .SF_L_QF1_Position {
         position: absolute;
         top: 14%;
         left: 12.5%;
     }
 
-    .L_QF2_Position {
+    .SF_L_QF2_Position {
         position: absolute;
         top: 14%;
         left: 63.5%;
     }
 
-    .L_Semi_Position {
+    .SF_L_Semi_Position {
         position: absolute;
         top: 28%;
         left: 38%;
     }
 
-    .Finals_Position {
+    .SF_Finals_Position {
         position: absolute;
         top: 46%;
         left: 27.5%;
     }
 
-    .RFR_Matchup1_Position {
+    .SF_RFR_Matchup1_Position {
         position: absolute;
         top: 89%;
         left: 0px;
     }
 
-    .RFR_Matchup2_Position {
+    .SF_RFR_Matchup2_Position {
         position: absolute;
         top: 89%;
         left: 25%;
     }
 
-    .RFR_Matchup3_Position {
+    .SF_RFR_Matchup3_Position {
         position: absolute;
         top: 89%;
         left: 51%;
     }
 
-    .RFR_Matchup4_Position {
+    .SF_RFR_Matchup4_Position {
         position: absolute;
         top: 89%;
         left: 76%;
@@ -1971,20 +2024,20 @@
 
 
 
-    .R_QF1_Position {
+    .SF_R_QF1_Position {
         position: absolute;
         top: 75%;
         left: 12.5%;
     }
 
-    .R_QF2_Position {
+    .SF_R_QF2_Position {
         position: absolute;
         top: 75%;
         left: 63.5%;
     }
 
 
-    .R_Semi_Position {
+    .SF_R_Semi_Position {
         position: absolute;
         top: 61%;
         left: 38%;
@@ -1994,7 +2047,7 @@
 
 @media only screen and (min-width: 992px) {
 
-    .celebrationImage img {
+    .SF_celebrationImage img {
         width: 100%;
         filter: grayscale(50%);
         opacity: 0.7;
@@ -2006,14 +2059,14 @@
         display: block;
     }
 
-    .playoffTitle {
+    .SF_playoffTitle {
         position: absolute;
         top: -46px;
         padding-bottom: 55px;
         left: 6px;
     }
 
-        .playoffTitle h1 {
+        .SF_playoffTitle h1 {
             font-family: 'Teko';
             font-size: 49px;
             text-decoration: underline;
@@ -2023,7 +2076,7 @@
         }
 
 
-    .bracketContainer {
+    .SF_bracketContainer {
         /*background-color: #FF4136;*/
         width: 98%;
         height: 98%;
@@ -2035,7 +2088,7 @@
 
 
 
-    .timelineBracket {
+    .SF_timelineBracket {
         position: relative;
         background-color: black;
         width: 100%;
@@ -2047,7 +2100,7 @@
 
     /****************       Matchup Data       ****************/
 
-    .Team1_Seed {
+    .SF_Team1_Seed {
         position: absolute;
         top: -5%;
         left: 2%;
@@ -2056,13 +2109,13 @@
         z-index: 1;
     }
 
-        .Team1_Seed p {
+        .SF_Team1_Seed p {
             font-family: 'Montserrat';
             font-size: 125%;
             font-weight: 800;
         }
 
-    .Team2_Seed {
+    .SF_Team2_Seed {
         position: absolute;
         top: -5%;
         left: 88%;
@@ -2071,20 +2124,20 @@
         z-index: 1;
     }
 
-        .Team2_Seed p {
+        .SF_Team2_Seed p {
             font-family: 'Montserrat';
             font-size: 125%;
             font-weight: 800;
         }
 
-    .TeamName_1 {
+    .SF_TeamName_1 {
         position: absolute;
         top: 72%;
         left: 3%;
         z-index: 1;
     }
 
-        .TeamName_1 p {
+        .SF_TeamName_1 p {
             text-align: left;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -2092,14 +2145,14 @@
             z-index: 1;
         }
 
-    .TeamName_2 {
+    .SF_TeamName_2 {
         position: absolute;
         top: 72%;
         left: 68%;
         z-index: 1;
     }
 
-        .TeamName_2 p {
+        .SF_TeamName_2 p {
             text-align: right;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -2107,7 +2160,7 @@
             z-index: 1;
         }
 
-    .Team1_WinPCT {
+    .SF_Team1_WinPCT {
         position: absolute;
         top: 50%;
         left: 3%;
@@ -2115,7 +2168,7 @@
         z-index: 1;
     }
 
-        .Team1_WinPCT p {
+        .SF_Team1_WinPCT p {
             text-align: left;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -2124,7 +2177,7 @@
 
 
 
-    .Team2_WinPCT {
+    .SF_Team2_WinPCT {
         position: absolute;
         top: 50%;
         left: 71%;
@@ -2132,49 +2185,49 @@
         z-index: 1;
     }
 
-        .Team2_WinPCT p {
+        .SF_Team2_WinPCT p {
             text-align: left;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 85%;
         }
 
-    .Team1_SeriesCount {
+    .SF_Team1_SeriesCount {
         position: absolute;
         top: 72%;
         left: 38%;
         z-index: 1;
     }
 
-        .Team1_SeriesCount p {
+        .SF_Team1_SeriesCount p {
             text-align: center;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 90%;
         }
 
-    .RecordDash {
+    .SF_RecordDash {
         position: absolute;
         top: 71%;
         left: 48%;
         z-index: 1;
     }
 
-        .RecordDash p {
+        .SF_RecordDash p {
             text-align: right;
             font-weight: 620;
             font-family: 'Montserrat';
             font-size: 90%;
         }
 
-    .Team2_SeriesCount {
+    .SF_Team2_SeriesCount {
         position: absolute;
         top: 72%;
         left: 55%;
         z-index: 1;
     }
 
-        .Team2_SeriesCount p {
+        .SF_Team2_SeriesCount p {
             text-align: center;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -2184,7 +2237,7 @@
 
     /*Finals details*/
 
-    .Team1_Seed_Finals {
+    .SF_Team1_Seed_Finals {
         position: absolute;
         top: -10%;
         left: 2%;
@@ -2193,13 +2246,13 @@
         z-index: 1;
     }
 
-        .Team1_Seed_Finals p {
+        .SF_Team1_Seed_Finals p {
             font-family: 'Montserrat';
             font-size: 145%;
             font-weight: 800;
         }
 
-    .Team2_Seed_Finals {
+    .SF_Team2_Seed_Finals {
         font-family: 'Montserrat';
         /*! font-size: 3.4vw; */
         font-weight: 800;
@@ -2211,27 +2264,27 @@
         z-index: 1;
     }
 
-        .Team2_Seed_Finals p {
+        .SF_Team2_Seed_Finals p {
             font-family: 'Montserrat';
             font-size: 145%;
             font-weight: 800;
         }
 
-    .TeamName_1_Finals {
+    .SF_TeamName_1_Finals {
         position: absolute;
         top: 73%;
         left: 3%;
         z-index: 1;
     }
 
-        .TeamName_1_Finals p {
+        .SF_TeamName_1_Finals p {
             text-align: left;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 90%;
         }
 
-    .TeamName_2_Finals {
+    .SF_TeamName_2_Finals {
         position: absolute;
         top: 73%;
         left: 76%;
@@ -2242,7 +2295,7 @@
         z-index: 1;
     }
 
-        .TeamName_2_Finals p {
+        .SF_TeamName_2_Finals p {
             text-align: left;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -2250,7 +2303,7 @@
         }
 
 
-    .Team1_WinPCT_Finals {
+    .SF_Team1_WinPCT_Finals {
         position: absolute;
         top: 53%;
         left: -43%;
@@ -2258,14 +2311,14 @@
         z-index: 1;
     }
 
-        .Team1_WinPCT_Finals p {
+        .SF_Team1_WinPCT_Finals p {
             text-align: right;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 88%;
         }
 
-    .Team2_WinPCT_Finals {
+    .SF_Team2_WinPCT_Finals {
         position: absolute;
         top: 53%;
         left: 33%;
@@ -2273,49 +2326,49 @@
         z-index: 1;
     }
 
-        .Team2_WinPCT_Finals p {
+        .SF_Team2_WinPCT_Finals p {
             text-align: right;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 88%;
         }
 
-    .Team1_SeriesCount_Finals {
+    .SF_Team1_SeriesCount_Finals {
         position: absolute;
         top: 73%;
         left: 41%;
         z-index: 1;
     }
 
-        .Team1_SeriesCount_Finals p {
+        .SF_Team1_SeriesCount_Finals p {
             text-align: center;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 88%;
         }
 
-    .Team2_SeriesCount_Finals {
+    .SF_Team2_SeriesCount_Finals {
         position: absolute;
         top: 73%;
         left: 54%;
         z-index: 1;
     }
 
-        .Team2_SeriesCount_Finals p {
+        .SF_Team2_SeriesCount_Finals p {
             text-align: center;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 2.2vw;
         }
 
-    .RecordDash_Finals {
+    .SF_RecordDash_Finals {
         position: absolute;
         top: 73%;
         left: 48.5%;
         z-index: 1;
     }
 
-        .RecordDash_Finals p {
+        .SF_RecordDash_Finals p {
             text-align: right;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -2324,7 +2377,7 @@
 
 
 
-    .Team2_SeriesCount_Finals p {
+    .SF_Team2_SeriesCount_Finals p {
         text-align: center;
         font-weight: 700;
         font-family: 'Montserrat';
@@ -2336,7 +2389,7 @@
 
     /*Trophy command Victory Containers*/
 
-    .victoryImageContainer {
+    .SF_victoryImageContainer {
         position: absolute;
         border: 1px solid black;
         top: 20%;
@@ -2348,14 +2401,14 @@
         visibility: hidden;
     }
 
-        .victoryImageContainer img {
+        .SF_victoryImageContainer img {
             width: 100%;
             object-fit: contain;
             opacity: 0.4;
         }
 
 
-    .trophyContainer {
+    .SF_trophyContainer {
         /*border: 2px solid black;*/
         position: absolute;
         bottom: -49%;
@@ -2368,7 +2421,7 @@
     /****************   Matchup RectangleDesign      ****************/
 
 
-    .matchupRectangleFinals {
+    .SF_matchupRectangleFinals {
         position: absolute;
         width: 16%;
         padding-top: 8%;
@@ -2376,13 +2429,13 @@
     }
 
 
-    .matchupRectangle {
+    .SF_matchupRectangle {
         position: absolute;
         width: 12%;
         padding-top: 8%;
     }
 
-    .MR_Team1 {
+    .SF_MR_Team1 {
         /*background: linear-gradient(90deg, silver 50%, #D3D3D3 5%);*/
         position: absolute;
         top: 0;
@@ -2392,7 +2445,7 @@
         border: .5px solid silver;
     }
 
-    .MR_Team2 {
+    .SF_MR_Team2 {
         /*background: linear-gradient(90deg, silver 50%, #D3D3D3 5%);*/
         position: absolute;
         top: 1%;
@@ -2402,7 +2455,7 @@
         border: .5px solid silver;
     }
 
-    .MR_TeamDetail {
+    .SF_MR_TeamDetail {
         /*background: linear-gradient(90deg, silver 50%, #D3D3D3 5%);*/
         position: absolute;
         top: 0;
@@ -2412,7 +2465,7 @@
         border: .5px solid silver
     }
 
-    .MR_LogoContainer_Team1 {
+    .SF_MR_LogoContainer_Team1 {
         position: absolute;
         top: 3%;
         right: 49.5%;
@@ -2420,7 +2473,7 @@
         width: 37%;
     }
 
-    .MR_LogoContainer_Team2 {
+    .SF_MR_LogoContainer_Team2 {
         position: absolute;
         top: 3%;
         right: 8%;
@@ -2429,7 +2482,7 @@
     }
 
 
-    .MR_LogoContainer_Finals_Team1 {
+    .SF_MR_LogoContainer_Finals_Team1 {
         position: absolute;
         top: 3%;
         right: 56.5%;
@@ -2437,7 +2490,7 @@
         width: 31%;
     }
 
-    .MR_LogoContainer_Finals_Team2 {
+    .SF_MR_LogoContainer_Finals_Team2 {
         position: absolute;
         top: 3%;
         right: 7.5%;
@@ -2445,14 +2498,14 @@
         width: 31%;
     }
 
-    .MR_Logo {
+    .SF_MR_Logo {
         position: absolute;
         object-fit: contain;
         max-height: 100%;
         max-width: 100%;
     }
 
-    .MR_Logo_Finals {
+    .SF_MR_Logo_Finals {
         position: absolute;
         object-fit: contain;
         max-height: 100%;
@@ -2462,7 +2515,7 @@
 
 
 
-    .LFR_Line1 {
+    .SF_LFR_Line1 {
         position: absolute;
         top: -61%;
         left: -40%;
@@ -2475,7 +2528,7 @@
         z-index: -3;
     }
 
-    .LFR_Line2 {
+    .SF_LFR_Line2 {
         position: absolute;
         top: -62%;
         left: -40%;
@@ -2488,20 +2541,20 @@
         z-index: -3;
     }
 
-    .L_SemiLine {
+    .SF_L_SemiLine {
         position: absolute;
-        top: -283%;
+        top: -256%;
         left: -58%;
         border-top: 2px solid white;
         border-right: 2px solid white;
         border-bottom: 2px solid white;
         border-left: 0px solid white;
         width: 109%;
-        height: 402%;
+        height: 391%;
         z-index: -2;
     }
 
-    .Finals_Line {
+    .SF_Finals_Line {
         position: absolute;
         top: -232%;
         left: -13%;
@@ -2514,7 +2567,7 @@
         z-index: -12;
     }
 
-    .RFR_Line1 {
+    .SF_RFR_Line1 {
         position: absolute;
         top: -61%;
         left: 48%;
@@ -2524,9 +2577,10 @@
         border-left: 2px solid white;
         width: 90%;
         height: 224%;
+        z-index: -1;
     }
 
-    .RFR_Line2 {
+    .SF_RFR_Line2 {
         position: absolute;
         top: -62%;
         left: 49%;
@@ -2536,18 +2590,19 @@
         border-left: 2px solid white;
         width: 90%;
         height: 224%;
+        z-index: -1;
     }
 
-    .R_SemiLine {
+    .SF_R_SemiLine {
         position: absolute;
-        top: -283%;
-        left: 49%;
+        top: -256%;
+        left: 58%;
         border-top: 2px solid white;
         border-right: 0px solid white;
         border-bottom: 2px solid white;
         border-left: 2px solid white;
         width: 109%;
-        height: 402%;
+        height: 391%;
         z-index: -2;
     }
 
@@ -2559,74 +2614,74 @@
 
 
     /****************   Matchup Positioning      ****************/
-    .LFR_Matchup1_Position {
+    .SF_LFR_Matchup1_Position {
         position: absolute;
         top: 3%;
         left: 0%;
     }
 
-    .LFR_Matchup2_Position {
+    .SF_LFR_Matchup2_Position {
         position: absolute;
         top: 28%;
         left: 0%;
     }
 
-    .LFR_Matchup3_Position {
+    .SF_LFR_Matchup3_Position {
         position: absolute;
         top: 56%;
         left: 0%;
     }
 
-    .LFR_Matchup4_Position {
+    .SF_LFR_Matchup4_Position {
         position: absolute;
         top: 81%;
         left: 0%;
     }
 
-    .L_QF1_Position {
+    .SF_L_QF1_Position {
         position: absolute;
         top: 15%;
         left: 13.5%;
     }
 
-    .L_QF2_Position {
+    .SF_L_QF2_Position {
         position: absolute;
         top: 69%;
         left: 13.5%;
     }
 
-    .L_Semi_Position {
+    .SF_L_Semi_Position {
         position: absolute;
         top: 62%;
         left: 28%;
     }
 
-    .Finals_Position {
+    .SF_Finals_Position {
         position: absolute;
         top: 62%;
         left: 50%;
         margin: auto;
     }
 
-    .RFR_Matchup1_Position {
+    .SF_RFR_Matchup1_Position {
         position: absolute;
         top: 3%;
         left: 88%;
     }
 
-    .RFR_Matchup2_Position {
+    .SF_RFR_Matchup2_Position {
         position: absolute;
         top: 28%;
         left: 88%;
     }
 
-    .RFR_Matchup3_Position {
+    .SF_RFR_Matchup3_Position {
         position: absolute;
         top: 56%;
         left: 88%;
     }
 
-    .RFR_Matchup4_Position {
+    .SF_RFR_Matchup4_Position {
         position: absolute;
         top: 81%;
         left: 88%;
@@ -2634,20 +2689,20 @@
 
 
 
-    .R_QF1_Position {
+    .SF_R_QF1_Position {
         position: absolute;
         top: 15%;
         left: 74.5%;
     }
 
-    .R_QF2_Position {
+    .SF_R_QF2_Position {
         position: absolute;
         top: 69%;
         left: 74.5%;
     }
 
 
-    .R_Semi_Position {
+    .SF_R_Semi_Position {
         position: absolute;
         top: 62%;
         left: 60%;
@@ -2656,7 +2711,7 @@
 
 @media only screen and (min-width: 1200px) {
 
-    .celebrationImage img {
+    .SF_celebrationImage img {
         width: 100%;
         filter: grayscale(50%);
         opacity: 0.7;
@@ -2665,14 +2720,14 @@
         visibility: visible;
     }
 
-    .playoffTitle {
+    .SF_playoffTitle {
         position: absolute;
         top: -56px;
         padding-bottom: 55px;
         left: 6px;
     }
 
-        .playoffTitle h1 {
+        .SF_playoffTitle h1 {
             font-family: 'Teko';
             font-size: 52px;
             text-decoration: underline;
@@ -2682,7 +2737,7 @@
         }
 
 
-    .bracketContainer {
+    .SF_bracketContainer {
         /*background-color: #FF4136;*/
         width: 98%;
         height: 98%;
@@ -2694,7 +2749,7 @@
 
 
 
-    .timelineBracket {
+    .SF_timelineBracket {
         position: relative;
         background-color: black;
         width: 100%;
@@ -2706,7 +2761,7 @@
 
     /****************       Matchup Data       ****************/
 
-    .Team1_Seed {
+    .SF_Team1_Seed {
         position: absolute;
         top: -5%;
         left: 2%;
@@ -2715,13 +2770,13 @@
         z-index: 1;
     }
 
-        .Team1_Seed p {
+        .SF_Team1_Seed p {
             font-family: 'Montserrat';
             font-size: 125%;
             font-weight: 800;
         }
 
-    .Team2_Seed {
+    .SF_Team2_Seed {
         position: absolute;
         top: -5%;
         left: 89%;
@@ -2730,20 +2785,20 @@
         z-index: 1;
     }
 
-        .Team2_Seed p {
+        .SF_Team2_Seed p {
             font-family: 'Montserrat';
             font-size: 125%;
             font-weight: 800;
         }
 
-    .TeamName_1 {
+    .SF_TeamName_1 {
         position: absolute;
         top: 75%;
         left: 3%;
         z-index: 1;
     }
 
-        .TeamName_1 p {
+        .SF_TeamName_1 p {
             text-align: left;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -2751,14 +2806,14 @@
             z-index: 1;
         }
 
-    .TeamName_2 {
+    .SF_TeamName_2 {
         position: absolute;
         top: 75%;
         left: 68%;
         z-index: 1;
     }
 
-        .TeamName_2 p {
+        .SF_TeamName_2 p {
             text-align: right;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -2766,7 +2821,7 @@
             z-index: 1;
         }
 
-    .Team1_WinPCT {
+    .SF_Team1_WinPCT {
         position: absolute;
         top: 52%;
         left: 3%;
@@ -2774,7 +2829,7 @@
         z-index: 1;
     }
 
-        .Team1_WinPCT p {
+        .SF_Team1_WinPCT p {
             text-align: left;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -2783,7 +2838,7 @@
 
 
 
-    .Team2_WinPCT {
+    .SF_Team2_WinPCT {
         position: absolute;
         top: 52%;
         left: 75%;
@@ -2791,49 +2846,49 @@
         z-index: 1;
     }
 
-        .Team2_WinPCT p {
+        .SF_Team2_WinPCT p {
             text-align: left;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 88%;
         }
 
-    .Team1_SeriesCount {
+    .SF_Team1_SeriesCount {
         position: absolute;
         top: 75%;
         left: 38%;
         z-index: 1;
     }
 
-        .Team1_SeriesCount p {
+        .SF_Team1_SeriesCount p {
             text-align: center;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 90%;
         }
 
-    .RecordDash {
+    .SF_RecordDash {
         position: absolute;
         top: 75%;
         left: 48%;
         z-index: 1;
     }
 
-        .RecordDash p {
+        .SF_RecordDash p {
             text-align: right;
             font-weight: 620;
             font-family: 'Montserrat';
             font-size: 90%;
         }
 
-    .Team2_SeriesCount {
+    .SF_Team2_SeriesCount {
         position: absolute;
         top: 75%;
         left: 55%;
         z-index: 1;
     }
 
-        .Team2_SeriesCount p {
+        .SF_Team2_SeriesCount p {
             text-align: center;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -2843,7 +2898,7 @@
 
     /*Finals details*/
 
-    .Team1_Seed_Finals {
+    .SF_Team1_Seed_Finals {
         position: absolute;
         top: -10%;
         left: 2%;
@@ -2852,13 +2907,13 @@
         z-index: 1;
     }
 
-        .Team1_Seed_Finals p {
+        .SF_Team1_Seed_Finals p {
             font-family: 'Montserrat';
             font-size: 145%;
             font-weight: 800;
         }
 
-    .Team2_Seed_Finals {
+    .SF_Team2_Seed_Finals {
         font-family: 'Montserrat';
         /*! font-size: 3.4vw; */
         font-weight: 800;
@@ -2870,27 +2925,27 @@
         z-index: 1;
     }
 
-        .Team2_Seed_Finals p {
+        .SF_Team2_Seed_Finals p {
             font-family: 'Montserrat';
             font-size: 145%;
             font-weight: 800;
         }
 
-    .TeamName_1_Finals {
+    .SF_TeamName_1_Finals {
         position: absolute;
         top: 75%;
         left: 3%;
         z-index: 1;
     }
 
-        .TeamName_1_Finals p {
+        .SF_TeamName_1_Finals p {
             text-align: left;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 90%;
         }
 
-    .TeamName_2_Finals {
+    .SF_TeamName_2_Finals {
         position: absolute;
         top: 75%;
         left: 76%;
@@ -2901,7 +2956,7 @@
         z-index: 1;
     }
 
-        .TeamName_2_Finals p {
+        .SF_TeamName_2_Finals p {
             text-align: left;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -2909,7 +2964,7 @@
         }
 
 
-    .Team1_WinPCT_Finals {
+    .SF_Team1_WinPCT_Finals {
         position: absolute;
         top: 53%;
         left: -43%;
@@ -2917,14 +2972,14 @@
         z-index: 1;
     }
 
-        .Team1_WinPCT_Finals p {
+        .SF_Team1_WinPCT_Finals p {
             text-align: right;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 88%;
         }
 
-    .Team2_WinPCT_Finals {
+    .SF_Team2_WinPCT_Finals {
         position: absolute;
         top: 53%;
         left: 33%;
@@ -2932,49 +2987,49 @@
         z-index: 1;
     }
 
-        .Team2_WinPCT_Finals p {
+        .SF_Team2_WinPCT_Finals p {
             text-align: right;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 88%;
         }
 
-    .Team1_SeriesCount_Finals {
+    .SF_Team1_SeriesCount_Finals {
         position: absolute;
         top: 75%;
         left: 41%;
         z-index: 1;
     }
 
-        .Team1_SeriesCount_Finals p {
+        .SF_Team1_SeriesCount_Finals p {
             text-align: center;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 88%;
         }
 
-    .Team2_SeriesCount_Finals {
+    .SF_Team2_SeriesCount_Finals {
         position: absolute;
         top: 75%;
         left: 54%;
         z-index: 1;
     }
 
-        .Team2_SeriesCount_Finals p {
+        .SF_Team2_SeriesCount_Finals p {
             text-align: center;
             font-weight: 700;
             font-family: 'Montserrat';
             font-size: 2.2vw;
         }
 
-    .RecordDash_Finals {
+    .SF_RecordDash_Finals {
         position: absolute;
         top: 75%;
         left: 48.5%;
         z-index: 1;
     }
 
-        .RecordDash_Finals p {
+        .SF_RecordDash_Finals p {
             text-align: right;
             font-weight: 700;
             font-family: 'Montserrat';
@@ -2983,7 +3038,7 @@
 
 
 
-    .Team2_SeriesCount_Finals p {
+    .SF_Team2_SeriesCount_Finals p {
         text-align: center;
         font-weight: 700;
         font-family: 'Montserrat';
@@ -2995,7 +3050,7 @@
 
     /*Trophy command Victory Containers*/
 
-    .victoryImageContainer {
+    .SF_victoryImageContainer {
         position: absolute;
         border: 1px solid black;
         top: 20%;
@@ -3007,14 +3062,14 @@
         visibility: hidden;
     }
 
-        .victoryImageContainer img {
+        .SF_victoryImageContainer img {
             width: 100%;
             object-fit: contain;
             opacity: 0.4;
         }
 
 
-    .trophyContainer {
+    .SF_trophyContainer {
         /*border: 2px solid black;*/
         position: absolute;
         bottom: -49%;
@@ -3027,7 +3082,7 @@
     /****************   Matchup RectangleDesign      ****************/
 
 
-    .matchupRectangleFinals {
+    .SF_matchupRectangleFinals {
         position: absolute;
         width: 16%;
         padding-top: 8%;
@@ -3035,13 +3090,13 @@
     }
 
 
-    .matchupRectangle {
+    .SF_matchupRectangle {
         position: absolute;
         width: 12%;
         padding-top: 8%;
     }
 
-    .MR_Team1 {
+    .SF_MR_Team1 {
         /*background: linear-gradient(90deg, silver 50%, #D3D3D3 5%);*/
         position: absolute;
         top: 0;
@@ -3051,7 +3106,7 @@
         border: .5px solid silver;
     }
 
-    .MR_Team2 {
+    .SF_MR_Team2 {
         /*background: linear-gradient(90deg, silver 50%, #D3D3D3 5%);*/
         position: absolute;
         top: 0;
@@ -3061,7 +3116,7 @@
         border: .5px solid silver
     }
 
-    .MR_TeamDetail {
+    .SF_MR_TeamDetail {
         /*background: linear-gradient(90deg, silver 50%, #D3D3D3 5%);*/
         position: absolute;
         top: 0;
@@ -3071,7 +3126,7 @@
         border: .5px solid silver
     }
 
-    .MR_LogoContainer_Team1 {
+    .SF_MR_LogoContainer_Team1 {
         position: absolute;
         top: 3%;
         right: 53.5%;
@@ -3079,7 +3134,7 @@
         width: 37%;
     }
 
-    .MR_LogoContainer_Team2 {
+    .SF_MR_LogoContainer_Team2 {
         position: absolute;
         top: 3%;
         right: 8%;
@@ -3088,7 +3143,7 @@
     }
 
 
-    .MR_LogoContainer_Finals_Team1 {
+    .SF_MR_LogoContainer_Finals_Team1 {
         position: absolute;
         top: 3%;
         right: 56.5%;
@@ -3096,7 +3151,7 @@
         width: 31%;
     }
 
-    .MR_LogoContainer_Finals_Team2 {
+    .SF_MR_LogoContainer_Finals_Team2 {
         position: absolute;
         top: 3%;
         right: 7.5%;
@@ -3104,14 +3159,14 @@
         width: 31%;
     }
 
-    .MR_Logo {
+    .SF_MR_Logo {
         position: absolute;
         object-fit: contain;
         max-height: 100%;
         max-width: 100%;
     }
 
-    .MR_Logo_Finals {
+    .SF_MR_Logo_Finals {
         position: absolute;
         object-fit: contain;
         max-height: 100%;
@@ -3121,7 +3176,7 @@
 
 
 
-    .LFR_Line1 {
+    .SF_LFR_Line1 {
         position: absolute;
         top: -62%;
         left: -40%;
@@ -3134,7 +3189,7 @@
         z-index: -3;
     }
 
-    .LFR_Line2 {
+    .SF_LFR_Line2 {
         position: absolute;
         top: -62%;
         left: -40%;
@@ -3147,7 +3202,7 @@
         z-index: -3;
     }
 
-    .L_SemiLine {
+    .SF_L_SemiLine {
         position: absolute;
         top: -272%;
         left: -58%;
@@ -3160,7 +3215,7 @@
         z-index: -2;
     }
 
-    .Finals_Line {
+    .SF_Finals_Line {
         position: absolute;
         top: -232%;
         left: -13%;
@@ -3173,7 +3228,7 @@
         z-index: -12;
     }
 
-    .RFR_Line1 {
+    .SF_RFR_Line1 {
         position: absolute;
         top: -61%;
         left: 48%;
@@ -3185,7 +3240,7 @@
         height: 224%;
     }
 
-    .RFR_Line2 {
+    .SF_RFR_Line2 {
         position: absolute;
         top: -62%;
         left: 49%;
@@ -3197,7 +3252,7 @@
         height: 224%;
     }
 
-    .R_SemiLine {
+    .SF_R_SemiLine {
         position: absolute;
         top: -276%;
         left: 49%;
@@ -3218,74 +3273,74 @@
 
 
     /****************   Matchup Positioning      ****************/
-    .LFR_Matchup1_Position {
+    .SF_LFR_Matchup1_Position {
         position: absolute;
         top: 0;
         left: -4px;
     }
 
-    .LFR_Matchup2_Position {
+    .SF_LFR_Matchup2_Position {
         position: absolute;
         top: 25%;
         left: 0%;
     }
 
-    .LFR_Matchup3_Position {
+    .SF_LFR_Matchup3_Position {
         position: absolute;
         top: 63%;
         left: 0%;
     }
 
-    .LFR_Matchup4_Position {
+    .SF_LFR_Matchup4_Position {
         position: absolute;
         top: 86%;
         left: 0%;
     }
 
-    .L_QF1_Position {
+    .SF_L_QF1_Position {
         position: absolute;
         top: 13%;
         left: 13.5%;
     }
 
-    .L_QF2_Position {
+    .SF_L_QF2_Position {
         position: absolute;
         top: 75%;
         left: 13.5%;
     }
 
-    .L_Semi_Position {
+    .SF_L_Semi_Position {
         position: absolute;
         top: 62%;
         left: 28%;
     }
 
-    .Finals_Position {
+    .SF_Finals_Position {
         position: absolute;
         top: 62%;
         left: 50%;
         margin: auto;
     }
 
-    .RFR_Matchup1_Position {
+    .SF_RFR_Matchup1_Position {
         position: absolute;
         top: 0%;
         left: 88%;
     }
 
-    .RFR_Matchup2_Position {
+    .SF_RFR_Matchup2_Position {
         position: absolute;
         top: 25%;
         left: 88%;
     }
 
-    .RFR_Matchup3_Position {
+    .SF_RFR_Matchup3_Position {
         position: absolute;
         top: 63%;
         left: 88%;
     }
 
-    .RFR_Matchup4_Position {
+    .SF_RFR_Matchup4_Position {
         position: absolute;
         top: 86%;
         left: 88%;
@@ -3293,20 +3348,20 @@
 
 
 
-    .R_QF1_Position {
+    .SF_R_QF1_Position {
         position: absolute;
         top: 13%;
         left: 73.5%;
     }
 
-    .R_QF2_Position {
+    .SF_R_QF2_Position {
         position: absolute;
         top: 75%;
         left: 73.5%;
     }
 
 
-    .R_Semi_Position {
+    .SF_R_Semi_Position {
         position: absolute;
         top: 62%;
         left: 60%;

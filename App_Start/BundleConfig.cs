@@ -23,6 +23,7 @@ namespace NBA_Reseed
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
+                      "~/Content/CSS/bracket_SemiFinal.css",
                       "~/Content/CSS/bracket_16.css",
                       "~/Content/CSS/ReseedGeneral.css",
                       "~/Content/CSS/ComingSoon.css",

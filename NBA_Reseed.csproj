@@ -143,6 +143,7 @@
     <Content Include="Content\Celebrations\2020_lakers_celeb.png" />
     <Content Include="Content\Celebrations\2020_raptors_celeb.png" />
     <Content Include="Content\Celebrations\Lakers.png" />
+    <Content Include="Content\CSS\Bracket_SemiFinal.css" />
     <Content Include="Content\CSS\ComingSoon.css" />
     <Content Include="Content\ComingSoonImages\FinalsTrophyMobile_768.png" />
     <Content Include="Content\ComingSoonImages\FinalsTrophyMobile_Max15.png" />
