@@ -22,6 +22,12 @@ p {
     position: absolute;
 }
 
+.btnCollapsible {
+    border-bottom: none;
+    text-decoration: none !important;
+}
+
+
 .mastheadLine hr {
     border-bottom: 2px solid silver !important;
 }
@@ -143,9 +149,8 @@ p {
 
 a {
     color: white !important;
-    /*text-decoration: underline !important;*/
-    text-decoration-color: #dab63c !important;
-    border-bottom: 3px solid #dab63c;
+    /* text-decoration: underline !important; */
+    /* border-bottom: 3px solid #dab63c; */
 }
 
 .text-primary {

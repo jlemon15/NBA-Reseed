@@ -22,7 +22,7 @@
         position: absolute;
         top: 0%;
         padding-bottom: 55px;
-        left: 6px;
+        right: 0%;
         /* font-style: italic; */
     }
 
@@ -39,11 +39,31 @@
         position: absolute;
         top: 0%;
         padding-bottom: 55px;
-        left: 6px;
+        left: 0%;
         /* font-style: italic; */
     }
 
         .SF_WestPlayin h1 {
+            font-family: 'Teko';
+            font-size: 5vw;
+            text-decoration: underline;
+            text-decoration-color: #daa520;
+            font-weight: normal;
+            /*! text-shadow: black; */
+        }
+
+
+    .SF_innerPlayoffTitle {
+        position: absolute;
+        top: 29%;
+        /* padding-bottom: 55px; */
+        left: 0%;
+        /* width: 50%; */
+        /* font-style: italic; */
+        /* border-bottom: 2px solid white; */
+    }
+
+        .SF_innerPlayoffTitle h1 {
             font-family: 'Teko';
             font-size: 5vw;
             text-decoration: underline;
@@ -92,7 +112,7 @@
         height: 98%;
         position: relative;
         left: 50%;
-        top: 50%;
+        top: 49%;
         transform: translate(-50%, -50%);
     }
 
@@ -102,11 +122,11 @@
         position: relative;
         background-color: black;
         width: 100%;
-        height: 165vmin;
-        margin-top: 8%;
+        height: 175vmin;
+        margin-top: 35%;
         margin-bottom: 14vh;
         /* border-top: 1px solid white; */
-        border: 1px solid;
+        /* border: 1px solid; */
     }
 
     /****************       Matchup Data       ****************/
@@ -485,7 +505,7 @@
     .SF_MR_LogoContainer_Team2 {
         position: absolute;
         top: 3%;
-        right: 7%;
+        right: 10%;
         height: 56%;
         width: 37%;
     }
@@ -624,116 +644,191 @@
 
     .SF_WPI_Matchup1_Position {
         position: absolute;
-        top: 38%;
+        top: 4%;
         left: 0px;
     }
 
     .SF_WPI_Matchup2_Position {
         position: absolute;
-        top: 38%;
+        top: 4%;
         left: 25%;
     }
 
     .SF_WPI_Final_Position {
         position: absolute;
-        top: 47%;
+        top: 14%;
         left: 12.5%;
     }
 
+    .SF_EPI_Matchup1_Position {
+        position: absolute;
+        top: 4%;
+        right: 25%;
+    }
+
+    .SF_EPI_Matchup2_Position {
+        position: absolute;
+        top: 4%;
+        right: 0%;
+    }
+
+    .SF_EPI_Final_Position {
+        /* right: 0%; */
+        position: absolute;
+        top: 14%;
+        right: 12%;
+    }
 
 
     .SF_LFR_Matchup1_Position {
         position: absolute;
-        top: 28%;
+        top: 33%;
         left: 0px;
     }
 
     .SF_LFR_Matchup2_Position {
         position: absolute;
-        top: 28%;
+        top: 33%;
         left: 25%;
     }
 
     .SF_LFR_Matchup3_Position {
         position: absolute;
-        top: 28%;
+        top: 33%;
         left: 51%;
     }
 
     .SF_LFR_Matchup4_Position {
         position: absolute;
-        top: 28%;
+        top: 33%;
         left: 76%;
     }
 
     .SF_L_QF1_Position {
         position: absolute;
-        top: 38%;
+        top: 42%;
         left: 12.5%;
     }
 
     .SF_L_QF2_Position {
         position: absolute;
-        top: 47%;
+        top: 42%;
         left: 63.5%;
     }
 
     .SF_L_Semi_Position {
         position: absolute;
-        top: 48%;
+        top: 51%;
         left: 38%;
     }
 
     .SF_Finals_Position {
         position: absolute;
-        top: 61.5%;
+        top: 63.5%;
         left: 27.5%;
     }
 
     .SF_RFR_Matchup1_Position {
         position: absolute;
-        top: 92%;
+        top: 93%;
         left: 0px;
     }
 
     .SF_RFR_Matchup2_Position {
         position: absolute;
-        top: 92%;
+        top: 93%;
         left: 25%;
     }
 
     .SF_RFR_Matchup3_Position {
         position: absolute;
-        top: 92%;
+        top: 93%;
         left: 51%;
     }
 
     .SF_RFR_Matchup4_Position {
         position: absolute;
-        top: 92%;
+        top: 93%;
         left: 76%;
     }
 
     .SF_R_QF1_Position {
         position: absolute;
-        top: 82%;
+        top: 84%;
         left: 12.5%;
     }
 
     .SF_R_QF2_Position {
         position: absolute;
-        top: 82%;
+        top: 84%;
         left: 63.5%;
     }
 
     .SF_R_Semi_Position {
         position: absolute;
-        top: 72%;
+        top: 74%;
         left: 38%;
     }
 }
 
 @media only screen and (min-width: 575px) {
+
+    .SF_EastPlayin {
+        position: absolute;
+        top: 0%;
+        padding-bottom: 55px;
+        right: 0%;
+        /* font-style: italic; */
+    }
+
+        .SF_EastPlayin h1 {
+            font-family: 'Teko';
+            font-size: 5vw;
+            text-decoration: underline;
+            text-decoration-color: #daa520;
+            font-weight: normal;
+            /*! text-shadow: black; */
+        }
+
+    .SF_WestPlayin {
+        position: absolute;
+        top: 0%;
+        padding-bottom: 55px;
+        left: 0%;
+        /* font-style: italic; */
+    }
+
+        .SF_WestPlayin h1 {
+            font-family: 'Teko';
+            font-size: 5vw;
+            text-decoration: underline;
+            text-decoration-color: #daa520;
+            font-weight: normal;
+            /*! text-shadow: black; */
+        }
+
+
+    .SF_innerPlayoffTitle {
+        position: absolute;
+        top: 24%;
+        /* padding-bottom: 55px; */
+        left: 0%;
+        /* width: 50%; */
+        /* font-style: italic; */
+        /* border-bottom: 2px solid white; */
+    }
+
+        .SF_innerPlayoffTitle h1 {
+            font-family: 'Teko';
+            font-size: 5vw;
+            text-decoration: underline;
+            text-decoration-color: #daa520;
+            font-weight: normal;
+            /*! text-shadow: black; */
+        }
+
+
+
 
     .SF_celebrationImage img {
         width: 100%;
@@ -778,10 +873,10 @@
         position: relative;
         background-color: black;
         width: 100%;
-        height: 630px;
+        height: 960px;
         margin-bottom: 30%;
         margin-top: 7%;
-        /*border-top: 1px solid white;*/
+        /* border: 1px solid white; */
     }
 
     /****************       Matchup Data       ****************/
@@ -1295,75 +1390,114 @@
 
 
     /****************   Matchup Positioning      ****************/
-    .SF_LFR_Matchup1_Position {
+
+    .SF_WPI_Matchup1_Position {
         position: absolute;
-        top: 0%;
+        top: 4%;
         left: 0px;
     }
 
-    .SF_LFR_Matchup2_Position {
+    .SF_WPI_Matchup2_Position {
         position: absolute;
-        top: 0%;
+        top: 4%;
         left: 25%;
     }
 
-    .SF_LFR_Matchup3_Position {
-        position: absolute;
-        top: 0px;
-        left: 51%;
-    }
-
-    .SF_LFR_Matchup4_Position {
-        position: absolute;
-        top: 0%;
-        left: 76%;
-    }
-
-    .SF_L_QF1_Position {
+    .SF_WPI_Final_Position {
         position: absolute;
         top: 14%;
         left: 12.5%;
     }
 
-    .SF_L_QF2_Position {
+    .SF_EPI_Matchup1_Position {
+        position: absolute;
+        top: 4%;
+        right: 25%;
+    }
+
+    .SF_EPI_Matchup2_Position {
+        position: absolute;
+        top: 4%;
+        right: 0%;
+    }
+
+    .SF_EPI_Final_Position {
+        /* right: 0%; */
         position: absolute;
         top: 14%;
+        right: 12%;
+    }
+
+
+    .SF_LFR_Matchup1_Position {
+        position: absolute;
+        top: 28%;
+        left: 0px;
+    }
+
+    .SF_LFR_Matchup2_Position {
+        position: absolute;
+        top: 28%;
+        left: 25%;
+    }
+
+    .SF_LFR_Matchup3_Position {
+        position: absolute;
+        top: 28%;
+        left: 51%;
+    }
+
+    .SF_LFR_Matchup4_Position {
+        position: absolute;
+        top: 28%;
+        left: 76%;
+    }
+
+    .SF_L_QF1_Position {
+        position: absolute;
+        top: 38%;
+        left: 12.5%;
+    }
+
+    .SF_L_QF2_Position {
+        position: absolute;
+        top: 38%;
         left: 63.5%;
     }
 
     .SF_L_Semi_Position {
         position: absolute;
-        top: 28%;
+        top: 48%;
         left: 38%;
     }
 
     .SF_Finals_Position {
         position: absolute;
-        top: 46%;
+        top: 62%;
         left: 27.5%;
     }
 
     .SF_RFR_Matchup1_Position {
         position: absolute;
-        top: 89%;
+        top: 93%;
         left: 0px;
     }
 
     .SF_RFR_Matchup2_Position {
         position: absolute;
-        top: 89%;
+        top: 93%;
         left: 25%;
     }
 
     .SF_RFR_Matchup3_Position {
         position: absolute;
-        top: 89%;
+        top: 93%;
         left: 51%;
     }
 
     .SF_RFR_Matchup4_Position {
         position: absolute;
-        top: 89%;
+        top: 93%;
         left: 76%;
     }
 
@@ -1371,25 +1505,81 @@
 
     .SF_R_QF1_Position {
         position: absolute;
-        top: 75%;
+        top: 83%;
         left: 12.5%;
     }
 
     .SF_R_QF2_Position {
         position: absolute;
-        top: 75%;
+        top: 83%;
         left: 63.5%;
     }
 
 
     .SF_R_Semi_Position {
         position: absolute;
-        top: 61%;
+        top: 73%;
         left: 38%;
     }
 }
 
 @media only screen and (min-width: 764px) {
+
+    .SF_EastPlayin {
+        position: absolute;
+        top: 0%;
+        padding-bottom: 55px;
+        right: 0%;
+        /* font-style: italic; */
+    }
+
+        .SF_EastPlayin h1 {
+            font-family: 'Teko';
+            font-size: 4vw;
+            text-decoration: underline;
+            text-decoration-color: #daa520;
+            font-weight: normal;
+            /*! text-shadow: black; */
+        }
+
+    .SF_WestPlayin {
+        position: absolute;
+        top: 0%;
+        padding-bottom: 55px;
+        left: 0%;
+        /* font-style: italic; */
+    }
+
+        .SF_WestPlayin h1 {
+            font-family: 'Teko';
+            font-size: 4vw;
+            text-decoration: underline;
+            text-decoration-color: #daa520;
+            font-weight: normal;
+            /*! text-shadow: black; */
+        }
+
+
+    .SF_innerPlayoffTitle {
+        position: absolute;
+        top: 26%;
+        /* padding-bottom: 55px; */
+        left: 0%;
+        /* width: 50%; */
+        /* font-style: italic; */
+        /* border-bottom: 2px solid white; */
+    }
+
+        .SF_innerPlayoffTitle h1 {
+            font-family: 'Teko';
+            font-size: 4vw;
+            text-decoration: underline;
+            text-decoration-color: #daa520;
+            font-weight: normal;
+            /*! text-shadow: black; */
+        }
+
+
     .SF_celebrationImage img {
         width: 100%;
         filter: grayscale(50%);
@@ -1432,10 +1622,10 @@
         position: relative;
         background-color: black;
         width: 100%;
-        height: 840px;
+        height: 1320px;
         margin-bottom: 16vh;
         margin-top: 10%;
-        /*border-top: 1px solid white;*/
+        /* border: 1px solid white; */
     }
 
     /****************       Matchup Data       ****************/
@@ -1950,75 +2140,114 @@
 
 
     /****************   Matchup Positioning      ****************/
-    .SF_LFR_Matchup1_Position {
+
+    .SF_WPI_Matchup1_Position {
         position: absolute;
-        top: 0%;
+        top: 4%;
         left: 0px;
     }
 
-    .SF_LFR_Matchup2_Position {
+    .SF_WPI_Matchup2_Position {
         position: absolute;
-        top: 0%;
+        top: 4%;
         left: 25%;
     }
 
-    .SF_LFR_Matchup3_Position {
-        position: absolute;
-        top: 0px;
-        left: 51%;
-    }
-
-    .SF_LFR_Matchup4_Position {
-        position: absolute;
-        top: 0%;
-        left: 76%;
-    }
-
-    .SF_L_QF1_Position {
+    .SF_WPI_Final_Position {
         position: absolute;
         top: 14%;
         left: 12.5%;
     }
 
-    .SF_L_QF2_Position {
+    .SF_EPI_Matchup1_Position {
+        position: absolute;
+        top: 4%;
+        right: 25%;
+    }
+
+    .SF_EPI_Matchup2_Position {
+        position: absolute;
+        top: 4%;
+        right: 0%;
+    }
+
+    .SF_EPI_Final_Position {
+        /* right: 0%; */
         position: absolute;
         top: 14%;
+        right: 12%;
+    }
+
+
+    .SF_LFR_Matchup1_Position {
+        position: absolute;
+        top: 30%;
+        left: 0%;
+    }
+
+    .SF_LFR_Matchup2_Position {
+        position: absolute;
+        top: 30%;
+        left: 25%;
+    }
+
+    .SF_LFR_Matchup3_Position {
+        position: absolute;
+        top: 30%;
+        left: 51%;
+    }
+
+    .SF_LFR_Matchup4_Position {
+        position: absolute;
+        top: 30%;
+        left: 76%;
+    }
+
+    .SF_L_QF1_Position {
+        position: absolute;
+        top: 40%;
+        left: 12.5%;
+    }
+
+    .SF_L_QF2_Position {
+        position: absolute;
+        top: 40%;
         left: 63.5%;
     }
 
     .SF_L_Semi_Position {
         position: absolute;
-        top: 28%;
+        top: 50%;
         left: 38%;
     }
 
     .SF_Finals_Position {
         position: absolute;
-        top: 46%;
+        top: 63%;
         left: 27.5%;
     }
 
     .SF_RFR_Matchup1_Position {
         position: absolute;
-        top: 89%;
+        top: 93%;
         left: 0px;
     }
 
     .SF_RFR_Matchup2_Position {
         position: absolute;
-        top: 89%;
+        top: 93%;
         left: 25%;
     }
 
     .SF_RFR_Matchup3_Position {
         position: absolute;
-        top: 89%;
+        top: 93%;
         left: 51%;
     }
 
     .SF_RFR_Matchup4_Position {
         position: absolute;
-        top: 89%;
+        top: 93%;
         left: 76%;
     }
 
@@ -2026,20 +2255,20 @@
 
     .SF_R_QF1_Position {
         position: absolute;
-        top: 75%;
+        top: 83%;
         left: 12.5%;
     }
 
     .SF_R_QF2_Position {
         position: absolute;
-        top: 75%;
+        top: 83%;
         left: 63.5%;
     }
 
 
     .SF_R_Semi_Position {
         position: absolute;
-        top: 61%;
+        top: 73%;
         left: 38%;
     }
 }
@@ -3265,14 +3494,45 @@
         z-index: -2;
     }
 
-
-
-
-
-
-
-
     /****************   Matchup Positioning      ****************/
+
+    .SF_WPI_Matchup1_Position {
+        position: absolute;
+        top: 0;
+        left: -4px;
+    }
+
+    .SF_WPI_Matchup2_Position {
+        position: absolute;
+        top: 25%;
+        left: 0%;
+    }
+
+    .SF_WPI_Final_Position {
+        position: absolute;
+        top: 13%;
+        left: 13.5%;
+    }
+
+    .SF_EPI_Matchup1_Position {
+        position: absolute;
+        top: 0;
+        left: -4px;
+    }
+
+    .SF_EPI_Matchup2_Position {
+        position: absolute;
+        top: 25%;
+        left: 0%;
+    }
+
+    .SF_EPI_Final_Position {
+        position: absolute;
+        top: 13%;
+        left: 13.5%;
+    }
+
+
     .SF_LFR_Matchup1_Position {
         position: absolute;
         top: 0;
@@ -3366,4 +3626,13 @@
         top: 62%;
         left: 60%;
     }
+}
+
+.SF_celebrationContainer {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    opacity: 0.7;
+    filter: grayscale(50%);
+    border: 3px solid red;
 }
