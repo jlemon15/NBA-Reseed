@@ -1162,10 +1162,10 @@
         position: absolute;
         top: -31%;
         left: -40%;
-        border-top: 0px solid white;
-        border-right: 2px solid white;
-        border-bottom: 2px solid white;
-        border-left: 2px solid white;
+        border-top: 0px solid silver;
+        border-right: 2px solid silver;
+        border-bottom: 2px solid silver;
+        border-left: 2px solid silver;
         width: 180%;
         height: 77%;
         z-index: -3;
@@ -1175,10 +1175,10 @@
         position: absolute;
         top: -42%;
         left: -58%;
-        border-top: 0px solid white;
-        border-right: 2px solid white;
-        border-bottom: 2px solid white;
-        border-left: 2px solid white;
+        border-top: 0px solid silver;
+        border-right: 2px solid silver;
+        border-bottom: 2px solid silver;
+        border-left: 2px solid silver;
         width: 215%;
         height: 90%;
         z-index: -2;
@@ -1188,10 +1188,10 @@
         position: absolute;
         top: -72%;
         left: -60%;
-        border-top: 0px solid white;
-        border-right: 2px solid white;
-        border-bottom: 0px solid white;
-        border-left: 0px solid white;
+        border-top: 0px solid silver;
+        border-right: 2px solid silver;
+        border-bottom: 0px solid silver;
+        border-left: 0px solid silver;
         width: 110.5%;
         height: 280%;
         z-index: -2;
@@ -1201,10 +1201,10 @@
         position: absolute;
         top: 48%;
         left: -40%;
-        border-top: 2px solid white;
-        border-right: 2px solid white;
-        border-bottom: 0px solid white;
-        border-left: 2px solid white;
+        border-top: 2px solid silver;
+        border-right: 2px solid silver;
+        border-bottom: 0px solid silver;
+        border-left: 2px solid silver;
         width: 180%;
         height: 105%;
     }
@@ -1213,10 +1213,10 @@
         position: absolute;
         top: 48%;
         left: -40%;
-        border-top: 2px solid white;
-        border-right: 2px solid white;
-        border-bottom: 0px solid white;
-        border-left: 2px solid white;
+        border-top: 2px solid silver;
+        border-right: 2px solid silver;
+        border-bottom: 0px solid silver;
+        border-left: 2px solid silver;
         width: 180%;
         height: 105%;
     }
@@ -1225,10 +1225,10 @@
         position: absolute;
         top: 41%;
         left: -58%;
-        border-top: 2px solid white;
-        border-right: 2px solid white;
-        border-bottom: 0px solid white;
-        border-left: 2px solid white;
+        border-top: 2px solid silver;
+        border-right: 2px solid silver;
+        border-bottom: 0px solid silver;
+        border-left: 2px solid silver;
         width: 215%;
         height: 90%;
         z-index: -2;
@@ -1817,10 +1817,10 @@
         position: absolute;
         top: -31%;
         left: -40%;
-        border-top: 0px solid white;
-        border-right: 2px solid white;
-        border-bottom: 2px solid white;
-        border-left: 2px solid white;
+        border-top: 0px solid silver;
+        border-right: 2px solid silver;
+        border-bottom: 2px solid silver;
+        border-left: 2px solid silver;
         width: 180%;
         height: 77%;
         z-index: -3;
@@ -1830,10 +1830,10 @@
         position: absolute;
         top: -42%;
         left: -58%;
-        border-top: 0px solid white;
-        border-right: 2px solid white;
-        border-bottom: 2px solid white;
-        border-left: 2px solid white;
+        border-top: 0px solid silver;
+        border-right: 2px solid silver;
+        border-bottom: 2px solid silver;
+        border-left: 2px solid silver;
         width: 215%;
         height: 90%;
         z-index: -2;
@@ -1856,10 +1856,10 @@
         position: absolute;
         top: 48%;
         left: -40%;
-        border-top: 2px solid white;
-        border-right: 2px solid white;
-        border-bottom: 0px solid white;
-        border-left: 2px solid white;
+        border-top: 2px solid silver;
+        border-right: 2px solid silver;
+        border-bottom: 0px solid silver;
+        border-left: 2px solid silver;
         width: 180%;
         height: 105%;
     }
@@ -1868,10 +1868,10 @@
         position: absolute;
         top: 48%;
         left: -40%;
-        border-top: 2px solid white;
-        border-right: 2px solid white;
-        border-bottom: 0px solid white;
-        border-left: 2px solid white;
+        border-top: 2px solid silver;
+        border-right: 2px solid silver;
+        border-bottom: 0px solid silver;
+        border-left: 2px solid silver;
         width: 180%;
         height: 105%;
     }
@@ -1880,10 +1880,10 @@
         position: absolute;
         top: 41%;
         left: -58%;
-        border-top: 2px solid white;
-        border-right: 2px solid white;
-        border-bottom: 0px solid white;
-        border-left: 2px solid white;
+        border-top: 2px solid silver;
+        border-right: 2px solid silver;
+        border-bottom: 0px solid silver;
+        border-left: 2px solid silver;
         width: 215%;
         height: 90%;
         z-index: -2;
@@ -2490,14 +2490,14 @@
 
     .L_SemiLine {
         position: absolute;
-        top: -283%;
+        top: -260%;
         left: -58%;
         border-top: 2px solid white;
         border-right: 2px solid white;
         border-bottom: 2px solid white;
         border-left: 0px solid white;
         width: 109%;
-        height: 402%;
+        height: 382%;
         z-index: -2;
     }
 
@@ -2512,6 +2512,7 @@
         width: 200.5%;
         height: 280%;
         z-index: -12;
+        opacity: .6;
     }
 
     .RFR_Line1 {
@@ -2524,6 +2525,7 @@
         border-left: 2px solid white;
         width: 90%;
         height: 224%;
+        z-index: -1;
     }
 
     .RFR_Line2 {
@@ -2536,18 +2538,19 @@
         border-left: 2px solid white;
         width: 90%;
         height: 224%;
+        z-index: -1;
     }
 
     .R_SemiLine {
         position: absolute;
-        top: -283%;
-        left: 49%;
+        top: -260%;
+        left: 48%;
         border-top: 2px solid white;
         border-right: 0px solid white;
         border-bottom: 2px solid white;
         border-left: 2px solid white;
         width: 109%;
-        height: 402%;
+        height: 382%;
         z-index: -2;
     }
 
