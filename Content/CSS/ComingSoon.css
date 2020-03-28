@@ -32,6 +32,11 @@
         margin: 0;
     }
 
+    .silverQuote a {
+        text-decoration: underline;
+        text-decoration-color: goldenrod;
+    }
+
     /* Blockquote right double quotes */
     .silverQuote:after {
         position: absolute;

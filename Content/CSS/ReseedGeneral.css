@@ -18,6 +18,15 @@ p {
 }
 
 
+span a {
+    text-decoration: underline !important;
+    text-decoration-color: #dab63c;
+}
+
+table {
+    font-family: 'Montserrat';
+}
+
 .reseedGroup {
     position: absolute;
 }
@@ -40,6 +49,32 @@ p {
     /* border: 2px solid white; */
 }
 
+.divisionHead {
+    text-align: center !important;
+    background-color: #dab63c !important;
+}
+
+.GroupStageLogo{
+    width: 30px;
+    height: 30px;
+    display: inline-block
+}
+
+.GroupStageLogo img {
+    max-height: 100%;
+}
+
+
+.NameAndLogo {
+    display: inline-block;
+}
+
+td img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .divSeed {
     position: absolute;
 }
@@ -57,6 +92,21 @@ p {
         text-decoration: underline;
         text-decoration-color: #dab63c;
     }
+
+.MidSeasonTournament {
+    /* position: absolute; */
+    display: inline;
+}
+
+    .MidSeasonTournament h1 {
+        font-family: 'Teko';
+        font-size: 30px;
+        margin: 0 auto;
+        font-weight: 100;
+        text-decoration: underline;
+        text-decoration-color: #dab63c;
+    }
+
 
 .btn-groupJBL {
     /* position:absolute; */

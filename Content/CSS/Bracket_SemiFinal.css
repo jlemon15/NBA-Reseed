@@ -72,7 +72,31 @@
             /*! text-shadow: black; */
         }
 
+    .SF_WPI_Line {
+        position: absolute;
+        top: -32%;
+        left: -40%;
+        border-top: 0px solid silver;
+        border-right: 2px solid silver;
+        border-bottom: 2px solid silver;
+        border-left: 2px solid silver;
+        width: 180%;
+        height: 77%;
+        z-index: -1;
+    }
 
+    .SF_EPI_Line {
+        position: absolute;
+        top: -32%;
+        left: -42%;
+        border-top: 0px solid silver;
+        border-right: 2px solid silver;
+        border-bottom: 2px solid silver;
+        border-left: 2px solid silver;
+        width: 180%;
+        height: 77%;
+        z-index: -1;
+    }
 
     .SF_statPlacement {
         position: absolute;
@@ -783,7 +807,7 @@
 
         .SF_EastPlayin h1 {
             font-family: 'Teko';
-            font-size: 5vw;
+            font-size: 30px;
             text-decoration: underline;
             text-decoration-color: #daa520;
             font-weight: normal;
@@ -800,7 +824,7 @@
 
         .SF_WestPlayin h1 {
             font-family: 'Teko';
-            font-size: 5vw;
+            font-size: 30px;
             text-decoration: underline;
             text-decoration-color: #daa520;
             font-weight: normal;
@@ -828,6 +852,31 @@
         }
 
 
+    .SF_WPI_Line {
+        position: absolute;
+        top: -33%;
+        left: -40%;
+        border-top: 0px solid silver;
+        border-right: 2px solid silver;
+        border-bottom: 2px solid silver;
+        border-left: 2px solid silver;
+        width: 180%;
+        height: 77%;
+        z-index: -1;
+    }
+
+    .SF_EPI_Line {
+        position: absolute;
+        top: -33%;
+        left: -42%;
+        border-top: 0px solid silver;
+        border-right: 2px solid silver;
+        border-bottom: 2px solid silver;
+        border-left: 2px solid silver;
+        width: 180%;
+        height: 77%;
+        z-index: -1;
+    }
 
 
     .SF_celebrationImage img {
@@ -1527,7 +1576,7 @@
 
     .SF_EastPlayin {
         position: absolute;
-        top: 0%;
+        top: -1%;
         padding-bottom: 55px;
         right: 0%;
         /* font-style: italic; */
@@ -1535,7 +1584,7 @@
 
         .SF_EastPlayin h1 {
             font-family: 'Teko';
-            font-size: 4vw;
+            font-size: 33px;
             text-decoration: underline;
             text-decoration-color: #daa520;
             font-weight: normal;
@@ -1544,7 +1593,7 @@
 
     .SF_WestPlayin {
         position: absolute;
-        top: 0%;
+        top: -1%;
         padding-bottom: 55px;
         left: 0%;
         /* font-style: italic; */
@@ -1552,7 +1601,7 @@
 
         .SF_WestPlayin h1 {
             font-family: 'Teko';
-            font-size: 4vw;
+            font-size: 33px;
             text-decoration: underline;
             text-decoration-color: #daa520;
             font-weight: normal;
@@ -1562,7 +1611,7 @@
 
     .SF_innerPlayoffTitle {
         position: absolute;
-        top: 39%;
+        top: 41%;
         /* padding-bottom: 55px; */
         left: 0%;
         /* width: 50%; */
@@ -1572,12 +1621,38 @@
 
         .SF_innerPlayoffTitle h1 {
             font-family: 'Teko';
-            font-size: 4vw;
+            font-size: 40px;
             text-decoration: underline;
             text-decoration-color: #daa520;
             font-weight: normal;
             /*! text-shadow: black; */
         }
+
+    .SF_WPI_Line {
+        position: absolute;
+        top: -81%;
+        left: -40%;
+        border-top: 0px solid silver;
+        border-right: 2px solid silver;
+        border-bottom: 2px solid silver;
+        border-left: 2px solid silver;
+        width: 180%;
+        height: 105%;
+        /* z-index: -1; */
+    }
+
+    .SF_EPI_Line {
+        position: absolute;
+        top: -81%;
+        left: -40%;
+        border-top: 0px solid silver;
+        border-right: 2px solid silver;
+        border-bottom: 2px solid silver;
+        border-left: 2px solid silver;
+        width: 180%;
+        height: 105%;
+        z-index: -1;
+    }
 
 
     .SF_celebrationImage img {
@@ -2143,39 +2218,39 @@
 
     .SF_WPI_Matchup1_Position {
         position: absolute;
-        top: 7%;
+        top: 3%;
         left: 0%;
     }
 
     .SF_WPI_Matchup2_Position {
         position: absolute;
-        top: 21%;
-        left: 0%;
+        top: 3%;
+        left: 25%;
     }
 
     .SF_WPI_Final_Position {
         position: absolute;
-        top: 14%;
-        left: 13.5%;
+        top: 13%;
+        left: 12.5%;
     }
 
     .SF_EPI_Matchup1_Position {
         position: absolute;
-        top: 7%;
-        right: 0%;
+        top: 3%;
+        right: 25%;
     }
 
     .SF_EPI_Matchup2_Position {
         position: absolute;
-        top: 21%;
+        top: 3%;
         right: 0%;
     }
 
     .SF_EPI_Final_Position {
         /* right: 0%; */
         position: absolute;
-        top: 14%;
-        right: 14%;
+        top: 13%;
+        right: 12.5%;
     }
 
 
@@ -2276,6 +2351,66 @@
 
 @media only screen and (min-width: 992px) {
 
+    .SF_EastPlayin {
+        position: absolute;
+        top: 2%;
+        padding-bottom: 55px;
+        right: 0%;
+        /* font-style: italic; */
+    }
+
+        .SF_EastPlayin h1 {
+            font-family: 'Teko';
+            font-size: 30px;
+            text-decoration: underline;
+            text-decoration-color: #daa520;
+            font-weight: normal;
+            /*! text-shadow: black; */
+        }
+
+    .SF_WestPlayin {
+        position: absolute;
+        top: 2%;
+        padding-bottom: 55px;
+        left: 0%;
+        /* font-style: italic; */
+    }
+
+        .SF_WestPlayin h1 {
+            font-family: 'Teko';
+            font-size: 30px;
+            text-decoration: underline;
+            text-decoration-color: #daa520;
+            font-weight: normal;
+            /*! text-shadow: black; */
+        }
+
+    .SF_WPI_Line {
+        position: absolute;
+        top: -61%;
+        left: -40%;
+        border-top: 2px solid white;
+        border-right: 2px solid white;
+        border-bottom: 2px solid white;
+        border-left: 0px solid white;
+        width: 90%;
+        height: 224%;
+        z-index: -1;
+    }
+
+    .SF_EPI_Line {
+        position: absolute;
+        top: -61%;
+        left: 48%;
+        border-top: 2px solid white;
+        border-right: 0px solid white;
+        border-bottom: 2px solid white;
+        border-left: 2px solid white;
+        width: 90%;
+        height: 224%;
+        z-index: -1;
+    }
+
     .SF_celebrationImage img {
         width: 100%;
         filter: grayscale(50%);
@@ -2324,7 +2459,7 @@
         height: 770px;
         margin-bottom: 18%;
         margin-top: 7%;
-        border: 1px solid white;
+        /* border: 1px solid white; */
     }
 
     /****************       Matchup Data       ****************/
@@ -2843,6 +2978,44 @@
 
 
     /****************   Matchup Positioning      ****************/
+
+    .SF_WPI_Matchup1_Position {
+        position: absolute;
+        top: 7%;
+        left: 0%;
+    }
+
+    .SF_WPI_Matchup2_Position {
+        position: absolute;
+        top: 21%;
+        left: 0%;
+    }
+
+    .SF_WPI_Final_Position {
+        position: absolute;
+        top: 14%;
+        left: 13.5%;
+    }
+
+    .SF_EPI_Matchup1_Position {
+        position: absolute;
+        top: 7%;
+        right: 0%;
+    }
+
+    .SF_EPI_Matchup2_Position {
+        position: absolute;
+        top: 21%;
+        right: 0%;
+    }
+
+    .SF_EPI_Final_Position {
+        /* right: 0%; */
+        position: absolute;
+        top: 14%;
+        right: 14%;
+    }
+
     .SF_LFR_Matchup1_Position {
         position: absolute;
         top: 46%;
@@ -2940,25 +3113,88 @@
 
 @media only screen and (min-width: 1200px) {
 
+    .SF_EastPlayin {
+        position: absolute;
+        top: 3%;
+        padding-bottom: 55px;
+        right: 0%;
+        /* font-style: italic; */
+    }
+
+        .SF_EastPlayin h1 {
+            font-family: 'Teko';
+            font-size: 30px;
+            text-decoration: underline;
+            text-decoration-color: #daa520;
+            font-weight: normal;
+            /*! text-shadow: black; */
+        }
+
+    .SF_WestPlayin {
+        position: absolute;
+        top: 3%;
+        padding-bottom: 55px;
+        left: 0%;
+        /* font-style: italic; */
+    }
+
+        .SF_WestPlayin h1 {
+            font-family: 'Teko';
+            font-size: 30px;
+            text-decoration: underline;
+            text-decoration-color: #daa520;
+            font-weight: normal;
+            /*! text-shadow: black; */
+        }
+
+    .SF_WPI_Line {
+        position: absolute;
+        top: -68%;
+        left: -39%;
+        border-top: 2px solid white;
+        border-right: 2px solid white;
+        border-bottom: 2px solid white;
+        border-left: 0px solid white;
+        width: 90%;
+        height: 224%;
+        z-index: -1;
+    }
+
+    .SF_EPI_Line {
+        position: absolute;
+        top: -68%;
+        left: 49%;
+        border-top: 2px solid white;
+        border-right: 0px solid white;
+        border-bottom: 2px solid white;
+        border-left: 2px solid white;
+        width: 90%;
+        height: 224%;
+        z-index: -1;
+    }
+
     .SF_celebrationImage img {
         width: 100%;
         filter: grayscale(50%);
         opacity: 0.7;
-        object-fit: cover;
+        object-fit: contain;
         position: absolute;
         visibility: visible;
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
     }
 
     .SF_playoffTitle {
         position: absolute;
-        top: -56px;
+        top: -46px;
         padding-bottom: 55px;
         left: 6px;
     }
 
         .SF_playoffTitle h1 {
             font-family: 'Teko';
-            font-size: 52px;
+            font-size: 49px;
             text-decoration: underline;
             text-decoration-color: goldenrod;
             font-weight: normal;
@@ -2972,7 +3208,7 @@
         height: 98%;
         position: relative;
         left: 50%;
-        top: 50%;
+        top: 49.7%;
         transform: translate(-50%, -50%);
     }
 
@@ -2982,10 +3218,10 @@
         position: relative;
         background-color: black;
         width: 100%;
-        height: 620px;
-        margin-bottom: 16%;
-        margin-top: 6%;
-        /* border-top: 1px solid white; */
+        height: 960px;
+        margin-bottom: 18%;
+        margin-top: 7%;
+        /* border: 1px solid white; */
     }
 
     /****************       Matchup Data       ****************/
@@ -3008,7 +3244,7 @@
     .SF_Team2_Seed {
         position: absolute;
         top: -5%;
-        left: 89%;
+        left: 88%;
         color: black;
         opacity: .6;
         z-index: 1;
@@ -3022,7 +3258,7 @@
 
     .SF_TeamName_1 {
         position: absolute;
-        top: 75%;
+        top: 72%;
         left: 3%;
         z-index: 1;
     }
@@ -3037,7 +3273,7 @@
 
     .SF_TeamName_2 {
         position: absolute;
-        top: 75%;
+        top: 72%;
         left: 68%;
         z-index: 1;
     }
@@ -3052,7 +3288,7 @@
 
     .SF_Team1_WinPCT {
         position: absolute;
-        top: 52%;
+        top: 50%;
         left: 3%;
         width: 65%;
         z-index: 1;
@@ -3069,8 +3305,8 @@
 
     .SF_Team2_WinPCT {
         position: absolute;
-        top: 52%;
-        left: 75%;
+        top: 50%;
+        left: 71%;
         width: 65%;
         z-index: 1;
     }
@@ -3079,12 +3315,12 @@
             text-align: left;
             font-weight: 700;
             font-family: 'Montserrat';
-            font-size: 88%;
+            font-size: 85%;
         }
 
     .SF_Team1_SeriesCount {
         position: absolute;
-        top: 75%;
+        top: 72%;
         left: 38%;
         z-index: 1;
     }
@@ -3098,7 +3334,7 @@
 
     .SF_RecordDash {
         position: absolute;
-        top: 75%;
+        top: 71%;
         left: 48%;
         z-index: 1;
     }
@@ -3112,7 +3348,7 @@
 
     .SF_Team2_SeriesCount {
         position: absolute;
-        top: 75%;
+        top: 72%;
         left: 55%;
         z-index: 1;
     }
@@ -3162,7 +3398,7 @@
 
     .SF_TeamName_1_Finals {
         position: absolute;
-        top: 75%;
+        top: 73%;
         left: 3%;
         z-index: 1;
     }
@@ -3176,7 +3412,7 @@
 
     .SF_TeamName_2_Finals {
         position: absolute;
-        top: 75%;
+        top: 73%;
         left: 76%;
         text-align: right;
         font-weight: 700;
@@ -3225,7 +3461,7 @@
 
     .SF_Team1_SeriesCount_Finals {
         position: absolute;
-        top: 75%;
+        top: 73%;
         left: 41%;
         z-index: 1;
     }
@@ -3239,7 +3475,7 @@
 
     .SF_Team2_SeriesCount_Finals {
         position: absolute;
-        top: 75%;
+        top: 73%;
         left: 54%;
         z-index: 1;
     }
@@ -3253,7 +3489,7 @@
 
     .SF_RecordDash_Finals {
         position: absolute;
-        top: 75%;
+        top: 73%;
         left: 48.5%;
         z-index: 1;
     }
@@ -3338,11 +3574,11 @@
     .SF_MR_Team2 {
         /*background: linear-gradient(90deg, silver 50%, #D3D3D3 5%);*/
         position: absolute;
-        top: 0;
+        top: 1%;
         background-color: white;
         width: 50%;
         height: 75%;
-        border: .5px solid silver
+        border: .5px solid silver;
     }
 
     .SF_MR_TeamDetail {
@@ -3358,7 +3594,7 @@
     .SF_MR_LogoContainer_Team1 {
         position: absolute;
         top: 3%;
-        right: 53.5%;
+        right: 49.5%;
         height: 49%;
         width: 37%;
     }
@@ -3376,7 +3612,7 @@
         position: absolute;
         top: 3%;
         right: 56.5%;
-        height: 57%;
+        height: 60%;
         width: 31%;
     }
 
@@ -3384,7 +3620,7 @@
         position: absolute;
         top: 3%;
         right: 7.5%;
-        height: 57%;
+        height: 60%;
         width: 31%;
     }
 
@@ -3407,7 +3643,7 @@
 
     .SF_LFR_Line1 {
         position: absolute;
-        top: -62%;
+        top: -61%;
         left: -40%;
         border-top: 2px solid silver;
         border-right: 2px solid silver;
@@ -3420,7 +3656,7 @@
 
     .SF_LFR_Line2 {
         position: absolute;
-        top: -62%;
+        top: -61%;
         left: -40%;
         border-top: 2px solid silver;
         border-right: 2px solid silver;
@@ -3433,14 +3669,14 @@
 
     .SF_L_SemiLine {
         position: absolute;
-        top: -272%;
+        top: -259%;
         left: -58%;
         border-top: 2px solid white;
         border-right: 2px solid white;
         border-bottom: 2px solid white;
         border-left: 0px solid white;
         width: 109%;
-        height: 441%;
+        height: 380%;
         z-index: -2;
     }
 
@@ -3467,6 +3703,7 @@
         border-left: 2px solid white;
         width: 90%;
         height: 224%;
+        z-index: -1;
     }
 
     .SF_RFR_Line2 {
@@ -3479,130 +3716,138 @@
         border-left: 2px solid white;
         width: 90%;
         height: 224%;
+        z-index: -1;
     }
 
     .SF_R_SemiLine {
         position: absolute;
-        top: -276%;
-        left: 49%;
+        top: -259%;
+        left: 48%;
         border-top: 2px solid white;
         border-right: 0px solid white;
         border-bottom: 2px solid white;
         border-left: 2px solid white;
         width: 109%;
-        height: 441%;
+        height: 380%;
         z-index: -2;
     }
+
+
+
+
+
+
+
 
     /****************   Matchup Positioning      ****************/
 
     .SF_WPI_Matchup1_Position {
         position: absolute;
-        top: 0;
-        left: -4px;
+        top: 7%;
+        left: 0%;
     }
 
     .SF_WPI_Matchup2_Position {
         position: absolute;
-        top: 25%;
+        top: 24%;
         left: 0%;
     }
 
     .SF_WPI_Final_Position {
         position: absolute;
-        top: 13%;
+        top: 16%;
         left: 13.5%;
     }
 
     .SF_EPI_Matchup1_Position {
         position: absolute;
-        top: 0;
-        left: -4px;
+        top: 7%;
+        right: 0%;
     }
 
     .SF_EPI_Matchup2_Position {
         position: absolute;
-        top: 25%;
-        left: 0%;
+        top: 24%;
+        right: 0%;
     }
 
     .SF_EPI_Final_Position {
+        /* right: 0%; */
         position: absolute;
-        top: 13%;
-        left: 13.5%;
+        top: 16%;
+        right: 14%;
     }
-
 
     .SF_LFR_Matchup1_Position {
         position: absolute;
-        top: 0;
-        left: -4px;
+        top: 46%;
+        left: 0%;
     }
 
     .SF_LFR_Matchup2_Position {
         position: absolute;
-        top: 25%;
+        top: 60.5%;
         left: 0%;
     }
 
     .SF_LFR_Matchup3_Position {
         position: absolute;
-        top: 63%;
+        top: 76.5%;
         left: 0%;
     }
 
     .SF_LFR_Matchup4_Position {
         position: absolute;
-        top: 86%;
+        top: 92%;
         left: 0%;
     }
 
     .SF_L_QF1_Position {
         position: absolute;
-        top: 13%;
+        top: 53%;
         left: 13.5%;
     }
 
     .SF_L_QF2_Position {
         position: absolute;
-        top: 75%;
+        top: 84%;
         left: 13.5%;
     }
 
     .SF_L_Semi_Position {
         position: absolute;
-        top: 62%;
+        top: 80%;
         left: 28%;
     }
 
     .SF_Finals_Position {
         position: absolute;
-        top: 62%;
+        top: 80%;
         left: 50%;
         margin: auto;
     }
 
     .SF_RFR_Matchup1_Position {
         position: absolute;
-        top: 0%;
+        top: 46%;
         left: 88%;
     }
 
     .SF_RFR_Matchup2_Position {
         position: absolute;
-        top: 25%;
+        top: 60.6%;
         left: 88%;
     }
 
     .SF_RFR_Matchup3_Position {
         position: absolute;
-        top: 63%;
+        top: 76.5%;
         left: 88%;
     }
 
     .SF_RFR_Matchup4_Position {
         position: absolute;
-        top: 86%;
+        top: 92%;
         left: 88%;
     }
 
@@ -3610,20 +3855,20 @@
 
     .SF_R_QF1_Position {
         position: absolute;
-        top: 13%;
-        left: 73.5%;
+        top: 53%;
+        left: 74.5%;
     }
 
     .SF_R_QF2_Position {
         position: absolute;
-        top: 75%;
-        left: 73.5%;
+        top: 84%;
+        left: 74.5%;
     }
 
 
     .SF_R_Semi_Position {
         position: absolute;
-        top: 62%;
+        top: 80%;
         left: 60%;
     }
 }
