@@ -26,7 +26,7 @@
         left: 0%;
     }
 
-    .celebrationImage img {
+    .NBAcup_celebrationImage img {
         width: 100%;
         filter: grayscale(50%);
         opacity: 0.7;
@@ -48,12 +48,12 @@
             /*! text-shadow: black; */
         }
 
-    .bracketContainer {
+    .NBAcup_bracketContainer {
         /*background-color: #FF4136;*/
         width: 98%;
         height: 98%;
         position: relative;
-        left: 50%;
+        left: 60%;
         top: 50%;
         transform: translate(-50%, -50%);
     }
@@ -64,10 +64,10 @@
         position: relative;
         background-color: black;
         width: 100%;
-        height: 115vmin;
+        height: 95vmin;
         margin-top: 0%;
-        margin-bottom: 14vh;
-        /*border-top: 1px solid white;*/
+        margin-bottom: 0%;
+        border: 1px solid white;
     }
 
     /****************       Matchup Data       ****************/
@@ -361,7 +361,7 @@
 
     /*Trophy command Victory Containers*/
 
-    .victoryImageContainer {
+    .NBAcup_victoryImageContainer {
         position: absolute;
         border: 1px solid black;
         top: 20%;
@@ -372,19 +372,19 @@
         z-index: -5;
     }
 
-        .victoryImageContainer img {
+        .NBAcup_victoryImageContainer img {
             width: 100%;
             object-fit: contain;
             opacity: 0.4;
         }
 
 
-    .trophyContainer {
+    .NBAcup_trophyContainer {
         /*border: 2px solid black;*/
         position: absolute;
-        bottom: -60%;
-        left: 37%;
-        width: 22.5%;
+        bottom: -19%;
+        left: 26%;
+        width: 46.5%;
         height: 206%;
     }
 
@@ -511,22 +511,22 @@
         z-index: -3;
     }
 
-    .L_SemiLine {
+    .NBAcup_L_SemiLine {
         position: absolute;
         top: -42%;
-        left: -58%;
+        left: -64%;
         border-top: 0px solid silver;
         border-right: 2px solid silver;
         border-bottom: 2px solid silver;
         border-left: 2px solid silver;
-        width: 215%;
+        width: 226%;
         height: 90%;
         z-index: -2;
     }
 
-    .Finals_Line {
+    .NBAcup_Finals_Line {
         position: absolute;
-        top: -72%;
+        top: -92%;
         left: -60%;
         border-top: 0px solid white;
         border-right: 2px solid white;
@@ -561,15 +561,15 @@
         height: 105%;
     }
 
-    .R_SemiLine {
+    .NBAcup_R_SemiLine {
         position: absolute;
-        top: 41%;
-        left: -58%;
+        top: 37%;
+        left: -64%;
         border-top: 2px solid silver;
         border-right: 2px solid silver;
         border-bottom: 0px solid silver;
         border-left: 2px solid silver;
-        width: 215%;
+        width: 226%;
         height: 90%;
         z-index: -2;
     }
@@ -582,103 +582,54 @@
 
 
     /****************   Matchup Positioning      ****************/
-    .LFR_Matchup1_Position {
+
+    .L_M1_Position {
         position: absolute;
         top: 0%;
-        left: 0px;
+        left: 0%;
     }
 
-    .LFR_Matchup2_Position {
+    .L_M2_Position {
         position: absolute;
         top: 0%;
-        left: 25%;
+        left: 53.5%;
     }
 
-    .LFR_Matchup3_Position {
+    .NBAcup_L_Semi_Position {
         position: absolute;
-        top: 0px;
-        left: 51%;
+        top: 18%;
+        left: 27%;
     }
 
-    .LFR_Matchup4_Position {
+    .NBAcup_Finals_Position {
         position: absolute;
-        top: 0%;
-        left: 76%;
+        top: 44.5%;
+        left: 16.3%;
     }
 
-    .L_QF1_Position {
+    .R_M1_Position {
         position: absolute;
-        top: 14%;
-        left: 12.5%;
+        top: 85%;
+        left: 0%;
     }
 
-    .L_QF2_Position {
+    .R_M2_Position {
         position: absolute;
-        top: 15%;
-        left: 63.5%;
-    }
-
-    .L_Semi_Position {
-        position: absolute;
-        top: 28%;
-        left: 38%;
-    }
-
-    .Finals_Position {
-        position: absolute;
-        top: 46.5%;
-        left: 27.5%;
-    }
-
-    .RFR_Matchup1_Position {
-        position: absolute;
-        top: 89%;
-        left: 0px;
-    }
-
-    .RFR_Matchup2_Position {
-        position: absolute;
-        top: 89%;
-        left: 25%;
-    }
-
-    .RFR_Matchup3_Position {
-        position: absolute;
-        top: 89%;
-        left: 51%;
-    }
-
-    .RFR_Matchup4_Position {
-        position: absolute;
-        top: 89%;
-        left: 76%;
+        top: 85%;
+        left: 53.5%;
     }
 
 
-
-    .R_QF1_Position {
+    .NBAcup_R_Semi_Position {
         position: absolute;
-        top: 75%;
-        left: 12.5%;
-    }
-
-    .R_QF2_Position {
-        position: absolute;
-        top: 75%;
-        left: 63.5%;
-    }
-
-
-    .R_Semi_Position {
-        position: absolute;
-        top: 61%;
-        left: 38%;
+        top: 67%;
+        left: 27%;
     }
 }
 
 @media only screen and (min-width: 575px) {
 
-    .celebrationImage img {
+    .NBAcup_celebrationImage img {
         width: 100%;
         filter: grayscale(50%);
         opacity: 0.7;
@@ -701,12 +652,12 @@
         }
 
 
-    .bracketContainer {
+    .NBAcup_bracketContainer {
         /*background-color: #FF4136;*/
         width: 98%;
         height: 98%;
         position: relative;
-        left: 50%;
+        left: 64%;
         top: 50%;
         transform: translate(-50%, -50%);
     }
@@ -717,10 +668,10 @@
         position: relative;
         background-color: black;
         width: 100%;
-        height: 630px;
-        margin-bottom: 30%;
+        height: 550px;
+        margin-bottom: 0%;
         margin-top: 0%;
-        /*border-top: 1px solid white;*/
+        /* border: 1px solid white; */
     }
 
     /****************       Matchup Data       ****************/
@@ -1014,7 +965,7 @@
 
     /*Trophy command Victory Containers*/
 
-    .victoryImageContainer {
+    .NBAcup_victoryImageContainer {
         position: absolute;
         border: 1px solid black;
         top: 20%;
@@ -1025,18 +976,18 @@
         z-index: -5;
     }
 
-        .victoryImageContainer img {
+        .NBAcup_victoryImageContainer img {
             width: 100%;
             object-fit: contain;
             opacity: 0.4;
         }
 
-    .trophyContainer {
+    .NBAcup_trophyContainer {
         /*border: 2px solid black;*/
         position: absolute;
-        bottom: -60%;
-        left: 37%;
-        width: 22.5%;
+        bottom: -26%;
+        left: 28%;
+        width: 43.5%;
         height: 206%;
     }
 
@@ -1163,22 +1114,22 @@
         z-index: -3;
     }
 
-    .L_SemiLine {
+    .NBAcup_L_SemiLine {
         position: absolute;
         top: -42%;
-        left: -58%;
+        left: -56%;
         border-top: 0px solid silver;
         border-right: 2px solid silver;
         border-bottom: 2px solid silver;
         border-left: 2px solid silver;
-        width: 215%;
+        width: 212%;
         height: 90%;
         z-index: -2;
     }
 
-    .Finals_Line {
+    .NBAcup_Finals_Line {
         position: absolute;
-        top: -72%;
+        top: -94%;
         left: -60%;
         border-top: 0px solid silver;
         border-right: 2px solid silver;
@@ -1213,7 +1164,7 @@
         height: 105%;
     }
 
-    .R_SemiLine {
+    .NBAcup_R_SemiLine {
         position: absolute;
         top: 41%;
         left: -58%;
@@ -1234,102 +1185,52 @@
 
 
     /****************   Matchup Positioning      ****************/
-    .LFR_Matchup1_Position {
+
+    .L_M1_Position {
         position: absolute;
         top: 0%;
-        left: 0px;
+        left: 0%;
     }
 
-    .LFR_Matchup2_Position {
+    .L_M2_Position {
         position: absolute;
         top: 0%;
-        left: 25%;
+        left: 50.5%;
     }
 
-    .LFR_Matchup3_Position {
+    .NBAcup_L_Semi_Position {
         position: absolute;
-        top: 0px;
-        left: 51%;
+        top: 18%;
+        left: 25.1%;
     }
 
-    .LFR_Matchup4_Position {
+    .NBAcup_Finals_Position {
         position: absolute;
-        top: 0%;
-        left: 76%;
+        top: 45%;
+        left: 14.5%;
     }
 
-    .L_QF1_Position {
+    .R_M1_Position {
         position: absolute;
-        top: 14%;
-        left: 12.5%;
+        top: 85%;
+        left: 0%;
     }
 
-    .L_QF2_Position {
+    .R_M2_Position {
         position: absolute;
-        top: 14%;
-        left: 63.5%;
+        top: 85%;
+        left: 50.5%;
     }
 
-    .L_Semi_Position {
+    .NBAcup_R_Semi_Position {
         position: absolute;
-        top: 28%;
-        left: 38%;
-    }
-
-    .Finals_Position {
-        position: absolute;
-        top: 46%;
-        left: 27.5%;
-    }
-
-    .RFR_Matchup1_Position {
-        position: absolute;
-        top: 89%;
-        left: 0px;
-    }
-
-    .RFR_Matchup2_Position {
-        position: absolute;
-        top: 89%;
-        left: 25%;
-    }
-
-    .RFR_Matchup3_Position {
-        position: absolute;
-        top: 89%;
-        left: 51%;
-    }
-
-    .RFR_Matchup4_Position {
-        position: absolute;
-        top: 89%;
-        left: 76%;
-    }
-
-
-
-    .R_QF1_Position {
-        position: absolute;
-        top: 75%;
-        left: 12.5%;
-    }
-
-    .R_QF2_Position {
-        position: absolute;
-        top: 75%;
-        left: 63.5%;
-    }
-
-
-    .R_Semi_Position {
-        position: absolute;
-        top: 61%;
-        left: 38%;
+        top: 67%;
+        left: 25.1%;
     }
 }
 
 @media only screen and (min-width: 764px) {
-    .celebrationImage img {
+    .NBAcup_celebrationImage img {
         width: 100%;
         filter: grayscale(50%);
         opacity: 0.7;
@@ -1351,12 +1252,12 @@
         }
 
 
-    .bracketContainer {
+    .NBAcup_bracketContainer {
         /*background-color: #FF4136;*/
         width: 98%;
         height: 98%;
         position: relative;
-        left: 50%;
+        left: 63%;
         top: 50%;
         transform: translate(-50%, -50%);
     }
@@ -1367,10 +1268,10 @@
         position: relative;
         background-color: black;
         width: 100%;
-        height: 840px;
-        margin-bottom: 16vh;
+        height: 680px;
+        margin-bottom: 0%;
         margin-top: 0%;
-        /*border-top: 1px solid white;*/
+        /* border: 1px solid white; */
     }
 
     /****************       Matchup Data       ****************/
@@ -1664,7 +1565,7 @@
 
     /*Trophy command Victory Containers*/
 
-    .victoryImageContainer {
+    .NBAcup_victoryImageContainer {
         position: absolute;
         border: 1px solid black;
         top: 20%;
@@ -1675,19 +1576,19 @@
         z-index: -5;
     }
 
-        .victoryImageContainer img {
+        .NBAcup_victoryImageContainer img {
             width: 100%;
             object-fit: contain;
             opacity: 0.4;
         }
 
 
-    .trophyContainer {
+    .NBAcup_trophyContainer {
         /*border: 2px solid black;*/
         position: absolute;
-        bottom: -60%;
-        left: 41%;
-        width: 22.5%;
+        bottom: -57%;
+        left: 33%;
+        width: 34.5%;
         height: 206%;
     }
 
@@ -1814,20 +1715,20 @@
         z-index: -3;
     }
 
-    .L_SemiLine {
+    .NBAcup_L_SemiLine {
         position: absolute;
         top: -42%;
-        left: -58%;
+        left: -60%;
         border-top: 0px solid silver;
         border-right: 2px solid silver;
         border-bottom: 2px solid silver;
         border-left: 2px solid silver;
-        width: 215%;
+        width: 217%;
         height: 90%;
         z-index: -2;
     }
 
-    .Finals_Line {
+    .NBAcup_Finals_Line {
         position: absolute;
         top: -72%;
         left: -60%;
@@ -1864,15 +1765,15 @@
         height: 105%;
     }
 
-    .R_SemiLine {
+    .NBAcup_R_SemiLine {
         position: absolute;
         top: 41%;
-        left: -58%;
+        left: -60%;
         border-top: 2px solid silver;
         border-right: 2px solid silver;
         border-bottom: 0px solid silver;
         border-left: 2px solid silver;
-        width: 215%;
+        width: 217%;
         height: 90%;
         z-index: -2;
     }
@@ -1885,110 +1786,62 @@
 
 
     /****************   Matchup Positioning      ****************/
-    .LFR_Matchup1_Position {
+
+    .L_M1_Position {
         position: absolute;
         top: 0%;
-        left: 0px;
+        left: 0%;
     }
 
-    .LFR_Matchup2_Position {
+    .L_M2_Position {
         position: absolute;
         top: 0%;
-        left: 25%;
+        left: 51.7%;
     }
 
-    .LFR_Matchup3_Position {
+    .NBAcup_L_Semi_Position {
         position: absolute;
-        top: 0px;
-        left: 51%;
+        top: 19%;
+        left: 26%;
     }
 
-    .LFR_Matchup4_Position {
+    .NBAcup_Finals_Position {
         position: absolute;
-        top: 0%;
-        left: 76%;
-    }
-
-    .L_QF1_Position {
-        position: absolute;
-        top: 14%;
-        left: 12.5%;
-    }
-
-    .L_QF2_Position {
-        position: absolute;
-        top: 14%;
-        left: 63.5%;
-    }
-
-    .L_Semi_Position {
-        position: absolute;
-        top: 28%;
-        left: 38%;
-    }
-
-    .Finals_Position {
-        position: absolute;
-        top: 46%;
-        left: 27.5%;
-    }
-
-    .RFR_Matchup1_Position {
-        position: absolute;
-        top: 89%;
-        left: 0px;
-    }
-
-    .RFR_Matchup2_Position {
-        position: absolute;
-        top: 89%;
-        left: 25%;
-    }
-
-    .RFR_Matchup3_Position {
-        position: absolute;
-        top: 89%;
-        left: 51%;
-    }
-
-    .RFR_Matchup4_Position {
-        position: absolute;
-        top: 89%;
-        left: 76%;
+        top: 44%;
+        left: 15.4%;
     }
 
 
-
-    .R_QF1_Position {
+    .R_M1_Position {
         position: absolute;
-        top: 75%;
-        left: 12.5%;
+        top: 85%;
+        left: 0%;
     }
 
-    .R_QF2_Position {
+    .R_M2_Position {
         position: absolute;
-        top: 75%;
-        left: 63.5%;
+        top: 85%;
+        left: 51.7%;
     }
 
 
-    .R_Semi_Position {
+    .NBAcup_R_Semi_Position {
         position: absolute;
-        top: 61%;
-        left: 38%;
+        top: 66%;
+        left: 26%;
     }
 }
 
 
 @media only screen and (min-width: 992px) {
 
-    .celebrationImage img {
+    .NBAcup_celebrationImage img {
         width: 100%;
         filter: grayscale(50%);
         opacity: 0.7;
         object-fit: contain;
         position: absolute;
-        visibility: visible;
+        /* visibility: visible; */
         max-width: 100%;
         max-height: 100%;
         display: block;
@@ -2007,12 +1860,12 @@
         }
 
 
-    .bracketContainer {
+    .NBAcup_bracketContainer {
         /*background-color: #FF4136;*/
         width: 98%;
         height: 98%;
         position: relative;
-        left: 50%;
+        left: 62%;
         top: 50%;
         transform: translate(-50%, -50%);
     }
@@ -2023,10 +1876,10 @@
         position: relative;
         background-color: black;
         width: 100%;
-        height: 440px;
-        margin-bottom: 18%;
+        height: 340px;
+        margin-bottom: 0%;
         margin-top: 0%;
-        /* border-top: 1px solid white; */
+        /* border: 1px solid white; */
     }
 
     /****************       Matchup Data       ****************/
@@ -2320,7 +2173,7 @@
 
     /*Trophy command Victory Containers*/
 
-    .victoryImageContainer {
+    .NBAcup_victoryImageContainer {
         position: absolute;
         border: 1px solid black;
         top: 20%;
@@ -2332,19 +2185,19 @@
         visibility: hidden;
     }
 
-        .victoryImageContainer img {
+        .NBAcup_victoryImageContainer img {
             width: 100%;
             object-fit: contain;
             opacity: 0.4;
         }
 
 
-    .trophyContainer {
+    .NBAcup_trophyContainer {
         /*border: 2px solid black;*/
         position: absolute;
-        bottom: -49%;
-        left: 36%;
-        width: 34.5%;
+        bottom: -33%;
+        left: 22%;
+        width: 58.5%;
         height: 206%;
     }
 
@@ -2472,20 +2325,20 @@
         z-index: -3;
     }
 
-    .L_SemiLine {
+    .NBAcup_L_SemiLine {
         position: absolute;
-        top: -260%;
+        top: -131%;
         left: -58%;
         border-top: 2px solid white;
         border-right: 2px solid white;
         border-bottom: 2px solid white;
         border-left: 0px solid white;
         width: 109%;
-        height: 382%;
+        height: 345%;
         z-index: -2;
     }
 
-    .Finals_Line {
+    .NBAcup_Finals_Line {
         position: absolute;
         top: -232%;
         left: -13%;
@@ -2525,125 +2378,68 @@
         z-index: -1;
     }
 
-    .R_SemiLine {
+    .NBAcup_R_SemiLine {
         position: absolute;
-        top: -260%;
+        top: -131%;
         left: 48%;
         border-top: 2px solid white;
         border-right: 0px solid white;
         border-bottom: 2px solid white;
         border-left: 2px solid white;
         width: 109%;
-        height: 382%;
+        height: 345%;
         z-index: -2;
     }
 
 
-
-
-
-
-
-
     /****************   Matchup Positioning      ****************/
-    .LFR_Matchup1_Position {
+    .L_M1_Position {
         position: absolute;
         top: 3%;
         left: 0%;
     }
 
-    .LFR_Matchup2_Position {
+    .L_M2_Position {
         position: absolute;
-        top: 28%;
+        top: 77%;
         left: 0%;
     }
 
-    .LFR_Matchup3_Position {
+    .NBAcup_L_Semi_Position {
         position: absolute;
-        top: 56%;
-        left: 0%;
+        top: 41%;
+        left: 16%;
     }
 
-    .LFR_Matchup4_Position {
+    .NBAcup_Finals_Position {
         position: absolute;
-        top: 81%;
-        left: 0%;
-    }
-
-    .L_QF1_Position {
-        position: absolute;
-        top: 15%;
-        left: 13.5%;
-    }
-
-    .L_QF2_Position {
-        position: absolute;
-        top: 69%;
-        left: 13.5%;
-    }
-
-    .L_Semi_Position {
-        position: absolute;
-        top: 62%;
-        left: 28%;
-    }
-
-    .Finals_Position {
-        position: absolute;
-        top: 62%;
-        left: 50%;
+        top: 41%;
+        left: 38%;
         margin: auto;
     }
 
-    .RFR_Matchup1_Position {
+    .R_M1_Position {
         position: absolute;
         top: 3%;
-        left: 88%;
+        left: 64.5%;
     }
 
-    .RFR_Matchup2_Position {
+    .R_M2_Position {
         position: absolute;
-        top: 28%;
-        left: 88%;
+        top: 77%;
+        left: 64.5%;
     }
 
-    .RFR_Matchup3_Position {
+    .NBAcup_R_Semi_Position {
         position: absolute;
-        top: 56%;
-        left: 88%;
-    }
-
-    .RFR_Matchup4_Position {
-        position: absolute;
-        top: 81%;
-        left: 88%;
-    }
-
-
-
-    .R_QF1_Position {
-        position: absolute;
-        top: 15%;
-        left: 74.5%;
-    }
-
-    .R_QF2_Position {
-        position: absolute;
-        top: 69%;
-        left: 74.5%;
-    }
-
-
-    .R_Semi_Position {
-        position: absolute;
-        top: 62%;
-        left: 60%;
+        top: 41%;
+        left: 48%;
     }
 }
 
 @media only screen and (min-width: 1200px) {
 
-    .celebrationImage img {
+    .NBAcup_celebrationImage img {
         width: 100%;
         filter: grayscale(50%);
         opacity: 0.7;
@@ -2665,12 +2461,12 @@
         }
 
 
-    .bracketContainer {
+    .NBAcup_bracketContainer {
         /*background-color: #FF4136;*/
         width: 98%;
         height: 98%;
         position: relative;
-        left: 50%;
+        left: 60%;
         top: 50%;
         transform: translate(-50%, -50%);
     }
@@ -2681,10 +2477,10 @@
         position: relative;
         background-color: black;
         width: 100%;
-        height: 620px;
+        height: 400px;
         margin-bottom: 16%;
         margin-top: 1%;
-        /* border-top: 1px solid white; */
+        /* border: 1px solid white; */
     }
 
     /****************       Matchup Data       ****************/
@@ -2978,7 +2774,7 @@
 
     /*Trophy command Victory Containers*/
 
-    .victoryImageContainer {
+    .NBAcup_victoryImageContainer {
         position: absolute;
         border: 1px solid black;
         top: 20%;
@@ -2990,19 +2786,19 @@
         visibility: hidden;
     }
 
-        .victoryImageContainer img {
+        .NBAcup_victoryImageContainer img {
             width: 100%;
             object-fit: contain;
             opacity: 0.4;
         }
 
 
-    .trophyContainer {
+    .NBAcup_trophyContainer {
         /*border: 2px solid black;*/
         position: absolute;
-        bottom: -49%;
-        left: 36%;
-        width: 34.5%;
+        bottom: -42%;
+        left: 22%;
+        width: 54.5%;
         height: 206%;
     }
 
@@ -3130,23 +2926,23 @@
         z-index: -3;
     }
 
-    .L_SemiLine {
+    .NBAcup_L_SemiLine {
         position: absolute;
-        top: -272%;
+        top: -123%;
         left: -58%;
         border-top: 2px solid white;
         border-right: 2px solid white;
         border-bottom: 2px solid white;
         border-left: 0px solid white;
-        width: 109%;
-        height: 441%;
+        width: 108%;
+        height: 342%;
         z-index: -2;
     }
 
-    .Finals_Line {
+    .NBAcup_Finals_Line {
         position: absolute;
         top: -232%;
-        left: -13%;
+        left: -21%;
         border-top: 0px solid white;
         border-right: 0px solid white;
         border-bottom: 2px solid white;
@@ -3180,16 +2976,16 @@
         height: 224%;
     }
 
-    .R_SemiLine {
+    .NBAcup_R_SemiLine {
         position: absolute;
-        top: -276%;
-        left: 49%;
+        top: -123%;
+        left: 48%;
         border-top: 2px solid white;
         border-right: 0px solid white;
         border-bottom: 2px solid white;
         border-left: 2px solid white;
-        width: 109%;
-        height: 441%;
+        width: 108%;
+        height: 342%;
         z-index: -2;
     }
 
@@ -3202,97 +2998,46 @@
 
     /****************   Matchup Positioning      ****************/
 
-    .LFR_Matchup1_Position {
+    .L_M1_Position {
         position: absolute;
-        top: 0;
-        left: -4px;
-    }
-
-    .LFR_Matchup2_Position {
-        position: absolute;
-        top: 25%;
+        top: 0%;
         left: 0%;
     }
 
-    .LFR_Matchup3_Position {
-        position: absolute;
-        top: 63%;
-        left: 0%;
-    }
-
-    .LFR_Matchup4_Position {
-        position: absolute;
-        top: 86%;
-        left: 0%;
-    }
-
-    .L_QF1_Position {
-        position: absolute;
-        top: 13%;
-        left: 13.5%;
-    }
-
-    .L_QF2_Position {
+    .L_M2_Position {
         position: absolute;
         top: 75%;
-        left: 13.5%;
+        left: 0%;
     }
 
-    .L_Semi_Position {
+    .NBAcup_L_Semi_Position {
         position: absolute;
-        top: 62%;
-        left: 28%;
+        top: 38%;
+        left: 14%;
     }
 
-    .Finals_Position {
+    .NBAcup_Finals_Position {
         position: absolute;
-        top: 62%;
-        left: 50%;
+        top: 38%;
+        left: 37.4%;
         margin: auto;
     }
 
-    .RFR_Matchup1_Position {
+    .R_M1_Position {
         position: absolute;
         top: 0%;
-        left: 88%;
+        left: 63.5%;
     }
 
-    .RFR_Matchup2_Position {
-        position: absolute;
-        top: 25%;
-        left: 88%;
-    }
-
-    .RFR_Matchup3_Position {
-        position: absolute;
-        top: 63%;
-        left: 88%;
-    }
-
-    .RFR_Matchup4_Position {
-        position: absolute;
-        top: 86%;
-        left: 88%;
-    }
-
-
-
-    .R_QF1_Position {
-        position: absolute;
-        top: 13%;
-        left: 73.5%;
-    }
-
-    .R_QF2_Position {
+    .R_M2_Position {
         position: absolute;
         top: 75%;
-        left: 73.5%;
+        left: 63.5%;
     }
 
-
-    .R_Semi_Position {
+    .NBAcup_R_Semi_Position {
         position: absolute;
-        top: 62%;
-        left: 60%;
+        top: 38%;
+        left: 49%;
     }
 }
