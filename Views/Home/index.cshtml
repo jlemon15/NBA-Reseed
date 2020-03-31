@@ -35,7 +35,11 @@
     </header>
 
     <!-- Seed Formats -->
+
     <section class="page-section" id="services">
+
+
+
         <div class="container">
             <div class="row">
                 <div class="silverQuote">
@@ -153,9 +157,127 @@
             </div>
         </div>
 
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Launch demo modal
+        </button>
+
+
+        <!-- Modals -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="exampleModalLabel">Raptors vs Warriors</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="tblBG"><img class="img-fluid rounded mx-auto d-block" src="~/Content/NBA_TeamLogos/Raptors.png" /></div>
+                        <br />
+                        <table class="table-lg table-striped">
+                            <thead>
+                                <tr>
+                                    <th width="30%">Name</th>
+                                    <th>POS</th>
+                                    <th>PPG</th>
+                                    <th>APG</th>
+                                    <th>RPG</th>
+                                    <th>BPG</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Micheal Ray Richardson</td>
+                                    <td>SG</td>
+                                    <td>25.5</td>
+                                    <td>15.5</td>
+                                    <td>4.5</td>
+                                    <td>2.5</td>
+
+                                </tr>
+                                <tr>
+                                    <td>Klay Thompson</td>
+                                    <td>SG</td>
+                                    <td>25.5</td>
+                                    <td>15.5</td>
+                                    <td>4.5</td>
+                                    <td>2.5</td>
+
+                                </tr>
+                                <tr>
+                                    <td>Draymond Green</td>
+                                    <td>SG</td>
+                                    <td>25.5</td>
+                                    <td>15.5</td>
+                                    <td>4.5</td>
+                                    <td>2.5</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br />
+                        <div class="tblBG"><img class="img-fluid rounded mx-auto d-block" src="~/Content/NBA_TeamLogos/Raptors.png" /></div>
+                        <br />
+                        <table class="table-responsive-md table-striped">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Position</th>
+                                    <th scope="col">PPG</th>
+                                    <th scope="col">APG</th>
+                                    <th scope="col">RPG</th>
+                                    <th scope="col">BPG</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Micheal Ray Richardson</td>
+                                    <td>Otto</td>
+                                    <td>Otto</td>
+                                    <td>Otto</td>
+                                    <td>Otto</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>Thornton</td>
+                                    <td>Thornton</td>
+                                    <td>Thornton</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>the Bird</td>
+                                    <td>the Bird</td>
+                                    <td>the Bird</td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br />
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <div class="container">
 
             <div class="timelineBracket">
+
+
 
                 <div class="playoffTitle">
                     <h1>2019 NBA Playoffs</h1>
@@ -176,6 +298,9 @@
 
                     <div>
 
+                        <div class="WC_Text">
+                            <h1>West</h1>
+                        </div>
 
                         <div class="matchupRectangle LFR_Matchup1_Position shadow">
 
@@ -565,6 +690,11 @@
 
                         @****************** Right Side ******************@
 
+                        <div class="EC_Text">
+                            <h1>East</h1>
+                        </div>
+
+
                         <div class="matchupRectangle R_Semi_Position shadow">
                             <div class="MatchupData">
                                 <div class="Team1_Seed">
@@ -900,7 +1030,6 @@
 
                 </div>
 
-
                 <hr />
 
                 <div class="reseedGroup">
@@ -928,14 +1057,6 @@
                 </div>
 
             </div>
-
-
-
-            @*<p>
-                    <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
-                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
-                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
-                </p>*@
 
             <div class="collapse multi-collapse" id="multiCollapseExample1">
 
@@ -1990,755 +2111,740 @@
 
         @**************     Mid Season Tournament     ***********@
 
-    <div class="container">
+        <div class="container">
 
-        <div class="row">
-            <div class="col-md-12 midSeasonTitle">
-                <h1>2019 Mid-Season Tournament</h1>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12 MidSeasonTournament">
-                <h1>Eastern Conference Group Stage</h1>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4">
-                <table class="table">
-                    <thead class="thead-dark">
-                        <tr>
-                            <th colspan="4" class="divisionHead">
-                                Atlantic Division
-                            </th>
-                        </tr>
-                    </thead>
-                    <thead class="thead-dark">
-                        <tr>
-                            <th scope="col">Team</th>
-                            <th scope="col">W</th>
-                            <th scope="col">L</th>
-                            <th scope="col">PDiff</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">LAL</th>
-                            <th>4</th>
-                            <th>0</th>
-                            <th>1.000</th>
-                        </tr>
-
-                        <tr>
-                            <th scope="row">LAL</th>
-                            <th>4</th>
-                            <th>0</th>
-                            <th>1.000</th>
-                        </tr>
-
-                        <tr>
-                            <td scope="row">LAL</td>
-                            <td>4</td>
-                            <td>0</td>
-                            <td>1.000</td>
-                        </tr>
-
-                        <tr>
-                            <td scope="row">LAL</td>
-                            <td>4</td>
-                            <td>0</td>
-                            <td>1.000</td>
-                        </tr>
-
-                        <tr>
-                            <td scope="row">LAL</td>
-                            <td>4</td>
-                            <td>0</td>
-                            <td>1.000</td>
-                        </tr>
-
-                    </tbody>
-                </table>
+            <div class="row">
+                <div class="col-md-12 midSeasonTitle">
+                    <h1>2019 Mid-Season Tournament</h1>
+                </div>
             </div>
 
-            <div class="col-md-4">
-                <table class="table">
-                    <thead class="thead-dark">
-                        <tr>
-                            <th colspan="4" class="divisionHead">
-                                Central Division
-                            </th>
-                        </tr>
-                    </thead>
-                    <thead class="thead-dark">
-                        <tr>
-                            <th scope="col">Team</th>
-                            <th scope="col">W</th>
-                            <th scope="col">L</th>
-                            <th scope="col">PDiff</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">LAL</th>
-                            <th>4</th>
-                            <th>0</th>
-                            <th>1.000</th>
-                        </tr>
-
-                        <tr>
-                            <th scope="row">LAL</th>
-                            <th>4</th>
-                            <th>0</th>
-                            <th>1.000</th>
-                        </tr>
-
-                        <tr>
-                            <td scope="row">LAL</td>
-                            <td>4</td>
-                            <td>0</td>
-                            <td>1.000</td>
-                        </tr>
-
-                        <tr>
-                            <td scope="row">LAL</td>
-                            <td>4</td>
-                            <td>0</td>
-                            <td>1.000</td>
-                        </tr>
-
-                        <tr>
-                            <td scope="row">LAL</td>
-                            <td>4</td>
-                            <td>0</td>
-                            <td>1.000</td>
-                        </tr>
-
-                    </tbody>
-                </table>
+            <div class="row">
+                <div class="col-md-12 MidSeasonTournament">
+                    <h1>Eastern Conference Group Stage</h1>
+                </div>
             </div>
 
-            <div class="col-md-4">
-                <table class="table">
-                    <thead class="thead-dark">
-                        <tr>
-                            <th colspan="4" class="divisionHead">
-                                Southeast Division
-                            </th>
-                        </tr>
-                    </thead>
-                    <thead class="thead-dark">
-                        <tr>
-                            <th scope="col">Team</th>
-                            <th scope="col">W</th>
-                            <th scope="col">L</th>
-                            <th scope="col">PDiff</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">LAL</th>
-                            <th>4</th>
-                            <th>0</th>
-                            <th>1.000</th>
-                        </tr>
-
-                        <tr>
-                            <th scope="row">LAL</th>
-                            <th>4</th>
-                            <th>0</th>
-                            <th>1.000</th>
-                        </tr>
-
-                        <tr>
-                            <td scope="row">LAL</td>
-                            <td>4</td>
-                            <td>0</td>
-                            <td>1.000</td>
-                        </tr>
-
-                        <tr>
-                            <td scope="row">LAL</td>
-                            <td>4</td>
-                            <td>0</td>
-                            <td>1.000</td>
-                        </tr>
-
-                        <tr>
-                            <td scope="row">LAL</td>
-                            <td>4</td>
-                            <td>0</td>
-                            <td>1.000</td>
-                        </tr>
-
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12 MidSeasonTournament">
-                <h1>Western Conference Group Stage</h1>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4">
-                <table class="table">
-                    <thead class="thead-dark">
-                        <tr>
-                            <th colspan="4" class="divisionHead">
-                                Northwest Division
-                            </th>
-                        </tr>
-                    </thead>
-                    <thead class="thead-dark">
-                        <tr>
-                            <th scope="col">Team </th>
-
-                            <th scope="col">W</th>
-                            <th scope="col">L</th>
-                            <th scope="col">PDiff</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th>
-                                LAL
-                            </th>
-
-                            <th>4</th>
-                            <th>0</th>
-                            <th>1.000</th>
-                        </tr>
-
-                        <tr>
-                            <th scope="row">LAL</th>
-                            <th>4</th>
-                            <th>0</th>
-                            <th>1.000</th>
-                        </tr>
-
-                        <tr>
-                            <td scope="row">LAL</td>
-                            <td>4</td>
-                            <td>0</td>
-                            <td>1.000</td>
-                        </tr>
-
-                        <tr>
-                            <td scope="row">LAL</td>
-                            <td>4</td>
-                            <td>0</td>
-                            <td>1.000</td>
-                        </tr>
-
-                        <tr>
-                            <td scope="row">LAL</td>
-                            <td>4</td>
-                            <td>0</td>
-                            <td>1.000</td>
-                        </tr>
-
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="col-md-4">
-                <table class="table">
-                    <thead class="thead-dark">
-                        <tr>
-                            <th colspan="4" class="divisionHead">
-                                Pacific Division
-                            </th>
-                        </tr>
-                    </thead>
-                    <thead class="thead-dark">
-                        <tr>
-                            <th scope="col">Team</th>
-                            <th scope="col">W</th>
-                            <th scope="col">L</th>
-                            <th scope="col">PDiff</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">LAL</th>
-                            <th>4</th>
-                            <th>0</th>
-                            <th>1.000</th>
-                        </tr>
-
-                        <tr>
-                            <th scope="row">LAL</th>
-                            <th>4</th>
-                            <th>0</th>
-                            <th>1.000</th>
-                        </tr>
-
-                        <tr>
-                            <td scope="row">LAL</td>
-                            <td>4</td>
-                            <td>0</td>
-                            <td>1.000</td>
-                        </tr>
-
-                        <tr>
-                            <td scope="row">LAL</td>
-                            <td>4</td>
-                            <td>0</td>
-                            <td>1.000</td>
-                        </tr>
-
-                        <tr>
-                            <td scope="row">LAL</td>
-                            <td>4</td>
-                            <td>0</td>
-                            <td>1.000</td>
-                        </tr>
-
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="col-md-4">
-                <table class="table">
-                    <thead class="thead-dark">
-                        <tr>
-                            <th colspan="4" class="divisionHead">
-                                Southwest Division
-                            </th>
-                        </tr>
-                    </thead>
-                    <thead class="thead-dark">
-                        <tr>
-                            <th scope="col">Team</th>
-                            <th scope="col">W</th>
-                            <th scope="col">L</th>
-                            <th scope="col">PDiff</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">LAL</th>
-                            <th>4</th>
-                            <th>0</th>
-                            <th>1.000</th>
-                        </tr>
-
-                        <tr>
-                            <th scope="row">LAL</th>
-                            <th>4</th>
-                            <th>0</th>
-                            <th>1.000</th>
-                        </tr>
-
-                        <tr>
-                            <td scope="row">LAL</td>
-                            <td>4</td>
-                            <td>0</td>
-                            <td>1.000</td>
-                        </tr>
-
-                        <tr>
-                            <td scope="row">LAL</td>
-                            <td>4</td>
-                            <td>0</td>
-                            <td>1.000</td>
-                        </tr>
-
-                        <tr>
-                            <td scope="row">LAL</td>
-                            <td>4</td>
-                            <td>0</td>
-                            <td>1.000</td>
-                        </tr>
-
-                    </tbody>
-                </table>
-
-
-            </div>
-        </div>
-
-        <div class="mastheadLine">
-            <hr />
-        </div>
-
-        <div class="row">
-            <div class="col-md-12 MidSeasonTournament">
-                <h1>Knockout Stage</h1>
-            </div>
-        </div>
-
-        @****************** Tourney Bracket ******************@
-
-        <div class="NBAcupBracket">
-            <div class="NBAcup_bracketContainer">
-
-                @****************** Left Side ******************@
-
-                <div>
-
-                    <div class="matchupRectangle L_M1_Position shadow">
-                        <div class="MatchupData">
-                            <div class="Team1_Seed">
-                                <p>2</p>
-                            </div>
-                            <div class="Team2_Seed">
-                                <p>7</p>
-                            </div>
-                            <div class="TeamName_1">
-                                <p>TOR</p>
-                            </div>
-                            <div class="TeamName_2">
-                                <p>OKC</p>
-                            </div>
-
-                            <div class="Team1_SeriesCount">
-                                <p>4</p>
-                            </div>
-
-                            <div class="RecordDash">
-                                <p>-</p>
-                            </div>
-
-                            <div class="Team2_SeriesCount">
-                                <p>3</p>
-                            </div>
-
-                            <div class="Team1_WinPCT">
-                                <p>73-9</p>
-                            </div>
-
-                            <div class="Team2_WinPCT">
-                                <p>73-9</p>
-                            </div>
-                        </div>
-                        <div class="MR_TeamDetail"></div>
-                        <div class="MR_Team1"></div>
-                        <div class="MR_Team2"></div>
-                        <div class="MR_LogoContainer_Team1">
-                            <img class="MR_Logo" src="~/Content/NBA_TeamLogos/Raptors.png" />
-                        </div>
-                        <div class="MR_LogoContainer_Team2">
-                            <img class="MR_Logo" src="~/Content/NBA_TeamLogos/Raptors.png" />
-                        </div>
-                    </div>
-
-
-                    <div class="matchupRectangle L_M2_Position shadow">
-                        <div class="MatchupData">
-                            <div class="Team1_Seed">
-                                <p>2</p>
-                            </div>
-                            <div class="Team2_Seed">
-                                <p>7</p>
-                            </div>
-                            <div class="TeamName_1">
-                                <p>TOR</p>
-                            </div>
-                            <div class="TeamName_2">
-                                <p>OKC</p>
-                            </div>
-
-                            <div class="Team1_SeriesCount">
-                                <p>4</p>
-                            </div>
-
-                            <div class="RecordDash">
-                                <p>-</p>
-                            </div>
-
-                            <div class="Team2_SeriesCount">
-                                <p>3</p>
-                            </div>
-
-                            <div class="Team1_WinPCT">
-                                <p>73-9</p>
-                            </div>
-
-                            <div class="Team2_WinPCT">
-                                <p>73-9</p>
-                            </div>
-                        </div>
-                        <div class="MR_TeamDetail"></div>
-                        <div class="MR_Team1"></div>
-                        <div class="MR_Team2"></div>
-                        <div class="MR_LogoContainer_Team1">
-                            <img class="MR_Logo" src="~/Content/NBA_TeamLogos/Raptors.png" />
-                        </div>
-                        <div class="MR_LogoContainer_Team2">
-                            <img class="MR_Logo" src="~/Content/NBA_TeamLogos/Raptors.png" />
-                        </div>
-                    </div>
-
-                    <div class="matchupRectangle NBAcup_L_Semi_Position shadow">
-                        <div class="MatchupData">
-                            <div class="Team1_Seed">
-                                @*<p>2</p>*@
-                            </div>
-                            <div class="Team2_Seed">
-                                @*<p>7</p>*@
-                            </div>
-                            <div class="TeamName_1">
-                                @*<p>TOR</p>*@
-                            </div>
-                            <div class="TeamName_2">
-                                @*<p>OKC</p>*@
-                            </div>
-
-                            <div class="Team1_SeriesCount">
-                                @*<p>4</p>*@
-                            </div>
-
-                            <div class="RecordDash">
-                                @*<p>-</p>*@
-                            </div>
-
-                            <div class="Team2_SeriesCount">
-                                @*<p>3</p>*@
-                            </div>
-
-                            <div class="Team1_WinPCT">
-                                @*<p>73-9</p>*@
-                            </div>
-
-                            <div class="Team2_WinPCT">
-                                <p>@*73-9*@</p>
-                            </div>
-                        </div>
-                        <div class="NBAcup_L_SemiLine"></div>
-                        <div class="MR_TeamDetail"></div>
-                        <div class="MR_Team1"></div>
-                        <div class="MR_Team2"></div>
-                        <div class="MR_LogoContainer_Team1">
-                            @*<img class="MR_Logo" src="~/Content/NBA_TeamLogos/Raptors.png" />*@
-                        </div>
-                        <div class="MR_LogoContainer_Team2">
-                            @*<img class="MR_Logo" src="~/Content/NBA_TeamLogos/Raptors.png" />*@
-                        </div>
-                    </div>
-
-                    @******************Finals******************@
-                    <div class="matchupRectangleFinals NBAcup_Finals_Position shadow">
-                        <div class="MatchupData">
-                            <div class="Team1_Seed_Finals">
-                                @*<p>2</p>*@
-                            </div>
-                            <div class="Team2_Seed_Finals">
-                                @*<p>7</p>*@
-                            </div>
-                            <div class="TeamName_1_Finals">
-                                @*<p>TOR</p>*@
-                            </div>
-                            <div class="TeamName_2_Finals">
-                                @*<p>OKC</p>*@
-                            </div>
-
-                            <div class="Team1_SeriesCount_Finals">
-                                @*<p>4</p>*@
-                            </div>
-
-                            <div class="RecordDash_Finals">
-                                @*<p>-</p>*@
-                            </div>
-
-                            <div class="Team2_SeriesCount_Finals">
-                                @*<p>3</p>*@
-                            </div>
-
-                            <div class="Team1_WinPCT_Finals">
-                                <p>@*73-9*@</p>
-                            </div>
-
-                            <div class="Team2_WinPCT_Finals">
-                                <p>@*73-9*@</p>
-                            </div>
-                        </div>
-                        <div class="MR_TeamDetail"></div>
-                        <div class="MR_Team1"></div>
-                        <div class="MR_Team2"></div>
-                        <div class="NBAcup_trophyContainer" 0>
-                            <img class="img-fluid" src="~/Content/img/GenericTrophy.png" />
-                            @*<img class="img-fluid" src="~/Content/NBA_TeamLogos/trophy.png" />*@
-                        </div>
-                        <div class="MR_LogoContainer_Finals_Team1">
-                            @*<img class="MR_Logo_Finals" src="~/Content/NBA_TeamLogos/Raptors.png" />*@
-
-
-                        </div>
-                        <div class="MR_LogoContainer_Finals_Team2">
-                            @*<img class="MR_Logo_Finals" src="~/Content/NBA_TeamLogos/Raptors.png" />*@
-                        </div>
-                        <div class="NBAcup_Finals_Line"></div>
-
-                    </div>
-
-                    @****************** Right Side ******************@
-
-                    <div class="matchupRectangle NBAcup_R_Semi_Position shadow">
-                        <div class="MatchupData">
-                            <div class="Team1_Seed">
-                                @*<p>2</p>*@
-                            </div>
-                            <div class="Team2_Seed">
-                                @*<p>7</p>*@
-                            </div>
-                            <div class="TeamName_1">
-                                @*<p>TOR</p>*@
-                            </div>
-                            <div class="TeamName_2">
-                                @*<p>OKC</p>*@
-                            </div>
-
-                            <div class="Team1_SeriesCount">
-                                @*    <p>4</p>*@
-                            </div>
-
-                            <div class="RecordDash">
-                                @*  <p>-</p>*@
-                            </div>
-
-                            <div class="Team2_SeriesCount">
-                                @*<p>3</p>*@
-                            </div>
-
-                            <div class="Team1_WinPCT">
-                                @*<p>73-9</p>*@
-                            </div>
-
-                            <div class="Team2_WinPCT">
-                                <p>@*73-9*@</p>
-                            </div>
-                        </div>
-                        <div class="NBAcup_R_SemiLine"></div>
-                        <div class="MR_TeamDetail">
-
-                        </div>
-                        <div class="MR_Team1"></div>
-                        <div class="MR_Team2"></div>
-                        <div class="MR_LogoContainer_Team1">
-                            @*<img class="MR_Logo" src="~/Content/NBA_TeamLogos/Raptors.png" />*@
-                        </div>
-                        <div class="MR_LogoContainer_Team2">
-                            @*<img class="MR_Logo" src="~/Content/NBA_TeamLogos/Raptors.png" />*@
-                        </div>
-                    </div>
-
-                    <div class="matchupRectangle R_M1_Position shadow">
-                        <div class="MatchupData">
-                            <div class="Team1_Seed">
-                                <p>2</p>
-                            </div>
-                            <div class="Team2_Seed">
-                                <p>7</p>
-                            </div>
-                            <div class="TeamName_1">
-                                <p>TOR</p>
-                            </div>
-                            <div class="TeamName_2">
-                                <p>OKC</p>
-                            </div>
-
-                            <div class="Team1_SeriesCount">
-                                <p>4</p>
-                            </div>
-
-                            <div class="RecordDash">
-                                <p>-</p>
-                            </div>
-
-                            <div class="Team2_SeriesCount">
-                                <p>3</p>
-                            </div>
-
-                            <div class="Team1_WinPCT">
-                                <p>73-9</p>
-                            </div>
-
-                            <div class="Team2_WinPCT">
-                                <p>73-9</p>
-                            </div>
-                        </div>
-                        <div class="MR_TeamDetail"></div>
-                        <div class="MR_Team1"></div>
-                        <div class="MR_Team2"></div>
-                        <div class="MR_LogoContainer_Team1">
-                            <img class="MR_Logo" src="~/Content/NBA_TeamLogos/Raptors.png" />
-                        </div>
-                        <div class="MR_LogoContainer_Team2">
-                            <img class="MR_Logo" src="~/Content/NBA_TeamLogos/Raptors.png" />
-                        </div>
-                    </div>
-
-                    <div class="matchupRectangle R_M2_Position shadow">
-                        <div class="MatchupData">
-                            <div class="Team1_Seed">
-                                <p>2</p>
-                            </div>
-                            <div class="Team2_Seed">
-                                <p>7</p>
-                            </div>
-                            <div class="TeamName_1">
-                                <p>TOR</p>
-                            </div>
-                            <div class="TeamName_2">
-                                <p>OKC</p>
-                            </div>
-
-                            <div class="Team1_SeriesCount">
-                                <p>4</p>
-                            </div>
-
-                            <div class="RecordDash">
-                                <p>-</p>
-                            </div>
-
-                            <div class="Team2_SeriesCount">
-                                <p>3</p>
-                            </div>
-
-                            <div class="Team1_WinPCT">
-                                <p>73-9</p>
-                            </div>
-
-                            <div class="Team2_WinPCT">
-                                <p>73-9</p>
-                            </div>
-                        </div>
-                        <div class="MR_TeamDetail"></div>
-                        <div class="MR_Team1"></div>
-                        <div class="MR_Team2"></div>
-                        <div class="MR_LogoContainer_Team1">
-                            <img class="MR_Logo" src="~/Content/NBA_TeamLogos/Raptors.png" />
-                        </div>
-                        <div class="MR_LogoContainer_Team2">
-                            <img class="MR_Logo" src="~/Content/NBA_TeamLogos/Raptors.png" />
-                        </div>
-                    </div>
-
+            <div class="row">
+                <div class="col-md-4">
+                    <table class="table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th colspan="4" class="divisionHead">
+                                    Atlantic Division
+                                </th>
+                            </tr>
+                        </thead>
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Team</th>
+                                <th scope="col">W</th>
+                                <th scope="col">L</th>
+                                <th scope="col">PDiff</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">LAL</th>
+                                <th>4</th>
+                                <th>0</th>
+                                <th>1.000</th>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">LAL</th>
+                                <th>4</th>
+                                <th>0</th>
+                                <th>1.000</th>
+                            </tr>
+
+                            <tr>
+                                <td scope="row">LAL</td>
+                                <td>4</td>
+                                <td>0</td>
+                                <td>1.000</td>
+                            </tr>
+
+                            <tr>
+                                <td scope="row">LAL</td>
+                                <td>4</td>
+                                <td>0</td>
+                                <td>1.000</td>
+                            </tr>
+
+                            <tr>
+                                <td scope="row">LAL</td>
+                                <td>4</td>
+                                <td>0</td>
+                                <td>1.000</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
                 </div>
 
+                <div class="col-md-4">
+                    <table class="table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th colspan="4" class="divisionHead">
+                                    Central Division
+                                </th>
+                            </tr>
+                        </thead>
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Team</th>
+                                <th scope="col">W</th>
+                                <th scope="col">L</th>
+                                <th scope="col">PDiff</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">LAL</th>
+                                <th>4</th>
+                                <th>0</th>
+                                <th>1.000</th>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">LAL</th>
+                                <th>4</th>
+                                <th>0</th>
+                                <th>1.000</th>
+                            </tr>
+
+                            <tr>
+                                <td scope="row">LAL</td>
+                                <td>4</td>
+                                <td>0</td>
+                                <td>1.000</td>
+                            </tr>
+
+                            <tr>
+                                <td scope="row">LAL</td>
+                                <td>4</td>
+                                <td>0</td>
+                                <td>1.000</td>
+                            </tr>
+
+                            <tr>
+                                <td scope="row">LAL</td>
+                                <td>4</td>
+                                <td>0</td>
+                                <td>1.000</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="col-md-4">
+                    <table class="table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th colspan="4" class="divisionHead">
+                                    Southeast Division
+                                </th>
+                            </tr>
+                        </thead>
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Team</th>
+                                <th scope="col">W</th>
+                                <th scope="col">L</th>
+                                <th scope="col">PDiff</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">LAL</th>
+                                <th>4</th>
+                                <th>0</th>
+                                <th>1.000</th>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">LAL</th>
+                                <th>4</th>
+                                <th>0</th>
+                                <th>1.000</th>
+                            </tr>
+
+                            <tr>
+                                <td scope="row">LAL</td>
+                                <td>4</td>
+                                <td>0</td>
+                                <td>1.000</td>
+                            </tr>
+
+                            <tr>
+                                <td scope="row">LAL</td>
+                                <td>4</td>
+                                <td>0</td>
+                                <td>1.000</td>
+                            </tr>
+
+                            <tr>
+                                <td scope="row">LAL</td>
+                                <td>4</td>
+                                <td>0</td>
+                                <td>1.000</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
             </div>
 
+            <div class="row">
+                <div class="col-md-12 MidSeasonTournament">
+                    <h1>Western Conference Group Stage</h1>
+                </div>
+            </div>
 
-            <hr />
+            <div class="row">
+                <div class="col-md-4">
+                    <table class="table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th colspan="4" class="divisionHead">
+                                    Northwest Division
+                                </th>
+                            </tr>
+                        </thead>
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Team </th>
+
+                                <th scope="col">W</th>
+                                <th scope="col">L</th>
+                                <th scope="col">PDiff</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>
+                                    LAL
+                                </th>
+
+                                <th>4</th>
+                                <th>0</th>
+                                <th>1.000</th>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">LAL</th>
+                                <th>4</th>
+                                <th>0</th>
+                                <th>1.000</th>
+                            </tr>
+
+                            <tr>
+                                <td scope="row">LAL</td>
+                                <td>4</td>
+                                <td>0</td>
+                                <td>1.000</td>
+                            </tr>
+
+                            <tr>
+                                <td scope="row">LAL</td>
+                                <td>4</td>
+                                <td>0</td>
+                                <td>1.000</td>
+                            </tr>
+
+                            <tr>
+                                <td scope="row">LAL</td>
+                                <td>4</td>
+                                <td>0</td>
+                                <td>1.000</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="col-md-4">
+                    <table class="table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th colspan="4" class="divisionHead">
+                                    Pacific Division
+                                </th>
+                            </tr>
+                        </thead>
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Team</th>
+                                <th scope="col">W</th>
+                                <th scope="col">L</th>
+                                <th scope="col">PDiff</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">LAL</th>
+                                <th>4</th>
+                                <th>0</th>
+                                <th>1.000</th>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">LAL</th>
+                                <th>4</th>
+                                <th>0</th>
+                                <th>1.000</th>
+                            </tr>
+
+                            <tr>
+                                <td scope="row">LAL</td>
+                                <td>4</td>
+                                <td>0</td>
+                                <td>1.000</td>
+                            </tr>
+
+                            <tr>
+                                <td scope="row">LAL</td>
+                                <td>4</td>
+                                <td>0</td>
+                                <td>1.000</td>
+                            </tr>
+
+                            <tr>
+                                <td scope="row">LAL</td>
+                                <td>4</td>
+                                <td>0</td>
+                                <td>1.000</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="col-md-4">
+                    <table class="table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th colspan="4" class="divisionHead">
+                                    Southwest Division
+                                </th>
+                            </tr>
+                        </thead>
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Team</th>
+                                <th scope="col">W</th>
+                                <th scope="col">L</th>
+                                <th scope="col">PDiff</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">LAL</th>
+                                <th>4</th>
+                                <th>0</th>
+                                <th>1.000</th>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">LAL</th>
+                                <th>4</th>
+                                <th>0</th>
+                                <th>1.000</th>
+                            </tr>
+
+                            <tr>
+                                <td scope="row">LAL</td>
+                                <td>4</td>
+                                <td>0</td>
+                                <td>1.000</td>
+                            </tr>
+
+                            <tr>
+                                <td scope="row">LAL</td>
+                                <td>4</td>
+                                <td>0</td>
+                                <td>1.000</td>
+                            </tr>
+
+                            <tr>
+                                <td scope="row">LAL</td>
+                                <td>4</td>
+                                <td>0</td>
+                                <td>1.000</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
 
 
+                </div>
+            </div>
+
+            <div class="mastheadLine">
+                <hr />
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 MidSeasonTournament">
+                    <h1>Knockout Stage</h1>
+                </div>
+            </div>
+
+            @****************** Tourney Bracket ******************@
+
+            <div class="NBAcupBracket">
+                <div class="NBAcup_bracketContainer">
+
+                    @****************** Left Side ******************@
+
+                    <div>
+
+                        <div class="matchupRectangle L_M1_Position shadow">
+                            <div class="MatchupData">
+                                <div class="Team1_Seed">
+                                    <p>2</p>
+                                </div>
+                                <div class="Team2_Seed">
+                                    <p>7</p>
+                                </div>
+                                <div class="TeamName_1">
+                                    <p>TOR</p>
+                                </div>
+                                <div class="TeamName_2">
+                                    <p>OKC</p>
+                                </div>
+
+                                <div class="Team1_SeriesCount">
+                                    <p>4</p>
+                                </div>
+
+                                <div class="RecordDash">
+                                    <p>-</p>
+                                </div>
+
+                                <div class="Team2_SeriesCount">
+                                    <p>3</p>
+                                </div>
+
+                                <div class="Team1_WinPCT">
+                                    <p>73-9</p>
+                                </div>
+
+                                <div class="Team2_WinPCT">
+                                    <p>73-9</p>
+                                </div>
+                            </div>
+                            <div class="MR_TeamDetail"></div>
+                            <div class="MR_Team1"></div>
+                            <div class="MR_Team2"></div>
+                            <div class="MR_LogoContainer_Team1">
+                                <img class="MR_Logo" src="~/Content/NBA_TeamLogos/Raptors.png" />
+                            </div>
+                            <div class="MR_LogoContainer_Team2">
+                                <img class="MR_Logo" src="~/Content/NBA_TeamLogos/Raptors.png" />
+                            </div>
+                        </div>
+
+
+                        <div class="matchupRectangle L_M2_Position shadow">
+                            <div class="MatchupData">
+                                <div class="Team1_Seed">
+                                    <p>2</p>
+                                </div>
+                                <div class="Team2_Seed">
+                                    <p>7</p>
+                                </div>
+                                <div class="TeamName_1">
+                                    <p>TOR</p>
+                                </div>
+                                <div class="TeamName_2">
+                                    <p>OKC</p>
+                                </div>
+
+                                <div class="Team1_SeriesCount">
+                                    <p>4</p>
+                                </div>
+
+                                <div class="RecordDash">
+                                    <p>-</p>
+                                </div>
+
+                                <div class="Team2_SeriesCount">
+                                    <p>3</p>
+                                </div>
+
+                                <div class="Team1_WinPCT">
+                                    <p>73-9</p>
+                                </div>
+
+                                <div class="Team2_WinPCT">
+                                    <p>73-9</p>
+                                </div>
+                            </div>
+                            <div class="MR_TeamDetail"></div>
+                            <div class="MR_Team1"></div>
+                            <div class="MR_Team2"></div>
+                            <div class="MR_LogoContainer_Team1">
+                                <img class="MR_Logo" src="~/Content/NBA_TeamLogos/Raptors.png" />
+                            </div>
+                            <div class="MR_LogoContainer_Team2">
+                                <img class="MR_Logo" src="~/Content/NBA_TeamLogos/Raptors.png" />
+                            </div>
+                        </div>
+
+                        <div class="matchupRectangle NBAcup_L_Semi_Position shadow">
+                            <div class="MatchupData">
+                                <div class="Team1_Seed">
+                                    @*<p>2</p>*@
+                                </div>
+                                <div class="Team2_Seed">
+                                    @*<p>7</p>*@
+                                </div>
+                                <div class="TeamName_1">
+                                    @*<p>TOR</p>*@
+                                </div>
+                                <div class="TeamName_2">
+                                    @*<p>OKC</p>*@
+                                </div>
+
+                                <div class="Team1_SeriesCount">
+                                    @*<p>4</p>*@
+                                </div>
+
+                                <div class="RecordDash">
+                                    @*<p>-</p>*@
+                                </div>
+
+                                <div class="Team2_SeriesCount">
+                                    @*<p>3</p>*@
+                                </div>
+
+                                <div class="Team1_WinPCT">
+                                    @*<p>73-9</p>*@
+                                </div>
+
+                                <div class="Team2_WinPCT">
+                                    <p>@*73-9*@</p>
+                                </div>
+                            </div>
+                            <div class="NBAcup_L_SemiLine"></div>
+                            <div class="MR_TeamDetail"></div>
+                            <div class="MR_Team1"></div>
+                            <div class="MR_Team2"></div>
+                            <div class="MR_LogoContainer_Team1">
+                                @*<img class="MR_Logo" src="~/Content/NBA_TeamLogos/Raptors.png" />*@
+                            </div>
+                            <div class="MR_LogoContainer_Team2">
+                                @*<img class="MR_Logo" src="~/Content/NBA_TeamLogos/Raptors.png" />*@
+                            </div>
+                        </div>
+
+                        @******************Finals******************@
+                        <div class="matchupRectangleFinals NBAcup_Finals_Position shadow">
+                            <div class="MatchupData">
+                                <div class="Team1_Seed_Finals">
+                                    @*<p>2</p>*@
+                                </div>
+                                <div class="Team2_Seed_Finals">
+                                    @*<p>7</p>*@
+                                </div>
+                                <div class="TeamName_1_Finals">
+                                    @*<p>TOR</p>*@
+                                </div>
+                                <div class="TeamName_2_Finals">
+                                    @*<p>OKC</p>*@
+                                </div>
+
+                                <div class="Team1_SeriesCount_Finals">
+                                    @*<p>4</p>*@
+                                </div>
+
+                                <div class="RecordDash_Finals">
+                                    @*<p>-</p>*@
+                                </div>
+
+                                <div class="Team2_SeriesCount_Finals">
+                                    @*<p>3</p>*@
+                                </div>
+
+                                <div class="Team1_WinPCT_Finals">
+                                    <p>@*73-9*@</p>
+                                </div>
+
+                                <div class="Team2_WinPCT_Finals">
+                                    <p>@*73-9*@</p>
+                                </div>
+                            </div>
+                            <div class="MR_TeamDetail"></div>
+                            <div class="MR_Team1"></div>
+                            <div class="MR_Team2"></div>
+                            <div class="NBAcup_trophyContainer" 0>
+                                <img class="img-fluid" src="~/Content/img/GenericTrophy.png" />
+                                @*<img class="img-fluid" src="~/Content/NBA_TeamLogos/trophy.png" />*@
+                            </div>
+                            <div class="MR_LogoContainer_Finals_Team1">
+                                @*<img class="MR_Logo_Finals" src="~/Content/NBA_TeamLogos/Raptors.png" />*@
+
+
+                            </div>
+                            <div class="MR_LogoContainer_Finals_Team2">
+                                @*<img class="MR_Logo_Finals" src="~/Content/NBA_TeamLogos/Raptors.png" />*@
+                            </div>
+                            <div class="NBAcup_Finals_Line"></div>
+
+                        </div>
+
+                        @****************** Right Side ******************@
+
+                        <div class="matchupRectangle NBAcup_R_Semi_Position shadow">
+                            <div class="MatchupData">
+                                <div class="Team1_Seed">
+                                    @*<p>2</p>*@
+                                </div>
+                                <div class="Team2_Seed">
+                                    @*<p>7</p>*@
+                                </div>
+                                <div class="TeamName_1">
+                                    @*<p>TOR</p>*@
+                                </div>
+                                <div class="TeamName_2">
+                                    @*<p>OKC</p>*@
+                                </div>
+
+                                <div class="Team1_SeriesCount">
+                                    @*    <p>4</p>*@
+                                </div>
+
+                                <div class="RecordDash">
+                                    @*  <p>-</p>*@
+                                </div>
+
+                                <div class="Team2_SeriesCount">
+                                    @*<p>3</p>*@
+                                </div>
+
+                                <div class="Team1_WinPCT">
+                                    @*<p>73-9</p>*@
+                                </div>
+
+                                <div class="Team2_WinPCT">
+                                    <p>@*73-9*@</p>
+                                </div>
+                            </div>
+                            <div class="NBAcup_R_SemiLine"></div>
+                            <div class="MR_TeamDetail">
+
+                            </div>
+                            <div class="MR_Team1"></div>
+                            <div class="MR_Team2"></div>
+                            <div class="MR_LogoContainer_Team1">
+                                @*<img class="MR_Logo" src="~/Content/NBA_TeamLogos/Raptors.png" />*@
+                            </div>
+                            <div class="MR_LogoContainer_Team2">
+                                @*<img class="MR_Logo" src="~/Content/NBA_TeamLogos/Raptors.png" />*@
+                            </div>
+                        </div>
+
+                        <div class="matchupRectangle R_M1_Position shadow">
+                            <div class="MatchupData">
+                                <div class="Team1_Seed">
+                                    <p>2</p>
+                                </div>
+                                <div class="Team2_Seed">
+                                    <p>7</p>
+                                </div>
+                                <div class="TeamName_1">
+                                    <p>TOR</p>
+                                </div>
+                                <div class="TeamName_2">
+                                    <p>OKC</p>
+                                </div>
+
+                                <div class="Team1_SeriesCount">
+                                    <p>4</p>
+                                </div>
+
+                                <div class="RecordDash">
+                                    <p>-</p>
+                                </div>
+
+                                <div class="Team2_SeriesCount">
+                                    <p>3</p>
+                                </div>
+
+                                <div class="Team1_WinPCT">
+                                    <p>73-9</p>
+                                </div>
+
+                                <div class="Team2_WinPCT">
+                                    <p>73-9</p>
+                                </div>
+                            </div>
+                            <div class="MR_TeamDetail"></div>
+                            <div class="MR_Team1"></div>
+                            <div class="MR_Team2"></div>
+                            <div class="MR_LogoContainer_Team1">
+                                <img class="MR_Logo" src="~/Content/NBA_TeamLogos/Raptors.png" />
+                            </div>
+                            <div class="MR_LogoContainer_Team2">
+                                <img class="MR_Logo" src="~/Content/NBA_TeamLogos/Raptors.png" />
+                            </div>
+                        </div>
+
+                        <div class="matchupRectangle R_M2_Position shadow">
+                            <div class="MatchupData">
+                                <div class="Team1_Seed">
+                                    <p>2</p>
+                                </div>
+                                <div class="Team2_Seed">
+                                    <p>7</p>
+                                </div>
+                                <div class="TeamName_1">
+                                    <p>TOR</p>
+                                </div>
+                                <div class="TeamName_2">
+                                    <p>OKC</p>
+                                </div>
+
+                                <div class="Team1_SeriesCount">
+                                    <p>4</p>
+                                </div>
+
+                                <div class="RecordDash">
+                                    <p>-</p>
+                                </div>
+
+                                <div class="Team2_SeriesCount">
+                                    <p>3</p>
+                                </div>
+
+                                <div class="Team1_WinPCT">
+                                    <p>73-9</p>
+                                </div>
+
+                                <div class="Team2_WinPCT">
+                                    <p>73-9</p>
+                                </div>
+                            </div>
+                            <div class="MR_TeamDetail"></div>
+                            <div class="MR_Team1"></div>
+                            <div class="MR_Team2"></div>
+                            <div class="MR_LogoContainer_Team1">
+                                <img class="MR_Logo" src="~/Content/NBA_TeamLogos/Raptors.png" />
+                            </div>
+                            <div class="MR_LogoContainer_Team2">
+                                <img class="MR_Logo" src="~/Content/NBA_TeamLogos/Raptors.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-
-
-    </div>
-
-
-
-
-
     </section>
-
     <!-- Footer -->
     <!-- Bootstrap core JavaScript -->
 
@@ -2746,3 +2852,5 @@
 </body>
 
 </html>
+
+

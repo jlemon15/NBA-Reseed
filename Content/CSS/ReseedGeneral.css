@@ -17,6 +17,11 @@ p {
     line-height: 1.75;
 }
 
+.tblBG img {
+    max-width: 10%;
+}
+
+
 
 span a {
     text-decoration: underline !important;
@@ -1023,5 +1028,78 @@ ul.social-buttons {
         }
 
 
-/*Blurb Quote*/
+/*Modals*/
 
+@media only screen and (max-width: 575px) {
+
+    .ModalTitle h1 {
+            font-family: 'Teko';
+            font-size: 5vw;
+            text-decoration: underline;
+            text-decoration-color: #daa520;
+            font-weight: normal;
+            text-align: center;
+            text-shadow: 2px 2px 2px black;
+        }
+
+}
+
+@media only screen and (min-width: 575px) {
+
+    .ModalTitle h1 {
+        font-family: 'Teko';
+        font-size: 27px;
+        text-decoration: underline;
+        text-decoration-color: #daa520;
+        font-weight: normal;
+        /*! text-shadow: black; */
+        text-align: center;
+        text-shadow: 2px 2px 2px black;
+    }
+
+}
+
+@media only screen and (min-width: 764px) {
+   
+    .ModalTitle h1 {
+            font-family: 'Teko';
+            font-size: 31px;
+            text-decoration: underline;
+            text-decoration-color: #daa520;
+            font-weight: normal;
+            /*! text-shadow: black; */
+            text-align: center;
+            text-shadow: 2px 2px 3px black;
+        }
+  
+}
+
+
+@media only screen and (min-width: 992px) {
+
+    .ModalTitle h1 {
+        font-family: 'Teko';
+        font-size: 35px;
+        text-decoration: underline;
+        text-decoration-color: #daa520;
+        font-weight: normal;
+        /*! text-shadow: black; */
+        text-align: center;
+        text-shadow: 2px 2px 3px black;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .ModalTitle h1 {
+        font-family: 'Teko';
+        font-size: 45px;
+        text-decoration: underline;
+        text-decoration-color: #daa520;
+        font-weight: normal;
+        /*! text-shadow: black; */
+        text-shadow: 2px 2px 3px black;
+    }
+
+}

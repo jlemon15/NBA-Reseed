@@ -20,6 +20,43 @@
 }
 /**************     Media Breakpoints       **************/
 @media only screen and (max-width: 575px) {
+
+    .WC_Text {
+        position: absolute;
+        top: 21.4%;
+        padding-bottom: 0;
+        left: 46%;
+        /* font-style: italic; */
+    }
+
+        .WC_Text h1 {
+            font-family: 'Teko';
+            font-size: 5vw;
+            text-decoration: underline;
+            text-decoration-color: #daa520;
+            font-weight: normal;
+            text-align: center;
+            text-shadow: 2px 2px 2px black;
+        }
+
+    .EC_Text {
+        position: absolute;
+        top: 74.4%;
+        padding-bottom: 0;
+        left: 46%;
+        text-align: center;
+        /* font-style: italic; */
+    }
+
+        .EC_Text h1 {
+            font-family: 'Teko';
+            font-size: 5vw;
+            text-decoration: underline;
+            text-decoration-color: #daa520;
+            font-weight: normal;
+            text-shadow: 2px 2px 2px black;
+        }
+
     .statPlacement {
         position: absolute;
         top: 0%;
@@ -618,7 +655,7 @@
 
     .L_QF2_Position {
         position: absolute;
-        top: 15%;
+        top: 14%;
         left: 63.5%;
     }
 
@@ -681,6 +718,43 @@
 }
 
 @media only screen and (min-width: 575px) {
+
+    .WC_Text {
+        position: absolute;
+        top: 21.4%;
+        padding-bottom: 0;
+        left: 46%;
+        /* font-style: italic; */
+    }
+
+        .WC_Text h1 {
+            font-family: 'Teko';
+            font-size: 27px;
+            text-decoration: underline;
+            text-decoration-color: #daa520;
+            font-weight: normal;
+            /*! text-shadow: black; */
+            text-align: center;
+            text-shadow: 2px 2px 2px black;
+        }
+
+    .EC_Text {
+        position: absolute;
+        top: 74.4%;
+        padding-bottom: 0;
+        left: 46%;
+        text-align: center;
+        /* font-style: italic; */
+    }
+
+        .EC_Text h1 {
+            font-family: 'Teko';
+            font-size: 27px;
+            text-decoration: underline;
+            text-decoration-color: #daa520;
+            font-weight: normal;
+            text-shadow: 2px 2px 2px black;
+        }
 
     .celebrationImage img {
         width: 100%;
@@ -1337,6 +1411,44 @@
 }
 
 @media only screen and (min-width: 764px) {
+    .WC_Text {
+        position: absolute;
+        top: 21.4%;
+        padding-bottom: 0;
+        left: 46.5%;
+        /* font-style: italic; */
+    }
+
+        .WC_Text h1 {
+            font-family: 'Teko';
+            font-size: 31px;
+            text-decoration: underline;
+            text-decoration-color: #daa520;
+            font-weight: normal;
+            /*! text-shadow: black; */
+            text-align: center;
+            text-shadow: 2px 2px 3px black;
+        }
+
+    .EC_Text {
+        position: absolute;
+        top: 74.4%;
+        padding-bottom: 0;
+        left: 46.5%;
+        text-align: center;
+        /* font-style: italic; */
+    }
+
+        .EC_Text h1 {
+            font-family: 'Teko';
+            font-size: 31px;
+            text-decoration: underline;
+            text-decoration-color: #daa520;
+            font-weight: normal;
+            text-shadow: 2px 2px 3px black;
+        }
+
+
     .celebrationImage img {
         width: 100%;
         filter: grayscale(50%);
@@ -1993,6 +2105,43 @@
 
 
 @media only screen and (min-width: 992px) {
+
+    .WC_Text {
+        position: absolute;
+        top: 46.4%;
+        padding-bottom: 0;
+        left: 13%;
+        /* font-style: italic; */
+    }
+
+        .WC_Text h1 {
+            font-family: 'Teko';
+            font-size: 35px;
+            text-decoration: underline;
+            text-decoration-color: #daa520;
+            font-weight: normal;
+            /*! text-shadow: black; */
+            text-align: center;
+            text-shadow: 2px 2px 3px black;
+        }
+
+    .EC_Text {
+        position: absolute;
+        top: 46.4%;
+        padding-bottom: 0;
+        left: 82%;
+        text-align: center;
+        /* font-style: italic; */
+    }
+
+        .EC_Text h1 {
+            font-family: 'Teko';
+            font-size: 35px;
+            text-decoration: underline;
+            text-decoration-color: #daa520;
+            font-weight: normal;
+            text-shadow: 2px 2px 3px black;
+        }
 
     .celebrationImage img {
         width: 100%;
@@ -2659,6 +2808,42 @@
 
 @media only screen and (min-width: 1200px) {
 
+    .WC_Text {
+        position: absolute;
+        top: 46.4%;
+        padding-bottom: 0;
+        left: 13%;
+        /* font-style: italic; */
+    }
+
+        .WC_Text h1 {
+            font-family: 'Teko';
+            font-size: 45px;
+            text-decoration: underline;
+            text-decoration-color: #daa520;
+            font-weight: normal;
+            /*! text-shadow: black; */
+            text-shadow: 2px 2px 3px black;
+
+        }
+
+    .EC_Text {
+        position: absolute;
+        top: 46.4%;
+        padding-bottom: 0;
+        left: 82%;
+        text-align: center;
+        /* font-style: italic; */
+    }
+
+        .EC_Text h1 {
+            font-family: 'Teko';
+            font-size: 45px;
+            text-decoration: underline;
+            text-decoration-color: #daa520;
+            text-shadow: 2px 2px 3px black;
+        }
+
     .celebrationImage img {
         width: 100%;
         filter: grayscale(50%);
@@ -3294,6 +3479,8 @@
         top: 86%;
         left: 88%;
     }
+
+    .
 
 
 
