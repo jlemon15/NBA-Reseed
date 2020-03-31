@@ -103,6 +103,11 @@
     border-right: 1px solid white;
 }
 
+    .seedFrame a:hover {
+        text-decoration: none;
+        color: #dab63c !important;
+    }
+
 hr.brass {
     border-top: 1px solid #dab63c;
     border-top: 1px solid groove;
