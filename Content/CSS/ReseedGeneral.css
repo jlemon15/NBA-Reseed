@@ -18,7 +18,7 @@ p {
 }
 
 .tblBG img {
-    max-width: 10%;
+    max-width: 15%;
 }
 
 
@@ -43,7 +43,7 @@ table {
 
 
 .mastheadLine hr {
-    border-bottom: 2px solid silver !important;
+    border-bottom: 2px solid #dab63c !important;
 }
 
 .divideLineExp_Main {
@@ -59,15 +59,15 @@ table {
     background-color: #dab63c !important;
 }
 
-.GroupStageLogo{
+.GroupStageLogo {
     width: 30px;
     height: 30px;
     display: inline-block
 }
 
-.GroupStageLogo img {
-    max-height: 100%;
-}
+    .GroupStageLogo img {
+        max-height: 100%;
+    }
 
 
 .NameAndLogo {
@@ -276,7 +276,19 @@ h3 {
         font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     }
 
+.ModalTitle p {
+    font-size: 10px;
+}
 
+.ModalTitle a {
+    color: #dab63c !important;
+    text-decoration: underline;
+    text-decoration-color: #dab63c;
+}
+
+    .ModalTitle a:hover {
+        color: silver !important;
+    }
 
 @media (max-width: 600px) {
     .callToAction h1 {
@@ -1028,25 +1040,35 @@ ul.social-buttons {
         }
 
 
-/*Modals*/
+
 
 @media only screen and (max-width: 575px) {
 
-    .ModalTitle h1 {
-            font-family: 'Teko';
-            font-size: 5vw;
-            text-decoration: underline;
-            text-decoration-color: #daa520;
-            font-weight: normal;
-            text-align: center;
-            text-shadow: 2px 2px 2px black;
-        }
+    .ModalTitle h3 {
+        font-family: 'Teko';
+        font-size: 9vw;
+        text-decoration: underline;
+        text-decoration-color: #daa520;
+        font-weight: normal;
+        /* text-align: center; */
+        text-shadow: 2px 2px 2px black;
+    }
 
+    .ModalTitle h4 {
+        font-family: 'Teko';
+        font-size: 4vw;
+        text-decoration: none;
+        text-decoration-color: #daa520;
+        font-weight: normal;
+        /* text-align: center; */
+        text-shadow: 2px 2px 2px black;
+        margin-top: -5%;
+    }
 }
 
 @media only screen and (min-width: 575px) {
 
-    .ModalTitle h1 {
+    .ModalTitle h3 {
         font-family: 'Teko';
         font-size: 27px;
         text-decoration: underline;
@@ -1057,27 +1079,50 @@ ul.social-buttons {
         text-shadow: 2px 2px 2px black;
     }
 
+    .ModalTitle h4 {
+        font-family: 'Teko';
+        font-size: 20px;
+        text-decoration: none;
+        text-decoration-color: #daa520;
+        font-weight: normal;
+        /*! text-shadow: black; */
+        /* text-align: center; */
+        margin-top: -5%;
+        text-shadow: 2px 2px 2px black;
+    }
 }
 
 @media only screen and (min-width: 764px) {
-   
-    .ModalTitle h1 {
-            font-family: 'Teko';
-            font-size: 31px;
-            text-decoration: underline;
-            text-decoration-color: #daa520;
-            font-weight: normal;
-            /*! text-shadow: black; */
-            text-align: center;
-            text-shadow: 2px 2px 3px black;
-        }
-  
+
+    .ModalTitle h3 {
+        font-family: 'Teko';
+        font-size: 40px;
+        text-decoration: underline;
+        text-decoration-color: #daa520;
+        font-weight: normal;
+        /*! text-shadow: black; */
+        /* text-align: center; */
+        text-shadow: 2px 2px 3px black;
+    }
+
+    .ModalTitle h4 {
+        text-align: left;
+        font-family: 'Teko';
+        font-size: 19px;
+        text-decoration: none;
+        /* text-decoration-color: #daa520; */
+        font-weight: normal;
+        /*! text-shadow: black; */
+        /* text-align: center; */
+        text-shadow: 2px 2px 3px black;
+        margin-top: -5%;
+    }
 }
 
 
 @media only screen and (min-width: 992px) {
 
-    .ModalTitle h1 {
+    .ModalTitle h3 {
         font-family: 'Teko';
         font-size: 35px;
         text-decoration: underline;
@@ -1088,11 +1133,22 @@ ul.social-buttons {
         text-shadow: 2px 2px 3px black;
     }
 
+    .ModalTitle h4 {
+        text-align: left;
+        font-family: 'Teko';
+        font-size: 20px;
+        text-decoration: none;
+        text-decoration-color: #daa520;
+        font-weight: normal;
+        /*! text-shadow: black; */
+        /* text-align: center; */
+        text-shadow: 2px 2px 3px black;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
 
-    .ModalTitle h1 {
+    .ModalTitle h3 {
         font-family: 'Teko';
         font-size: 45px;
         text-decoration: underline;
@@ -1102,4 +1158,23 @@ ul.social-buttons {
         text-shadow: 2px 2px 3px black;
     }
 
+        .ModalTitle h3 > span {
+            font-family: 'Teko';
+            font-size: 20px;
+            font-weight: normal;
+            text-decoration: none;
+            /*! text-shadow: black; */
+            text-shadow: 2px 2px 3px black;
+        }
+
+    .ModalTitle h4 {
+        text-align: left;
+        font-family: 'Teko';
+        font-size: 20px;
+        text-decoration: none;
+        /* text-decoration-color: #daa520; */
+        font-weight: normal;
+        /*! text-shadow: black; */
+        text-shadow: 2px 2px 3px black;
+    }
 }
