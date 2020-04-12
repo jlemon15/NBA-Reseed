@@ -127,8 +127,16 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\bracket_RW.cs" />
+    <Compile Include="Models\AwardWinner.cs" />
+    <Compile Include="Models\CelebrationImage.cs" />
+    <Compile Include="Models\Game.cs" />
+    <Compile Include="Models\Player.cs" />
+    <Compile Include="Models\PlayoffMap.cs" />
+    <Compile Include="Models\PlayoffResult.cs" />
     <Compile Include="Models\PlayoffVIewModel.cs" />
+    <Compile Include="Models\SeasonalResults.cs" />
+    <Compile Include="Models\SeasonResultViewModel.cs" />
+    <Compile Include="Models\Team.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
